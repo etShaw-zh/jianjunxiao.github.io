@@ -24,7 +24,7 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  # ABOUT ME: "aboutme"
+  MY LIFE: "MYLIFE"
   PUBLICATIONS: "PUBLICATIONS"
   GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
