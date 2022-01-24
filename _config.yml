@@ -24,9 +24,9 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  ABOUT ME: "aboutme"
   PUBLICATIONS: "PUBLICATIONS"
-  GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ":
+  GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
