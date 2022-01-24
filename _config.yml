@@ -54,7 +54,7 @@ round-avatar: true
 social-network-links:
   email: "et_shaw@126.com"
 #   facebook: deanattali
-  github: etShaw-zh
+  github: "etShaw-zh"
 #   twitter: daattali
 #   patreon: DeanAttali
 #   youtube: c/daattali
@@ -72,7 +72,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
- ORCID: 0000-0003-0000-9630
+ ORCID: "0000-0003-0000-9630"
  google-scholar: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
 
 # If you want to show a link to an RSS in the footer, add the site description here.
