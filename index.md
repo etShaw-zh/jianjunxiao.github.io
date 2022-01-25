@@ -6,7 +6,7 @@ subtitle: Postgraduate @ Beijing Normal University
 
 I am postgraduate student at Beijing Normal University's [Research Center of Distance Education](https://rcde.bnu.edu.cn/) (RCDE), under the supervision of [Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94). My research interests include Instructional Interaction and Internet Plus Education (IPE).
 
-![TheClimbers202009](/assets/img/photos/TheClimbers-202009.png "TheClimbers-202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }
+![TheClimbers202009](/assets/img/photos/TheClimbers-202009.png "TheClimbers202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }
 
 
 
