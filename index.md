@@ -4,9 +4,9 @@ title: Jianjun Xiao
 subtitle: Postgraduate @ Beijing Normal University
 ---
 
-I am postgraduate of [The Research Center of Distance Education](https://rcde.bnu.edu.cn/) of Beijing Normal University, under the surpervision of [Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94). My research interests include instructional interaction and Internet plus education.
+I am postgraduate student at Beijing Normal University's [Research Center of Distance Education](https://rcde.bnu.edu.cn/) (RCDE), under the supervision of [Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94). My research interests include Instructional Interaction and Internet Plus Education (IPE).
 
-![RCDE2022](/assets/img/photos/rcde-20220103.jpg)
+![RCDE2022](/assets/img/photos/rcde-20220103.jpg){:height="80%" width="80%"}
 
 
 
