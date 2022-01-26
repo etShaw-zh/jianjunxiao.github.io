@@ -8,8 +8,11 @@ I am postgraduate student at Beijing Normal University's **[Research Center of D
 
 ![TheClimbers202009](/assets/img/photos/TheClimbers-202009.png "TheClimbers202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }
 
-
-
+<style>
+    hr:nth-of-type(4){
+    border-image: linear-gradient(to right, #F00, #0F0 20%, #00F 80%, #000) 1 !important;
+    }
+</style>
 
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=AH8eVtgCfiPuvsbrYIjSemGUlWIjlwHxIamb405BrEc&cl=ffffff&w=a"></script> -->
