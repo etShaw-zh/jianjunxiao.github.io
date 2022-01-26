@@ -24,8 +24,9 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  LIFE: "MYLIFE"
-  PUBLICATIONS: "PUBLICATIONS"
+  LIFE: "life"
+  PUBLICATIONS: "publications"
+  PROJECTS: "projects"
   GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
