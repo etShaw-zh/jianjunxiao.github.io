@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-subtitle: 
+subtitle: Postgraduate @ Beijing Normal University 
 ---
 
 # Journal Publications
