@@ -12,7 +12,9 @@ This is a collection of online-accessible personal projects that I've worked on.
 
 # WeChat miniprogram
 * **Wisdom line learning analysis system** - A system for surveying and analyzing real-time feedback questionnaires.  
-* **RCDERUN** - A WeChat miniprogram for punch card management.
+![LearningAnalysisSystem](/assets/img/photos/LearningAnalysisSystem.png){:height="200px" width="200px"}
+* **RCDERUN** - A WeChat miniprogram for punch card management.  
+![RCDERUN](/assets/img/photos/RcdeRun.png){:height="200px" width="200px"}
 
 # Web services
 * **ANII** (TODO) - A tool for analyzing the network of instructional interactions.  
