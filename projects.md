@@ -12,7 +12,8 @@ This is a collection of online-accessible projects that I've worked on.
 
 ## WeChat miniprogram
 * **Wisdom line learning analysis system** - A system for surveying and analyzing real-time feedback questionnaires.  
-![LearningAnalysisSystem](/assets/img/photos/202001-learning-analysis-system-min.jpg){:height="50%" width="50%"}
+![LearningAnalysisSystem](/assets/img/photos/202001-learning-analysis-system-min.jpg){:height="50%" width="50%"}  
+
 * **RCDERUN** - A WeChat miniprogram for punch card management.  
 ![RCDERUN](/assets/img/photos/201912-rcderun-min.jpg){:height="50%" width="50%"}
 
