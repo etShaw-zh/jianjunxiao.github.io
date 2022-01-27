@@ -4,7 +4,7 @@ title: Projects
 subtitle: What's been eating away my free time
 ---
 
-This is a collection of online-accessible personal projects that I've worked on.  
+This is a collection of online-accessible projects that I've worked on.  
 
 ------
 # Websites
