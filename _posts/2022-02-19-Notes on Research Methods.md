@@ -1,3 +1,13 @@
+---
+layout: post
+title: Notes on Research Methods
+subtitle: Excerpt from Research Methods of Educational Technology by Prof. Kedong Li
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [Reading Notes, Research Methods]
+---
+
 # 教育技术研究方法
 ## 量的研究 质的研究和定性研究
 ### 内涵
