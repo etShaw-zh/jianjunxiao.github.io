@@ -12,11 +12,11 @@ This is a collection of online-accessible projects that I've worked on.
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
 
 ## WeChat miniprogram
-* **Wisdom line learning analysis system** - A system for surveying and analyzing real-time feedback questionnaires.  
+* **智慧线学习分析系统** - A real-time feedback questionnaire and analysis system.  
 ![LearningAnalysisSystem](/assets/img/photos/202001-learning-analysis-system-min.jpg){:height="50%" width="50%"}
 
-* **RCDERUN** - A WeChat miniprogram for punch card management.  
+* **RCDEALLRUN** - A WeChat miniprogram for punch card management.  
 ![RCDERUN](/assets/img/photos/201912-rcderun-min.jpg){:height="50%" width="50%"}
 
 ## Web services
-* **ANII** (TODO2022) - A tool for analyzing the network of instructional interactions.  
+* **AIIN** (TODO2022~) - An Analysis Tool for Instructional Interaction Networks.  
