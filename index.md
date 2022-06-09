@@ -21,7 +21,7 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 
       <circle cx="150" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
       <text text-anchor="middle" x="150" y="80" fill="black">2018</text>
-      <text font-size="13" text-anchor="middle" x="70" y="30" fill="black">Dachelor Degree</text>
+      <text font-size="13" text-anchor="middle" x="70" y="30" fill="black">Bachelor Degree</text>
       <text style="font-style: italic" font-size="13" text-anchor="middle" x="70" y="80" fill="#808080">Linyi University</text>
 
       <circle cx="450" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
@@ -49,3 +49,5 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=AH8eVtgCfiPuvsbrYIjSemGUlWIjlwHxIamb405BrEc&cl=ffffff&w=a"></script> -->
 <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=AH8eVtgCfiPuvsbrYIjSemGUlWIjlwHxIamb405BrEc"></script> -->
+
+------
