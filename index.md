@@ -10,10 +10,10 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 
 ------
 
-<div class="row hide-if-small-screen" style="text-align: center; padding-top: 5%">
+<div class="row hide-if-small-screen" style="text-align: center; padding-top: 1%">
   <div class="col-lg-12 text-center">
-    <svg width="1000" height="100">
-      <line x1="0" y1="50" x2="850" y2="50" style="stroke:black; stroke-width:1.5" />
+    <svg width="650" height="100">
+      <line x1="0" y1="50" x2="650" y2="50" style="stroke:black; stroke-width:1.5" />
 
       <circle cx="150" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
       <text text-anchor="middle" x="150" y="80" fill="black">2018</text>
@@ -25,15 +25,15 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
       <text font-size="13" text-anchor="middle" x="300" y="30" fill="black">Software Development</text>
       <text style="font-style: italic" font-size="13" text-anchor="middle" x="300" y="80" fill="#808080">Research Center of Distance Education</text>
 
-      <circle cx="650" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
-      <text text-anchor="middle" x="650" y="80" fill="black">2023</text>
+      <!-- <circle cx="650" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" /> -->
+      <!-- <text text-anchor="middle" x="650" y="80" fill="black">2023</text> -->
       <text font-size="13" text-anchor="middle" x="550" y="30" fill="black">Master Degree</text>
       <text style="font-style: italic" font-size="13" text-anchor="middle" x="550" y="80" fill="#808080">Beijing Normal University</text>
 
       <!-- <circle cx="850" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" /> -->
       <!-- <text text-anchor="middle" x="850" y="80" fill="black">2023</text> -->
-      <text font-size="13" text-anchor="middle" x="750" y="30" fill="black">PhD degree</text>
-      <text style="font-style: italic" font-size="13" text-anchor="middle" x="750" y="80" fill="#808080">Beijing Normal University</text>
+      <!-- <text font-size="13" text-anchor="middle" x="750" y="30" fill="black">PhD degree</text> -->
+      <!-- <text style="font-style: italic" font-size="13" text-anchor="middle" x="750" y="80" fill="#808080">Beijing Normal University</text> -->
 
      <!-- <text font-size="13" text-anchor="middle" x="930" y="30" fill="black">Data - Science - Viz</text>
       <text style="font-style: italic" font-size="13" text-anchor="middle" x="930" y="80"
