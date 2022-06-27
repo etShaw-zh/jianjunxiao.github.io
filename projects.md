@@ -12,7 +12,7 @@ This is a collection of online-accessible projects that I've worked on.
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
 
 ## WeChat miniprogram
-* **cMOOOC Platform miniprogram** - cMOOC platform miniprogram.
+* **mini cMOOC Platform** - cMOOC platform miniprogram.
 ![MinicMOOCPlatform](/assets/img/photos/minicmooc.jpg){:height="50%" width="50%"}
 
 * **智慧线学习分析系统** - A real-time feedback questionnaire and analysis system.  
