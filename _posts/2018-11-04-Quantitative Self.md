@@ -2,7 +2,7 @@
 layout: post
 title: 量化自我
 subtitle: 整理自肖建军的演讲《从个人视角看线上线下教学空间融合》
-cover-img: /assets/img/photos/2022/06/quantitative_self_13.jpg
+cover-img: /assets/img/photos/2022/06/quantitative_self_7.jpg
 thumbnail-img: /assets/img/photos/2022/06/quantitative_self.jpg
 share-img: /assets/img/photos/2022/06/quantitative_self_13.jpg
 tags: [quantitative self, cMOOC]
