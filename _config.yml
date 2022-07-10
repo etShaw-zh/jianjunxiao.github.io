@@ -54,9 +54,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "et_shaw@126.com"
-  # github: "etShaw-zh"
+  github: "etShaw-zh"
   ORCID: "0000-0003-0000-9630"
   google-scholar: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
+  bilibili: "381243118"
 #   facebook: deanattali
 #   twitter: daattali
 #   patreon: DeanAttali
