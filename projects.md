@@ -9,9 +9,9 @@ This is a collection of online-accessible projects that I've worked on.
 ------
 
 ## Live playback
-| 日期 | 标题（文章） | 封面 | 时长 | 视频（播放数） |  
-| ----------- | ----------- | ----------- | ----------- | ----------- |  
-| 11/04/18 | [从个人视角看线上线下教学空间融合](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w) | <img src="/assets/img/photos/2022/06/quantitative_self.jpg" width="200px"/> | 13:10 | [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8)](https://www.bilibili.com/video/BV1ia411X7J8)  |  
+ 日期 | 标题（文章） | 时长 | 视频（播放数）  
+ ----------- | ----------- | ----------- | -----------   
+ 11/04/18 | [从个人视角看线上线下教学空间融合](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w) | 13:10 | [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8)](https://www.bilibili.com/video/BV1ia411X7J8)    
 
 ## Software development
 ### Websites
