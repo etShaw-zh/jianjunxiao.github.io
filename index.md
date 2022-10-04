@@ -10,9 +10,9 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 <!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->
 <!-- <script src="https://www.yan-holtz.com/js/appHome.js"></script> -->
 
-<div class="row hide-if-small-screen" style="text-align: center; padding-top: 1%">
+<div class="row hide-if-small-screen" style="text-align: center; padding-top: 1%; display: none">
   <div class="col-lg-12 text-center">
-    <svg width="40%" height="100">
+    <svg width="650" height="100">
       <line x1="0" y1="50" x2="650" y2="50" style="stroke:black; stroke-width:1.5" />
 
       <circle cx="150" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
