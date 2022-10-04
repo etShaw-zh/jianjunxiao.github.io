@@ -12,7 +12,7 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 
 <div class="row hide-if-small-screen" style="text-align: center; padding-top: 1%">
   <div class="col-lg-12 text-center">
-    <svg width="650" height="100">
+    <svg width="40%" height="100">
       <line x1="0" y1="50" x2="650" y2="50" style="stroke:black; stroke-width:1.5" />
 
       <circle cx="150" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
