@@ -7,7 +7,6 @@ subtitle: Postgraduate @ Beijing Normal University
 ## Journal Publications
 <!-- Credit author statement(Bai & Xiao, 2021), Mr. Jianjun Xiao: Methodology, Resources, validation, formal analysis (statistical analysis, literature review).   -->
 
-<!-- ------ -->
 
 ### 2022
 王东华, 张翼然, **肖建军**, 王小凯, & 徐亚倩. (2022). 联通主义学习路径与学习者发展. **_开放学习研究_**, 27(05), 27-33+42. [https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004](https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004)  
