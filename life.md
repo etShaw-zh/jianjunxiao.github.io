@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Life
-subtitle: What's been eating away my free time
+subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
 
