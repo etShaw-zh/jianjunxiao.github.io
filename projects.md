@@ -17,6 +17,10 @@ This is a collection of online-accessible projects that I've worked on.
 * **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - A connectivist MOOC ([cMOOC](https://en.wikipedia.org/wiki/Massive_open_online_course){:target="_blank"}) supporting service platform.  
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
 
+### Chrome Extension
+* **Bnu-consumption-pattern** - Plug-in for mining consumption patterns for students at Beijing Normal University.
+![Bnu-consumption-pattern](/assets/img/photos/Bnu-consuption-pattern.png){:height="50%" width="50%"}
+
 ### WeChat miniprogram
 * **Mini cMOOC Platform** - cMOOC platform miniprogram.
 ![MinicMOOCPlatform](/assets/img/photos/minicmooc.jpg){:height="50%" width="50%"}
