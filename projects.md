@@ -31,5 +31,4 @@ This is a collection of online-accessible projects that I've worked on.
 * **RCDEALLRUN** - A WeChat miniprogram for punch card management.  
 ![RCDERUN](/assets/img/photos/201912-rcderun-min.jpg){:height="50%" width="50%"}
 
-### Web services
-* **AIIN** (TODO2022~) - An Analysis Tool for Instructional Interaction Networks.  
+
