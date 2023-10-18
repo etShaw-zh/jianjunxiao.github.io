@@ -13,6 +13,11 @@ This is a collection of online-accessible projects that I've worked on.
  11/04/18 | [从个人视角看线上线下教学空间融合](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w) | 13:10 | [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8)](https://www.bilibili.com/video/BV1ia411X7J8)    
 
 ## Software development
+
+### Text Coding Helper
+* **[Text Coding-Helper](https://aicodingassistant.readthedocs.io/en/latest/) (Python)** - A coding assistant tool for Python.    
+![TextCodingHelper](https://aicodingassistant.readthedocs.io/en/latest/_images/structure.jpg){:height="50%" width="50%"}  
+
 ### Websites
 * **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - A connectivist MOOC ([cMOOC](https://en.wikipedia.org/wiki/Massive_open_online_course){:target="_blank"}) supporting service platform.  
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
