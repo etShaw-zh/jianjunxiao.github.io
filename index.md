@@ -4,7 +4,7 @@ title: Jianjun Xiao
 subtitle: Postgraduate @ Beijing Normal University
 ---
 
-I am postgraduate student  at the **[Research Center of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **[Learner-learner Interaction](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0,5&q=%22learner-learner+interaction%22){:target="_blank"}**, **[Connectivism](https://en.wikipedia.org/wiki/Connectivism){:target="_blank"}**, **[Virtual learning environment](https://en.wikipedia.org/wiki/Virtual_learning_environment){:target="_blank"}**, and **[Social Network Analysis](https://en.wikipedia.org/wiki/Social_network_analysis){:target="_blank"}**.
+I am postgraduate student  at the **[Research Center of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **[Interaction](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0,5&q=%22interaction%22){:target="_blank"}**, **[Connectivism](https://en.wikipedia.org/wiki/Connectivism){:target="_blank"}**, **[Virtual learning environment](https://en.wikipedia.org/wiki/Virtual_learning_environment){:target="_blank"}**, and **[Social Network Analysis](https://en.wikipedia.org/wiki/Social_network_analysis){:target="_blank"}**.
 
 <!-- <div id="particles-js"></div> -->
 <!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->
