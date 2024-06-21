@@ -53,4 +53,4 @@ I am postgraduate student  at the **[Research Center of Distance Education](http
 ------
 
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io){:display="none"}
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io){:style="visibility: hidden;" }
