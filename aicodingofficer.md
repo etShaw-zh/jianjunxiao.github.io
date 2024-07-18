@@ -4,9 +4,11 @@ title: AI Coding Officer
 subtitle: AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.
 ---
 
+![AI Coding Officer screenshot](/assets/img/AICO-logo.png){:height="" width="300px" style="display: block; margin: 0 auto" }
+
 <p align="center">
-    <img src="/assets/img/AICO-logo.png" width=55%/ alt="">
-    <br>
+    <!-- <img src="/assets/img/AICO-logo.png" width=55%/ alt=""> -->
+    <!-- <br> -->
     <div align="center">
         <img src="https://img.shields.io/github/license/etShaw-zh/AICodingAssistant-Pro?color=2E75B6" alt="License">
         <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-2E75B6" alt="Platform">
@@ -21,9 +23,10 @@ AICO 是一款前沿的人工智能编码助手，专为提升文本编码的效
 
 仅需拖动数据文件至软件界面，即可自动对数据进行编码，无需人工干预。
 
-<p align="center">
+<!-- <p align="center">
     <img src="assets/img/screenshot.jpg" alt="AI Coding Officer" width="80%">
-</p>
+</p> -->
+![AI Coding Officer screenshot](/assets/img/screenshot.jpg){:height="600px" width="800px" style="display: block; margin: 0 auto" }
 
 ## 名称解释
 
@@ -103,7 +106,7 @@ wait for update ...
 
 - **地址：** 北京师范大学科技楼C区1005A室
 
-<p align="center">
+<!-- <p align="center">
     <img src="assets/img//shaw.png" width=88% alt="Manual rename">
-</p>
-
+</p> -->
+![my info](/assets/img//shaw.png){:height="400px" width="400px" style="display: block; margin: 0 auto" }
