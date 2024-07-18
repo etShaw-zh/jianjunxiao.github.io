@@ -112,4 +112,4 @@ wait for update ...
 <!-- <p align="center">
     <img src="assets/img//shaw.png" width=88% alt="Manual rename">
 </p> -->
-![my info](/assets/img//shaw.png){:height="200px" width="400px" style="display: block; margin: 0 auto" }
+![my info](/assets/img//shaw.png){:height="100px" width="400px" style="display: block; margin: 0 auto" }
