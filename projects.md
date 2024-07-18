@@ -14,9 +14,9 @@ This is a collection of online-accessible projects that I've worked on.
 
 ## Software development
 
-### Text Coding Helper
-* **[Text Coding-Helper](https://aicodingassistant.readthedocs.io/en/latest/) (Python)** - A coding assistant tool for Python.    
-![TextCodingHelper](https://aicodingassistant.readthedocs.io/en/latest/_images/structure.jpg){:height="50%" width="50%"}  
+### AI Coding Offier
+* **[AI Coding Offier](https://xiaojianjun.cn/aicodingofficer/) (Python)** - AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.    
+![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
 
 ### Websites
 * **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - A connectivist MOOC ([cMOOC](https://en.wikipedia.org/wiki/Massive_open_online_course){:target="_blank"}) supporting service platform.  
