@@ -26,7 +26,10 @@ AICO 是一款前沿的人工智能编码助手，专为提升文本编码的效
 <!-- <p align="center">
     <img src="assets/img/screenshot.jpg" alt="AI Coding Officer" width="80%">
 </p> -->
-![AI Coding Officer screenshot](/assets/img/screenshot.jpg){:height="600px" width="800px" style="display: block; margin: 0 auto" }
+
+![AI Coding Officer screenshot 2](/assets/img/screenshot_2.png){:height="400px" width="600px" style="display: block; margin: 0 auto" }
+
+![AI Coding Officer screenshot](/assets/img/screenshot.jpg){:height="400px" width="600px" style="display: block; margin: 0 auto" }
 
 ## 名称解释
 
