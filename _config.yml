@@ -28,7 +28,7 @@ navbar-links:
   # PUBLICATIONS: "publications"
   PUBLICATIONS: "https://www.zotero.org/etshaw"
   PROJECTS: "projects"
-  AICODINGOFFICER: "aicodingofficer"
+  AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
   GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
