@@ -18,8 +18,9 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ![marathon volunter](/assets/img/photos/marathon.png){:height="400px" width="400px"}
 
 
-2023-08
+2023-08, 10
 : In August of this year, I had the opportunity to visit Hefei and participate in the iFLYTEK Spark Training Camp, which was held at the iFLYTEK headquarters for one week. During the event, I formed a team with several classmates and together we completed an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin. Our team achieved fourth place in the overall ranking. Moreover, I made some good friends and made significant strides in my personal development.
+: In October, I had the honor of representing my research team at the 5th iFLYTEK Intelligent Education Forum - Doctoral Sub-forum, a significant conference focused on the role of intelligent technology in the digital transformation of education. At the forum, I delivered an oral presentation, sharing our research findings and insights.
 ![iflytek](/assets/img/photos/iflytek.png){:height="400px" width="400px"}
 
 
