@@ -6,7 +6,8 @@ subtitle: Remember who you are.
 
 ## Inspirational Video
 
-Here is a snippet from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King)"** that always inspires me to move forward with courage.
+2024-08
+: Here is a snippet from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King)"** that always inspires me to move forward with courage.
 
 <style>
 /* CSS样式 */
@@ -28,7 +29,7 @@ Here is a snippet from the movie **"[The Lion King](https://en.wikipedia.org/wik
 </style>
 
 <div class="video-container">
-<video controls muted playsinline>
+<video controls muted playsinline poster="/assets/img/photos/2024/08/lion-king-cover.jpg">
   <source src="/assets/img/photos/2024/08/lion-king-clip.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
