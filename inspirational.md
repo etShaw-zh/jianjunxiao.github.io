@@ -4,8 +4,6 @@ title: Inspirational
 subtitle: Remember who you are.
 ---
 
-## Inspirational Video
-
 Here is a deeply touching snippet from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King),"** which not only inspires me to move forward with courage but also helps me to profoundly understand my responsibilities.
 
 
@@ -34,3 +32,10 @@ Here is a deeply touching snippet from the movie **"[The Lion King](https://en.w
   Your browser does not support the video tag.
 </video>
 </div>
+
+
+---
+
+During the 2018 World Cup, a precious moment was born in the duel between Portugal and Spain. **[CR 7](https://en.wikipedia.org/wiki/Cristiano_Ronaldo)**'s steadfast and profound gaze has deeply attracted me, echoing the sentiment of an ancient poem: "男儿何不带吴钩，收取关山五十州。" It symbolizes the spirit of moving forward bravely and conquering challenges, which is exactly why I admire him so much.
+
+![CR 7](/assets/img/photos/2018/cr.jpg)
