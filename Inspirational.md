@@ -6,8 +6,8 @@ subtitle: Remember who you are.
 
 ## Inspirational Video
 
-2024-08
-: Here is a snippet from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King)"** that always inspires me to move forward with courage.
+Here is a deeply touching snippet from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King),"** which not only inspires me to move forward with courage but also helps me to profoundly understand my responsibilities.
+
 
 <style>
 /* CSS样式 */
