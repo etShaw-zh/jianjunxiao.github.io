@@ -24,7 +24,8 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  LIFE: "life"
+  INSPIRATIONAL: "inspirational"
+  LIFE JOURNEY: "life"
   PUBLICATIONS: "publications"
   # PUBLICATIONS: "https://www.zotero.org/etshaw"
   PROJECTS: "projects"

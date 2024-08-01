@@ -14,7 +14,7 @@ This is a collection of online-accessible projects that I've worked on.
 
 ## Software development
 
-### AI Coding Offier
+### Software
 * **[AI Coding Offier](https://aicodingassistant-pro.readthedocs.io/en/latest/index.html) (Python)** - AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.    
 ![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
 

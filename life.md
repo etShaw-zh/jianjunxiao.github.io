@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Life
+title: Life Journey
 subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
