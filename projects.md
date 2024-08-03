@@ -9,11 +9,11 @@ subtitle: What's been eating away my free time
 #### Software development
 
 ##### applications
-* **[AICodingOffier](https://aicodingassistant-pro.readthedocs.io/en/latest/index.html) (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.
+* **[AICodingOffier](https://aicodingassistant-pro.readthedocs.io/en/latest/index.html) (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.  
 ![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
 
 ##### Websites
-* **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - cMOOC Platform is an online learning platform that supports connectivist MOOCs (cMOOCs).
+* **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - cMOOC Platform is an online learning platform that supports connectivist MOOCs (cMOOCs).  
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
 
 ##### Chrome Extension

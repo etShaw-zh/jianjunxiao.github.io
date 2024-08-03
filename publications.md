@@ -30,13 +30,3 @@ subtitle: What I've been up to in the academic world
 > **Xiao, J.-J**. (2022). Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis. **_The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_**. (OR)
 
 *Notes: OR = Oral Presentation* 
-
-
-### Presentations
-
-#### 2018
-> **Xiao, J.-J**. (2018). 从个人视角看线上线下教学空间融合. ([LINK](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w)|[VIDEO](https://www.bilibili.com/video/BV1ia411X7J8)![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8))
-
-
- Date | Title(Link) | Duration | Video(visitor)  
- 2018 | [从个人视角看线上线下教学空间融合](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w) | 13:10 | [![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8)](https://www.bilibili.com/video/BV1ia411X7J8)    

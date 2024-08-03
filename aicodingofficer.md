@@ -84,9 +84,9 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
     }
     .fade {
         -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
+        -webkit-animation-duration: 0.5s;
         animation-name: fade;
-        animation-duration: 1.5s;
+        animation-duration: 0.5s;
     }
     @-webkit-keyframes fade {
         from {opacity: .4} 
@@ -99,19 +99,21 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
 </style>
 
 <div class="slideshow-container">
-    <div class="slides fade">
-        <div class="numbertext">1 / 2</div>
-        <img src="/assets/img/screenshot_2.png" style="width:100%">
-        <div class="text">AI Coding Officer screenshot 2</div>
-    </div>
-     <div class="slides fade">
-        <div class="numbertext">2 / 2</div>
-        <img src="/assets/img/screenshot.jpg" style="width:100%">
-        <div class="text">AI Coding Officer screenshot</div>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+<div class="slides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="/assets/img/screenshot_2.png" style="width:100%">
+    <div class="text">AI Coding Officer screenshot 2</div>
+</div>
+
+<div class="slides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="/assets/img/screenshot.jpg" style="width:100%">
+    <div class="text">AI Coding Officer screenshot</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
 <br>
@@ -122,8 +124,8 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
 </div>
 
 <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
+    let slideIndex = 0;
+    showSlides();
 
     function plusSlides(n) {
         showSlides(slideIndex += n);
@@ -133,20 +135,21 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
         showSlides(slideIndex = n);
     }
 
-    function showSlides(n) {
+    function showSlides() {
         let i;
         let slides = document.getElementsByClassName("slides");
         let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
         }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
         slides[slideIndex-1].style.display = "block";  
         dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
 </script>
 
