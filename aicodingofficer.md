@@ -18,7 +18,7 @@ subtitle: AI coding officer, make coding ease.
 
 #### Introduction
 AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.
-- **AI**: Stands for "Artificial Intelligence", emphasizing the intelligent features of the tool.
+- **A I** : Stands for "Artificial Intelligence", emphasizing the intelligent features of the tool.
 - **CO**: Stands for "Coding Officer", indicating that AICO is a professional coding assistant capable of executing and unsupervising encoding tasks.
 
 #### Screenshots
