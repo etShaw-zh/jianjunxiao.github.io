@@ -54,20 +54,14 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
         background-color: rgba(0,0,0,0.8);
     }
     .text {
-        color: #f2f2f2;
-        font-size: 15px;
+        color: #f10404;
+        font-weight: bold;
+        font-size: 24px;
         padding: 8px 12px;
         position: absolute;
-        bottom: 8px;
+        bottom: 50px;
         width: 100%;
         text-align: center;
-    }
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
     }
     .dot {
         cursor: pointer;
@@ -82,42 +76,20 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
     .active, .dot:hover {
         background-color: #717171;
     }
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 0.5s;
-        animation-name: fade;
-        animation-duration: 0.5s;
-    }
-    @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-    }
-    @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-    }
 </style>
 
 <div class="slideshow-container">
-
-<div class="slides fade">
-    <div class="numbertext">1 / 2</div>
-    <img src="/assets/img/screenshot_2.png" style="width:100%">
-    <div class="text">AI Coding Officer screenshot 2</div>
+    <div class="slides">
+        <img src="/assets/img/screenshot_2.png" style="width:800px;height: 400px;">
+        <div class="text">Automatic Encoding</div>
+    </div>
+    <div class="slides">
+        <img src="/assets/img/screenshot.jpg" style="width:800px;height: 400px;">
+        <div class="text">Manual Encoding</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-
-<div class="slides fade">
-    <div class="numbertext">2 / 2</div>
-    <img src="/assets/img/screenshot.jpg" style="width:100%">
-    <div class="text">AI Coding Officer screenshot</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
 <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span> 
     <span class="dot" onclick="currentSlide(2)"></span> 
