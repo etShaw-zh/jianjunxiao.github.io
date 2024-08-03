@@ -1,10 +1,10 @@
 ---
 layout: home
 title: Jianjun Xiao
-subtitle: Postgraduate @ Beijing Normal University
+subtitle: PhD @ Beijing Normal University
 ---
 
-I am postgraduate student  at the **[Research Center of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **Connectivism**, **Virtual learning environment**, and **cMOOC platform**.
+I am currently pursuing a PhD at the **[Research Center of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_connectivism_**, **_virtual learning environments_**, **_learning analysis_**, and **_cMOOC platforms_**.
 
 <!-- <div id="particles-js"></div> -->
 <!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->

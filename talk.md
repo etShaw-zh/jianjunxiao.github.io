@@ -1,0 +1,10 @@
+---
+layout: page
+title: Talks
+subtitle: What I used to talk about
+---
+
+### Presentations
+
+#### 2018
+> 从个人视角看线上线下教学空间融合. [[TEXT](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w) **|** [VIDEO](https://www.bilibili.com/video/BV1ia411X7J8) ![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8)]

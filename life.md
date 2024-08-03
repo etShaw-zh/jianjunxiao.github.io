@@ -8,32 +8,32 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ## 2024
 
 2024-04
-: In April of this year, I visited Japan for the first time and delivered a presentation at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents," for which I received the "Young Scholar Award." Additionally, I spent a peaceful time feeding the deer with my companions in Nara.   
+: This April, I had my first trip to Japan, where I gave a talk at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents," which earned me the "Young Scholar Award." I also enjoyed a relaxing time with my companions in Nara, feeding the deer.       
 ![Japan](/assets/img/photos/2024/04/24-04-japan.png){:height="400px" width="400px"}
 
 ## 2023
 
 2023-11
-: In November of this year, I participated in the Beijing Marathon as a volunteer providing post-run stretching services. Prior to this, I had received professional training in stretching services.  
+: This November, I volunteered at the Beijing Marathon, providing post-run stretching services. I'd already received professional training in stretching services before that.  
 ![marathon volunter](/assets/img/photos/marathon.png){:height="400px" width="400px"}
 
 
 2023-08, 10
-: In August of this year, I had the opportunity to visit Hefei and participate in the iFLYTEK Spark Training Camp, which was held at the iFLYTEK headquarters for one week. During the event, I formed a team with several classmates and together we completed an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin. Our team achieved fourth place in the overall ranking. Moreover, I made some good friends and made significant strides in my personal development.  
+: This August, I had the chance to visit Hefei and take part in the iFLYTEK Spark Training Camp, which was held at the company's HQ for a week. During the event, I teamed up with a few classmates and we put together an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin. Our team came in fourth overall. I also made some great friends and made some big steps forward in my personal development.  
 
-: In October, I had the honor of representing my research team at the 5th iFLYTEK Intelligent Education Forum - Doctoral Sub-forum, a significant conference focused on the role of intelligent technology in the digital transformation of education. At the forum, I delivered an oral presentation, sharing our research findings and insights.  
+: In October, I was lucky enough to represent my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, a big conference about how smart tech is changing the way we learn. At the forum, I gave a talk, sharing our research findings and insights.   
 ![iflytek](/assets/img/photos/iflytek.png){:height="400px" width="400px"}
 
 
 2023-06
-: I successfully completed my Master of Science degree in Educational Technology at Beijing Normal University. The graduation ceremony was held at the historic site of Fu Jen Catholic University, adding a special touch to the occasion. Following the ceremony, we embarked on a memorable graduation trip at Beibei Farm, marking a perfect end to this chapter of my academic journey.  
+: I've just finished my Master of Science degree in Educational Technology at Beijing Normal University. The graduation ceremony was held at Fu Jen Catholic University, which was a great way to mark the occasion. After the ceremony, we went on a graduation trip to Beibei Farm, which was a perfect end to this chapter of my academic journey.   
 ![graduated](/assets/img/photos/graduate.jpg){:height="400px" width="400px"}
 
 
 ## 2022
 
 2022-05
-: During the pandemic, our school implemented a closed management policy. Unfortunately, I suffered a foot fracture during a badminton activity. Throughout my recovery, many friends and colleagues provided selfless help and support. I sincerely appreciate the care and assistance from each one of them.  
+: During the pandemic, our school introduced a closed management policy. Unfortunately, I broke my foot playing badminton. Throughout my recovery, lots of friends and colleagues were really helpful and supportive. I'm really grateful for all their help and support.  
 ![injury](/assets/img/photos/injury.jpg){:height="400px" width="400px"}
 
 

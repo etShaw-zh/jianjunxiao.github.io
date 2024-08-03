@@ -24,13 +24,15 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  INSPIRATIONAL: "inspirational"
+  INSIGHTS: "insights"
   LIFE: "life"
   PUBLICATIONS: "publications"
   # PUBLICATIONS: "https://www.zotero.org/etshaw"
-  PROJECTS: "projects"
-  AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
-  GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
+  PROJ: "projects"
+  TALKS: "talk"
+  # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
+  AICODINGOFFICER: "aicodingofficer"
+  # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
