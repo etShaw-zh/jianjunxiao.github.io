@@ -30,3 +30,7 @@ subtitle: What I've been up to in the academic world
 > **Xiao, J.-J**. (2022). Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis. **_The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_**. (OR)
 
 *Notes: OR = Oral Presentation* 
+
+### Research Projects
+
+> 2023-2024. Research on Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks. **_Interdisciplinary Research Foundation for Doctoral Candidates of Beijing Normal University [Grant No. BNUXKJC2305]_**. 
