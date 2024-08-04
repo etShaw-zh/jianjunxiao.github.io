@@ -34,3 +34,35 @@ subtitle: What's been eating away my free time
 ![RCDERUN](/assets/img/photos/201912-rcderun-min.jpg){:height="50%" width="50%"}
 
 
+------
+#### Competitions/Activities 
+
+##### 2023
+
+* **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 4th place), General Artificial Intelligence Innovation and Application Competition (2023.11, 3rd place 🥉), Hefei, China.
+<div class="video-container">
+<video controls muted playsinline poster="/assets/img/photos/2024/08/sparkshopping-cover.png">
+  <source src="/assets/img/photos/2024/08/sparkshopping-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<style>
+/* CSS样式 */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 的纵横比 */
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden; /* 确保圆角效果不超出容器 */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; /* 添加圆角 */
+}
+</style>
+
