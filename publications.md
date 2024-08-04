@@ -89,4 +89,4 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**.
 
 ------------------------
-> *Notes: _†_ = Corresponding author, _☨_ = Oral Presentation*
+> *Notes: † = Corresponding author, ☨ = Oral Presentation*
