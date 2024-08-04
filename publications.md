@@ -83,7 +83,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 #### Academic Services
 
 ##### Teaching Assistants
-> **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) at Beijing Normal University.
+> **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) Undergraduate Public Restricted Courses at Beijing Normal University.
 
 ##### Reviewer
 > **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**.
