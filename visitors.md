@@ -72,7 +72,6 @@ $.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json',
           var projectedCoord = dv.geoProjectPosition([obj.lng * 1, obj.lat * 1], 'geoMercator');
           obj.x = projectedCoord[0];
           obj.y = projectedCoord[1];
-          obj.deaths = obj.deaths * 1;
           obj.magnitude = obj.magnitude * 1;
           return obj;
         }
