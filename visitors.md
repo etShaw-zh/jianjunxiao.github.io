@@ -4,13 +4,14 @@ title: Visitors
 subtitle: Where People Are Visiting From
 ---
 
+----------
 <!-- <style>::-webkit-scrollbar{display:none;}html,body{overflow:hidden;height:100%;margin:0;}</style> -->
 <div id="mountNode"></div>
 <script>/*Fixing iframe window.innerHeight 0 issue in Safari*/document.body.clientHeight;</script>
 <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g2-3.5.1/dist/g2.min.js"></script>
 <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.data-set-0.10.1/dist/data-set.min.js"></script>
 <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
-<!-- <p style="position:absolute;bottom: 0;right: 0;font-size: 10px; -webkit-transform: scale(0.83);-webkit-transform-origin: 0% 50%;color:#545454">数据来源于<br> https://github.com/react-d3/react-d3-map-bubble</p> -->
+<p style="position:absolute;bottom: 0;right: 0;font-size: 10px; -webkit-transform: scale(0.83);-webkit-transform-origin: 0% 50%;color:#545454">数据: <br> <span id="total"></span></p>
 <script>
 $.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json', function(mapData) {    $.getJSON('https://aicodingassistant.cn/wp-admin/admin-ajax.php?action=ipmap_get_geolocation_data', function(data) {
       var chart = new G2.Chart({
@@ -72,15 +73,23 @@ $.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json',
           var projectedCoord = dv.geoProjectPosition([obj.lng * 1, obj.lat * 1], 'geoMercator');
           obj.x = projectedCoord[0];
           obj.y = projectedCoord[1];
-          obj.magnitude = obj.magnitude * 1;
+          obj.vistors = obj.vistors * 1;
           return obj;
         }
       });
       var pointView = chart.view();
       pointView.source(userData);
-      // pointView.point().position('x*y').size('magnitude', [2, 30]).shape('circle').opacity(0.45).color('#FF2F29').tooltip('date*location*lat*lng*magnitude');
-      pointView.point().position('x*y').shape('circle').opacity(0.45).color('#FF2F29').tooltip('date*location*lat*lng*magnitude');
+      pointView.point().position('x*y').size('vistors', [2, 30]).shape('circle').opacity(0.45).color('#FF2F29').tooltip('lastdate*location*vistors');
+      // pointView.point().position('x*y').shape('circle').opacity(0.45).color('#FF2F29').tooltip('lastdate*location*lat*lng*vistors');
       chart.render();
+      var total = 0;
+      var cities = 0;
+      data.forEach(function(item) {
+        total += parseInt(item.vistors);
+        cities += 1;
+      });
+      var totalText = total + ' visitors from ' + cities + ' cities';
+      document.getElementById('total').innerText = totalText;
     });
   });
 </script>

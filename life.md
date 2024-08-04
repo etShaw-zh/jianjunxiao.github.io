@@ -4,13 +4,14 @@ title: Life
 subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
-
+----------
 #### 2024
 
 ##### 2024-04
 This April, I had my first trip to Japan, where I gave a talk at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents," which earned me the "Young Scholar Award." I also enjoyed a relaxing time with my companions in Nara, feeding the deer.       
 ![Japan](/assets/img/photos/2024/04/24-04-japan.png){:height="400px" width="400px"}
 
+----------
 #### 2023
 
 ##### 2023-11
@@ -28,7 +29,7 @@ In October, I was lucky enough to represent my research team at the 5th iFLYTEK 
 I've just finished my Master of Science degree in Educational Technology at Beijing Normal University. The graduation ceremony was held at Fu Jen Catholic University, which was a great way to mark the occasion. After the ceremony, we went on a graduation trip to Beibei Farm, which was a perfect end to this chapter of my academic journey.   
 ![graduated](/assets/img/photos/graduate.jpg){:height="400px" width="400px"}
 
-
+----------
 #### 2022
 
 ##### 2022-05
@@ -36,7 +37,7 @@ During the pandemic, our school introduced a closed management policy. Unfortuna
 ![injury](/assets/img/photos/injury.jpg){:height="400px" width="400px"}
 
 
-
+----------
 #### 2020
 
 ##### 2020-01

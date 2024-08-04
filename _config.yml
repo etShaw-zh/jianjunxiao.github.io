@@ -31,7 +31,11 @@ navbar-links:
   PROJECTS: "projects"
   TALKS: "talk"
   # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
-  AICODINGOFFICER: "aicodingofficer"
+  AICODINGOFFICER:
+    - INTRODUCTION: "aicodingofficer"
+    - QUICKSTART: "quickstart"
+    - DOWNLOAD: "https://github.com/etShaw-zh/AICodingAssistant-Pro/releases"
+    - EXAMPLES DATA: "/assets/example/example.zip"
   VISITORS: "visitors"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
