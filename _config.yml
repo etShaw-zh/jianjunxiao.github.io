@@ -32,6 +32,7 @@ navbar-links:
   TALKS: "talk"
   # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
   AICODINGOFFICER: "aicodingofficer"
+  VISITORS: "visitors"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
