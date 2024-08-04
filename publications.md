@@ -48,7 +48,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **Xiao, J.-J _☨_**. (2024). **Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents**. _The Asian Students’ Seminar & Round Table 2024. Kansai University, Osaka, Japan_. (Young Scholar Award)
 
 ##### 2023
-> **肖建军 _☨_**. (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 北京_, ([报道](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg){:target="_blank"}).
+> **肖建军 _☨_**. (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 北京_, ([链接](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg){:target="_blank"}).
 
 ##### 2022
 > **Xiao, J.-J _☨_**. (2022). **Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis**. _The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_.
