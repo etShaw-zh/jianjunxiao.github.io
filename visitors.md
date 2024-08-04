@@ -12,7 +12,7 @@ subtitle: Where People Are Visiting From
 <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
 <!-- <p style="position:absolute;bottom: 0;right: 0;font-size: 10px; -webkit-transform: scale(0.83);-webkit-transform-origin: 0% 50%;color:#545454">数据来源于<br> https://github.com/react-d3/react-d3-map-bubble</p> -->
 <script>
-$.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json', function(mapData) {    $.getJSON('/assets/example/visitors.json', function(data) {
+$.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json', function(mapData) {    $.getJSON('https://aicodingassistant.cn/wp-admin/admin-ajax.php?action=ipmap_get_geolocation_data', function(data) {
       var chart = new G2.Chart({
         container: 'mountNode',
         forceFit: true,
