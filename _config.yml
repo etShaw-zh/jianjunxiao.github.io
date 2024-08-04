@@ -26,10 +26,10 @@ author: Jianjun Xiao
 navbar-links:
   INSIGHTS: "insights"
   LIFE: "life"
-  PUBS: "publications"
+  ACADEMIC: "publications"
   # PUBLICATIONS: "https://www.zotero.org/etshaw"
-  PROJ: "projects"
-  TALK: "talk"
+  PROJECTS: "projects"
+  TALKS: "talk"
   # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
   AICODINGOFFICER: "aicodingofficer"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"

@@ -7,16 +7,26 @@ subtitle: What I've been up to in the academic world
 ------------------------
 #### Journal Publications
 
-<!-- ##### Coming Soon
+<!-- ##### Working On
+> 学习理论的发展与在线学习平台的演进研究.
+
+> 新一代在线学习平台研究——cMOOC平台的设计与实现.
+
+> 社区型课程教学范式研究. -->
+
+##### Coming Soon
 > **Xiao, J.-J**. Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in
 cMOOCs: An Automated Relational Event Modeling Approach.
 
-> **Xiao, J.-J _†_**. Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents.
+> Tian, Y., & **Xiao, J.-J _†_**. The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis.
 
-> Tian, Y., & **Xiao, J.-J _†_**. The Measurement and Characteristic Analysis of Learner Interaction Levels in
-cMOOCs Based on Path Analysis.
+> Wang, C., & **Xiao, J.-J _†_**. A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
-> Kong X., Fang H., Chen W., **Xiao, J.-J**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model. -->
+> Wang, C., Xu, Y., & **Xiao, J.-J**. Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.
+
+> Bai, Y., Chen, L., Zhou, X., **Xiao, J.-J**, & He, X. The Evolution of cMOOC Learners' Resource Use Behaviour.
+
+> Kong X., Fang H., Chen W., **Xiao, J.-J**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model.
 
 ##### 2023
 > Wang, C., & **Xiao, J.-J _†_**. (2023). Who will participate in online collaborative problem solving? A longitudinal network analysis. **_Interactive Learning Environments_** **_(SSCI Q1)_**, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
@@ -32,28 +42,51 @@ cMOOCs Based on Path Analysis.
 > Bai, Y.-Q., & **Xiao, J.-J**. (2021). The impact of cMOOC learners’ interaction on content production. **_Interactive Learning Environments_** **_(SSCI Q1)_**, 1–12. [https://doi.org/10.1080/10494820.2021.1969955](https://doi.org/10.1080/10494820.2021.1969955){:target="_blank"}  
 
 ------------------------
-#### Conference Papers
+#### Conference Papers/Reports
 
 ##### 2024
-> **Xiao, J.-J**. (2024). Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents. **_The Asian Students’ Seminar & Round Table 2024. Kansai University, Osaka, Japan_**. (OR, Young Scholar Award)
+> **Xiao, J.-J _☨_**. (2024). Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents. **_The Asian Students’ Seminar & Round Table 2024. Kansai University, Osaka, Japan_**. (Young Scholar Award)
+
+##### 2023
+> **肖建军 _☨_**. (2023). 自动评估cMOOC学习者与AI模型GPT-3的有意义交互. **_第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 北京_**, ([报道](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg){:target="_blank"}).
 
 ##### 2022
-> **Xiao, J.-J**. (2022). Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis. **_The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_**. (OR)
+> **Xiao, J.-J _☨_**. (2022). Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis. **_The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_**.
+
+------------------------
+#### Academic Thesis
+
+##### Master
+> **Xiao, J.-J**. (2023). Design and Application Verification of Learning Partner Recommendation Strategy Based on Attention Network in Connectivism Learning Process. **_Master of Science in Educational Technology, Beijing Normal University_**.
+
+##### Bachelor
+> **Xiao, J.-J**. (2018). Application and validation of 3D printing technology in STEM education. **_Bachelor of Education in Educational Technology, Linyi University_**.
 
 ------------------------
 #### Academic Projects
 
-##### 2023 - 2024
-> **Xiao, J.-J _☨_**. Research on Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks. **_Interdisciplinary Research Foundation for Doctoral Candidates of Beijing Normal University [Grant No. BNUXKJC2305]_**.
+##### Project Recipient
+###### 2023 - 2024
+> Research on Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks, **_Project of Interdisciplinary Research Foundation for Doctoral Candidates of Beijing Normal University (Grant No. BNUXKJC2305)_**.
+
+##### Project Participant
+###### 2023 - 2025
+> Social-Behavioural-Cognitive-Emotional Based Analysis and Intervention Study of Online Collaborative Role Interaction, **_National Natural Science Foundation of China (NSFC) 2022 Young Science Fund Project (Grant No. 62207003)_**.
+
+###### 2019 - 2023
+> Research on Educational Reform and Innovative Management in the Era of 'Internet Plus', **_Key Project of the Department of Management of the National Natural Science Foundation of China (Grant No. 71834002)_**
+
+###### 2022.03 - 2022.04
+> China's Model and Promotion Path of Education Modernisation Driven by Education Informatisation, **_Project entrusted by the Secretariat Bureau of the Central Education Work Leading Group_**.
 
 ------------------------
 #### Academic Services
 
 ##### Teaching Assistants
-> **2021.9 - 2022.1**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) at Beijing Normal University.
+> **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) at Beijing Normal University.
 
 ##### Reviewer
 > **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**.
 
 ------------------------
-> *Notes: _†_ = Corresponding author, _☨_ = Project Recipient, OR = Oral Presentation*
+> *Notes: _†_ = Corresponding author, _☨_ = Oral Presentation*
