@@ -37,7 +37,7 @@ subtitle: What's been eating away my free time
 ------
 #### Competitions/Activities 
 
-##### 2023
+##### Plugin of Large Language Model
 
 * **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 4th place), General Artificial Intelligence Innovation and Application Competition (2023.11, 3rd place 🥉), Hefei, China.
 <div class="video-container">
