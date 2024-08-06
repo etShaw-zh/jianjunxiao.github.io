@@ -17,7 +17,7 @@ $.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json',
       var chart = new G2.Chart({
         container: 'mountNode',
         forceFit: true,
-        height: window.innerHeight * 1 / 3,
+        height: window.innerHeight * 3.5 / 5,
         padding: [20, 0, 20, 0] 
       });
       // force sync scales

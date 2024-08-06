@@ -19,13 +19,13 @@ subtitle: AI coding officer, make coding ease.
 </p>
 
 ----------
-#### Introduction
+#### **Introduction**
 AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.
 - **A I** : Stands for "Artificial Intelligence", emphasizing the intelligent features of the tool.
 - **CO**: Stands for "Coding Officer", indicating that AICO is a professional coding assistant capable of executing and unsupervising encoding tasks.
 
 ----------
-#### Screenshots
+#### **Screenshots**
 
 <style>
     .slideshow-container {
@@ -133,14 +133,14 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
 ![AI Coding Officer screenshot](/assets/img/screenshot.jpg){:height="400px" width="600px" style="display: block; margin: 0 auto" } -->
 
 ----------
-#### Core Values
+#### **Core Values**
 
 - **Intelligence**: AICO utilizes Large Language Models (LLMs) technology to provide intelligent coding solutions.
 - **Efficiency**: By automating and optimizing the coding process, AICO increases the speed of scientific research work.
 - **Reliability**: AICO's algorithms ensure the accuracy and reliability of the encoding.
 
 ----------
-#### Target Users
+#### **Target Users**
 
 - Researchers
 - Data Scientists
@@ -148,14 +148,20 @@ AICO is a cutting-edge artificial intelligence coding assistant, designed to enh
 - Any professionals in need of efficient text encoding support
 
 ----------
-#### Features
+#### **Features**
 
 - Multi-language support
 - Customizable encoding rules
 - User-friendly interface
 
 ----------
-#### Contact Information
+#### **Learn More**
+
+- [Quick Start](https://xiaojianjun.cn/quickstart)
+- [Download](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases)
+- [Example Data](/assets/example/example.zip)
+
+##### **Contact Information**
 
 - **WeChat:** etshaw8888
 

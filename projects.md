@@ -6,24 +6,24 @@ subtitle: What's been eating away my free time
 
 ------
 
-#### Software development
+#### **Software development**
 
-##### Applications
+##### **Applications**
 * **[AICodingOffier](https://xiaojianjun.cn/aicodingofficer) (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.  
 ![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
 
 ------
-##### Websites
+##### **Websites**
 * **[cMOOC Platform](https://cmooc.bnu.edu.cn){:target="_blank"}** - cMOOC Platform is an online learning platform that supports connectivist MOOCs (cMOOCs). It is the first community-based online cMOOC support platform and has served a total of 16,712 users (as of August 2023), and has been well-received by users and has seen lots of community activity. I joined the project in 2019 and was responsible for platform design and leading platform development. I finished the platform requirements analysis, functional design prototype and iterative development based on the WordPress framework.     
 ![cMOOCPlatform](/assets/img/photos/cmooc_platform.jpg){:height="50%" width="50%"} 
 
 ------
-##### Chrome Extension
+##### **Chrome Extension**
 * **[Bnu-consumption-pattern](https://github.com/etShaw-zh/bnu-consumption-pattern){:target="_blank"}** - Plug-in for mining consumption patterns for students at Beijing Normal University.  
 ![Bnu-consumption-pattern](/assets/img/photos/Bnu-consuption-pattern.png){:height="50%" width="50%"}
 
 ------
-##### WeChat miniprogram
+##### **WeChat miniprogram**
 * **Mini cMOOC Platform** - cMOOC platform miniprogram.  
 ![MinicMOOCPlatform](/assets/img/photos/minicmooc.jpg){:height="50%" width="50%"}
 
@@ -35,9 +35,9 @@ subtitle: What's been eating away my free time
 
 
 ------
-#### Competitions/Activities 
+#### **Competitions/Activities** 
 
-##### Plugin of Large Language Model
+##### **Plugin of Large Language Model**
 
 * **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 🥉), General Artificial Intelligence Innovation and Application Competition (2023.11, 🥉), Hefei, China. ([LINK](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ){:target="_blank"})
 <div class="video-container">

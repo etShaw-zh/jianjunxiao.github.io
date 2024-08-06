@@ -1,4 +1,14 @@
 <footer>
+  <script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+  <script>
+    $.ajax({
+      url: 'https://aicodingassistant.cn/wp-admin/admin-ajax.php?action=ipmap_save_geolocation',
+      type: 'GET',
+      success: function (data) {
+        console.log(data);
+      }
+    });    
+  </script>
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

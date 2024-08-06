@@ -52,7 +52,7 @@ I am currently pursuing a PhD at the **[Research Center of Distance Education](h
 
 ------
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io){:style="visibility: hidden;" }
+<!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io){:style="visibility: hidden;" } -->
 
 <!-- <p align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io"  alt="Visitors">

@@ -1,5 +1,10 @@
-# project
+# test
 test.md
+
+# post
+_posts
+
+# project
 _site
 .sass-cache
 .vagrant

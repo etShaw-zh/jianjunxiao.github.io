@@ -5,20 +5,20 @@ subtitle: A quickstart guide to using AICO
 ---
 
 ----------
-<p align="center">
+<p align="center" style="font-weight: bold;">
     English | <a target="_blank"  href="https://aicodingassistant-pro.readthedocs.io/en/latest/index.html">简体中文</a>
 </p>
 
 ---------
-#### Installation
+#### **Installation**
 
-##### Windows
+##### **Windows**
 
 1. Download the installation package: [AICodingOfficer_windows.zip](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases)
 2. Unzip the installation package
 3. Run `AICodingOfficer.exe`
 
-##### macOS
+##### **macOS**
 
 1. Download the installation package: [AICodingOfficer_macOS.zip](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases)
 2. Unzip the installation package
@@ -47,9 +47,9 @@ subtitle: A quickstart guide to using AICO
     📖  Tutorial: [How to solve the issue of "Application 'xxx' cannot be opened" on macOS](https://sspai.com/post/52828#!) 
 
 ---------
-#### How to use
+#### **How to use**
 
-##### 1. At the beginning of coding, you need to prepare the following data
+##### **1. At the beginning of coding, you need to prepare the following data**
 
 ###### 1.1 API_key:
 
@@ -69,7 +69,7 @@ subtitle: A quickstart guide to using AICO
 
 * Coding_scheme is the encoding rule that guides AICO to encode.
 
-* Download link for sample data: [Sample data](/assets/example/example.zip)
+* Download link for example data: [Example data](/assets/example/example.zip)
 
     - topic.csv: Topic data
 
@@ -101,7 +101,7 @@ subtitle: A quickstart guide to using AICO
         | indicators  | str  | 编码指标                           |
         | example     | str  | 指标的示例（这一列可以不要）       |
 
-##### 2. After preparing the data, open AICO
+##### **2. After preparing the data, open AICO**
 
 ###### 2.1 Fill in the API_key:
 - Open the settings and fill in the API_key.

@@ -12,13 +12,6 @@
         if (typeof jQuery == 'undefined') {
           document.write('<script src="{{ js | relative_url }}"></scr' + 'ipt>');
         }
-        $.ajax({
-          url: 'https://aicodingassistant.cn/wp-admin/admin-ajax.php?action=ipmap_save_geolocation',
-          type: 'GET',
-          success: function (data) {
-            console.log(data);
-          }
-        });
       </script>
     {% else %}
       <script src="{{ js | relative_url }}"></script>
