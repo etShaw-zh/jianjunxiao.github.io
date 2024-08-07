@@ -79,8 +79,8 @@ $.getJSON('https://gw.alipayobjects.com/os/antvdemo/assets/data/world.geo.json',
       });
       var pointView = chart.view();
       pointView.source(userData);
-      pointView.point().position('x*y').size('vistors', [2, 30]).shape('circle').opacity(0.45).color('#FF2F29').tooltip('lastdate*location*vistors');
-      // pointView.point().position('x*y').shape('circle').opacity(0.45).color('#FF2F29').tooltip('lastdate*location*lat*lng*vistors');
+      // pointView.point().position('x*y').size('vistors', [2, 30]).shape('circle').opacity(0.45).color('#FF2F29').tooltip('lastdate*location*vistors');
+      pointView.point().position('x*y').shape('circle').opacity(0.35).color('#FF2F29').tooltip('lastdate*location*lat*lng*vistors');
       chart.render();
       var total = 0;
       var cities = 0;
