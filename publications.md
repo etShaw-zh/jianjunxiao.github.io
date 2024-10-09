@@ -14,7 +14,7 @@ subtitle: What I've been up to in the academic world
 
 > 社区型课程教学范式研究. -->
 
-##### **Coming Soon**
+<!-- ##### **Coming Soon**
 > **Xiao, J.**, Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in
 cMOOCs: An Automated Relational Event Modeling Approach.
 
@@ -28,7 +28,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. The Evolution of cMOOC Learners' Resource Use Behaviour.
 
-> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model.
+> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model. -->
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
