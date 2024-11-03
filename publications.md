@@ -7,6 +7,9 @@ subtitle: What I've been up to in the academic world
 ------------------------
 #### **Journal Publications**
 
+##### **Coming Soon**
+> Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
+
 <!-- ##### Working On
 > 学习理论的发展与在线学习平台的演进研究.
 
@@ -21,8 +24,6 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **Xiao, J.**, Enhancing Social and Cognitive Presence in cMOOC forums: The Role of Pedagogical Conversational Agents.
 
 > Tian, Y., & **Xiao, J. _†_**, The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis.
-
-> Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.
 
@@ -88,7 +89,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
 ##### **Reviewer**
-> **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**.
+> **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**, **_Information, Communication & Society_**.
 
 ------------------------
 > *Notes: † = Corresponding author, ☨ = Oral Presentation*
