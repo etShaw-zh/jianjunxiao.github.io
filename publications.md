@@ -89,7 +89,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
 ##### **Reviewer**
-> **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**, **_Information, Communication & Society_**.
+> **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**, the journal **_Information, Communication & Society_**.
 
 ------------------------
 > *Notes: † = Corresponding author, ☨ = Oral Presentation*
