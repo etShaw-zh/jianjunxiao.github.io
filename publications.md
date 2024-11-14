@@ -10,6 +10,8 @@ subtitle: What I've been up to in the academic world
 ##### **Coming Soon**
 > Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
+![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="400px" width="400px"}
+
 <!-- ##### Working On
 > 学习理论的发展与在线学习平台的演进研究.
 
@@ -33,6 +35,8 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
+
+![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png){:height="400px" width="400px"}
 
 ##### **2022**
 > 王东华, 张翼然, **肖建军**, 王小凯, & 徐亚倩. (2022). **联通主义学习路径与学习者发展**. _开放学习研究_, 27(05), 27-33+42. [https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004](https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004){:target="_blank"}  
