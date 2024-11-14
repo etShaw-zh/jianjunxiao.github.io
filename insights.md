@@ -26,6 +26,13 @@ I'd like to share a moving scene from the movie **"[The Lion King](https://en.wi
 </style>
 
 <div class="video-container">
+<video controls muted playsinline poster="/assets/img/photos/2024/08/lion-king-cover.png">
+  <source src="/assets/img/photos/2024/08/lion-king.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="video-container">
 <video controls muted playsinline poster="/assets/img/photos/2024/08/lion-king-cover.jpg">
   <source src="/assets/img/photos/2024/08/lion-king-clip.mp4" type="video/mp4">
   Your browser does not support the video tag.
