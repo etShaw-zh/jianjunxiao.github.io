@@ -10,7 +10,7 @@ subtitle: What I've been up to in the academic world
 ##### **Coming Soon**
 > Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
-![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="400px" width="400px"}
+![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="400px" width="720px"}
 
 <!-- ##### Working On
 > 学习理论的发展与在线学习平台的演进研究.
@@ -36,7 +36,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
 
-![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png){:height="400px" width="400px"}
+![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png){:height="400px" width="720px"}
 
 ##### **2022**
 > 王东华, 张翼然, **肖建军**, 王小凯, & 徐亚倩. (2022). **联通主义学习路径与学习者发展**. _开放学习研究_, 27(05), 27-33+42. [https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004](https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004){:target="_blank"}  
@@ -93,7 +93,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
 ##### **Reviewer**
-> **2021 -**, Reviewer for the journal **_Interactive Learning Environments_**, the journal **_Information, Communication & Society_**.
+> **2021 -**, Reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**.
 
 ------------------------
 > *Notes: † = Corresponding author, ☨ = Oral Presentation*
