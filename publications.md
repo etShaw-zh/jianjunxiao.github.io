@@ -61,6 +61,15 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > **Xiao, J. _☨_** (2022). **Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis**. _The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_.
 
 ------------------------
+#### **Competition Scholarships**
+
+##### **2024**
+> **Second Class Competition Scholarship**, _Beijing Normal University, Beijing, China_;
+
+##### **2017**
+> **Second Class Innovation and Entrepreneurship Scholarship**, _Linyi University, Shandong, China_;
+
+------------------------
 #### **Academic Thesis**
 
 ##### **Master**
