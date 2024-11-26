@@ -10,7 +10,7 @@ subtitle: What I've been up to in the academic world
 ##### **Coming Soon**
 > Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
-![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="400px" width="720px"}
+![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
 
 <!-- ##### Working On
 > 学习理论的发展与在线学习平台的演进研究.
