@@ -163,6 +163,23 @@ AICO is an artificial intelligence text-coding officer with integrated classifie
 - [Download](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases)
 - [Example Data](/assets/example/example.zip)
 
+##### Citation
+
+Xiao, J. (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (v1.0.4) [Software]. Zenodo. https://doi.org/10.5281/zenodo.14227645
+    
+```bibtex
+@software{jianjun_xiao_2024_14227645,
+  author       = {Jianjun Xiao},
+  title        = {{AICO: An artificial intelligence text-coding officer with integrated classifiers}},
+  month        = nov,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v1.0.4},
+  doi          = {10.5281/zenodo.14227645},
+  url          = {https://doi.org/10.5281/zenodo.14227645}
+}
+```
+
 ##### **Contact Information**
 
 - **WeChat:** etshaw8888
