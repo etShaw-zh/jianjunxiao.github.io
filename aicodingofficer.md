@@ -14,13 +14,15 @@ subtitle: AI coding officer, make coding ease.
         <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-2E75B6"  alt="Platform">
         <img src="https://img.shields.io/github/v/release/etShaw-zh/AICodingAssistant-Pro?color=2E75B6"  alt="Release">
         <img src="https://img.shields.io/github/downloads/etShaw-zh/AICodingAssistant-Pro/total?color=2E75B6"  alt="Downloads">
+        <img src="https://img.shields.io/github/downloads/etShaw-zh/AICodingAssistant-Pro/latest/total?color=2E75B6" alt='latest' />
         <img src='https://readthedocs.org/projects/aicodingassistant-pro/badge/?version=latest' alt='Docs' />
+        <a href="https://doi.org/10.5281/zenodo.14227644"><img src="https://zenodo.org/badge/822459670.svg" alt="DOI"></a>
     </div>
 </p>
 
 ----------
 #### **Introduction**
-AICO is a cutting-edge artificial intelligence coding assistant, designed to enhance the efficiency of text encoding.
+AICO is an artificial intelligence text-coding officer with integrated classifiers, designed to enhance the efficiency of text encoding.
 - **A I** : Stands for "Artificial Intelligence", emphasizing the intelligent features of the tool.
 - **CO**: Stands for "Coding Officer", indicating that AICO is a professional coding assistant capable of executing and unsupervising encoding tasks.
 
