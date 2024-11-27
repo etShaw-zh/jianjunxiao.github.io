@@ -4,7 +4,7 @@ title: Jianjun Xiao
 subtitle: PhD @ Beijing Normal University
 ---
 
-I am currently pursuing a PhD at the **[Research Centre of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_connectivism_**, **_virtual learning environments_**, **_learning analysis_**, and **_cMOOC platforms_**. I am good at data analysis, including **_basic statistical tests_**, **_social networks_**, **_dynamic models_** and **_interpretable machine learning_**. Besides, developing open source software is an important entertainment for me. 
+I am currently pursuing a PhD at the **[Research Centre of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_connectivism_**, **_learning analysis_**, and **_cMOOC platforms_**. I am good at data analysis, including **_basic statistical tests_**, **_social networks_**, **_dynamic models_** and **_interpretable machine learning_**. Besides, developing open source software is an important entertainment for me. 
 
 <!-- <div id="particles-js"></div> -->
 <!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->
