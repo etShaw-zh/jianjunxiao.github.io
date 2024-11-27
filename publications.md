@@ -32,6 +32,8 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model. -->
 
 ##### **2024**
+> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (v1.0.4) [Software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
+
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. The Evolution of cMOOC Learners' Resource Use Behaviour.
 
 ##### **2023**
