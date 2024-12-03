@@ -37,8 +37,8 @@ navbar-links:
     - DOWNLOAD: "https://github.com/etShaw-zh/AICodingAssistant-Pro/releases"
     - EXAMPLES DATA: "/assets/example/example.zip"
   RESUME:
-    - ENGLISH: "https://rxresu.me/etshaw-zh/jianjun-xiao"
-    - CHINESE: "https://rxresu.me/etshaw-zh/jianjun-xiao-in-chinese"
+    - ENGLISH: "/assets/pdf/Jianjun Xiao.pdf"
+    - CHINESE: "/assets/pdf/Jianjun Xiao (In Chinese).pdf"
   VISITORS: "visitors"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
