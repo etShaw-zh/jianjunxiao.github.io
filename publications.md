@@ -32,9 +32,9 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model. -->
 
 ##### **2024**
-> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (v1.0.4) [Software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
+> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
 
-> Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. The Evolution of cMOOC Learners' Resource Use Behaviour.
+> Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
