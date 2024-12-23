@@ -8,7 +8,7 @@ subtitle: What I've been up to in the academic world
 #### **Journal Publications**
 
 ##### **Coming Soon**
-> Wang, C., & **Xiao, J. _†_**, A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
+> Wang, C., & **Xiao, J. _†_**. (2024). A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
 
 ![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
 
@@ -34,7 +34,7 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 ##### **2024**
 > **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
 
-> Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
+> Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
