@@ -7,8 +7,8 @@ subtitle: What I've been up to in the academic world
 ------------------------
 #### **Journal Publications**
 
-##### **Coming Soon**
-> Wang, C., & **Xiao, J. _†_**. (2024). A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning.
+##### **2025**
+> Wang, C., & **Xiao, J. _†_**. (2025). A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 
 ![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
 
@@ -101,10 +101,10 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 ------------------------
 #### **Academic Services**
 
-##### **Teaching Assistants**
+##### **Teaching Assistant**
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
-##### **Reviewer**
+##### **Journal Reviewer**
 > **2021 -**, Reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**.
 
 ------------------------
