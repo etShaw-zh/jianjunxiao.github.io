@@ -8,8 +8,14 @@ subtitle: What's been eating away my free time
 
 #### **Software development**
 
+##### **Python package**
+* **[gca_analyzer](https://gca-analyzer.readthedocs.io){:target="_blank"}** - GCA Analyzer is a Python package for analyzing group conversation dynamics using NLP techniques and quantitative metrics. It provides comprehensive tools for understanding participation patterns, interaction dynamics, content novelty, and communication density in group conversations.
+[![PyPI version](https://badge.fury.io/py/gca-analyzer.svg)](https://pypi.org/project/gca-analyzer) ![Tests](https://github.com/etShaw-zh/gca_analyzer/actions/workflows/python-test.yml/badge.svg) [![Coverage Status](https://codecov.io/gh/etShaw-zh/gca_analyzer/branch/main/graph/badge.svg?token=GLAVYYCD9L)](https://codecov.io/gh/etShaw-zh/gca_analyzer) [![Documentation Status](https://readthedocs.org/projects/gca-analyzer/badge/?version=latest)](https://gca-analyzer.readthedocs.io/en/latest/?badge=latest) [![PyPI Downloads](https://static.pepy.tech/badge/gca-analyzer)](https://pepy.tech/projects/gca-analyzer) [![PyPI Downloads](https://static.pepy.tech/badge/gca-analyzer/month)](https://pepy.tech/projects/gca-analyzer) [![DOI](https://zenodo.org/badge/915395583.svg)](https://doi.org/10.5281/zenodo.14647250)
+![GCAAnalyzer](/assets/img/gca_results.jpg){:height="50%" width="50%"}
+![GCAAnalyzer](/assets/img/vizs.png){:height="50%" width="50%"}
+
 ##### **Applications**
-* **[AICodingOffier](https://xiaojianjun.cn/aicodingofficer) (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.  
+* **[AICodingOffier](https://xiaojianjun.cn/aicodingofficer){:target="_blank"} (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.  
 ![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
 
 ------

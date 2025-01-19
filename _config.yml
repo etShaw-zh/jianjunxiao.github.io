@@ -24,19 +24,19 @@ author: Jianjun Xiao
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  NEWS: "life"
   INSIGHTS: "insights"
-  LIFE: "life"
   ACADEMIC: "publications"
   # PUBLICATIONS: "https://www.zotero.org/etshaw"
   PROJECTS: "projects"
   TALKS: "talk"
   # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
-  AICODINGOFFICER:
+  AICO:
     - INTRODUCTION: "aicodingofficer"
     - QUICKSTART: "quickstart"
     - DOWNLOAD: "https://github.com/etShaw-zh/AICodingAssistant-Pro/releases"
     - EXAMPLES DATA: "/assets/example/example.zip"
-  RESUME:
+  C.V.:
     - ENGLISH: "/assets/pdf/Jianjun Xiao.pdf"
     - CHINESE: "/assets/pdf/Jianjun Xiao (In Chinese).pdf"
   VISITORS: "visitors"

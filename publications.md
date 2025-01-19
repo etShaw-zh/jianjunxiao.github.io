@@ -5,7 +5,17 @@ subtitle: What I've been up to in the academic world
 ---
 
 ------------------------
-#### **Journal Publications**
+### **Publications**
+
+#### **Computer Program**
+
+##### **2025**
+> **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: Group Conversation Analysis Tool (v0.4.3). (Version v0.4.3) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14647251](https://doi.org/10.5281/zenodo.14647251){:target="_blank"}
+
+##### **2024**
+> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
+
+#### **Journal Article**
 
 ##### **2025**
 > Wang, C., & **Xiao, J. _†_**. (2025). A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
@@ -32,8 +42,6 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model. -->
 
 ##### **2024**
-> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
-
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
 
 ##### **2023**
