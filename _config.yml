@@ -39,7 +39,7 @@ navbar-links:
   C.V.:
     - en: "/assets/pdf/Jianjun Xiao.pdf"
     - zh: "/assets/pdf/Jianjun Xiao (In Chinese).pdf"
-  VISITORS: "visitors"
+  # VISITORS: "visitors"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
