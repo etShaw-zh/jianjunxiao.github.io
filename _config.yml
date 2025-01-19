@@ -31,14 +31,14 @@ navbar-links:
   PROJECTS: "projects"
   TALKS: "talk"
   # AICODINGOFFICER: "https://aicodingassistant-pro.readthedocs.io/en/latest/index.html"
-  AICO:
+  AICODINGOFFICER:
     - INTRODUCTION: "aicodingofficer"
     - QUICKSTART: "quickstart"
     - DOWNLOAD: "https://github.com/etShaw-zh/AICodingAssistant-Pro/releases"
     - EXAMPLES DATA: "/assets/example/example.zip"
   C.V.:
-    - ENGLISH: "/assets/pdf/Jianjun Xiao.pdf"
-    - CHINESE: "/assets/pdf/Jianjun Xiao (In Chinese).pdf"
+    - en: "/assets/pdf/Jianjun Xiao.pdf"
+    - zh: "/assets/pdf/Jianjun Xiao (In Chinese).pdf"
   VISITORS: "visitors"
   # GOOGLE SCHOLAR: "https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ"
   # Resources:
