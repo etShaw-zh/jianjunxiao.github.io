@@ -74,6 +74,9 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 ------------------------
 #### **Competition Scholarships**
 
+##### **2025**
+> **Second Class Award for Academic Innovation for Postgraduate Students**, _Beijing Normal University, Beijing, China_;
+
 ##### **2024**
 > **Second Class Competition Scholarship**, _Beijing Normal University, Beijing, China_;
 
