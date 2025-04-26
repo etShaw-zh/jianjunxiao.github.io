@@ -18,6 +18,8 @@ subtitle: What I've been up to in the academic world
 #### **Journal Article**
 
 ##### **2025**
+> Tian, Y., & **Xiao, J. _†_**. (2025). The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [(https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
+
 > Wang, C., & **Xiao, J. _†_**. (2025). A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 
 ![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
@@ -34,8 +36,6 @@ subtitle: What I've been up to in the academic world
 cMOOCs: An Automated Relational Event Modeling Approach.
 
 > **Xiao, J.**, Enhancing Social and Cognitive Presence in cMOOC forums: The Role of Pedagogical Conversational Agents.
-
-> Tian, Y., & **Xiao, J. _†_**, The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis.
 
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.
 
