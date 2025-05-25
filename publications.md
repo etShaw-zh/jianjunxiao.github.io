@@ -62,11 +62,14 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 ------------------------
 #### **Conference Papers/Reports**
 
+##### **2025**
+> **肖建军 _☨_** (2025). **基于双重网络的cMOOC学习者交互水平自动评估及提升路径研究**. _北京师范大学2025年昌平校园博士生学科交叉创新论坛, 北京, 中国_, ([链接](https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C){:target="_blank"}).
+
 ##### **2024**
 > **Xiao, J. _☨_** (2024). **Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents**. _The Asian Students’ Seminar & Round Table 2024. Kansai University, Osaka, Japan_. (Young Scholar Award)
 
 ##### **2023**
-> **肖建军 _☨_** (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 中国_, ([链接](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg){:target="_blank"}).
+> **肖建军 _☨_** (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 中国_, ([链接](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}).
 
 ##### **2022**
 > **Xiao, J. _☨_** (2022). **Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis**. _The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_.
