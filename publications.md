@@ -18,7 +18,7 @@ subtitle: What I've been up to in the academic world
 #### **Journal Article**
 
 ##### **2025**
-> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1)_ (Accepted).
+> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1). [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}.
 
 > Tian, Y., & **Xiao, J. _†_**. (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [(https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
 
@@ -120,6 +120,9 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 
 ##### **Journal Reviewer**
 > **2021 -**, Reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**, and **[the journal of Open Source Software](https://joss.theoj.org/about){:target="_blank"}**.
+
+##### **Editorial Board Member**
+> **2025 -**, Editorial Board Member of the journal **[Contemporary Education and Teaching Research](https://ojs.bonfuturepress.com/index.php/CETR/editorial_board#:~:text=Xiao%20Jianjun){:target="_blank"}**.
 
 ------------------------
 > *Notes: † = Corresponding author, ☨ = Oral Presentation*
