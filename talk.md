@@ -7,7 +7,7 @@ subtitle: What I used to talk about
 ----------
 #### **Presentations**
 
-Date | Title | Links | Views
+Date | Title | Related reports | Views
 2018-10 | 从个人视角看线上线下教学空间融合 | [TEXT](https://mp.weixin.qq.com/s/TvN_L2BASdz4JtdU0RFH8w){:target="_blank"} & [VIDEO](https://www.bilibili.com/video/BV1ia411X7J8){:target="_blank"} | ![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1ia411X7J8) 
 2023-11 | 自动评估cMOOC学习者与AI模型GPT-3的有意义交互 | [TEXT](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"} | 
 2024-11 | 知识洞平台建设与应用（学习建议）沙龙回放 | [VIDEO](https://www.bilibili.com/video/BV1As5xzAEAN){:target="_blank"} | ![bilibili](https://img.shields.io/badge/dynamic/json?label=views&style=social&logo=bilibili&query=data.stat.view&url=https://api.bilibili.com/x/web-interface/view?bvid=BV1As5xzAEAN) 

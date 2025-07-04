@@ -8,12 +8,12 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 #### **2025**
 
 ##### **2025-06**
-At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms and typical application cases of the cMOOC Platform.  
-![keynote presentation](/assets/img/photos/2025/BE0DAFB9-2749-4E08-8873-91E0B8C2D676_4_5005_c.jpeg){:height="400px" width="400px"}
+At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms and typical application cases of the cMOOC Platform.[Related report](https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"}  
+![keynote presentation](/assets/img/photos/2025/BE0DAFB9-2749-4E08-8873-91E0B8C2D676_4_5005_c.jpeg){:height="400px" width="550px"}
 
 ##### **2025-05**
-At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal University's Changping Campus, I served as the project lead representative and presented research findings and interdisciplinary research experiences on the topic "Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks."  
-![project lead representative and presented research findings](/assets/img/photos/2025/55185DBD-7488-4C12-8C13-810210EEDE4D_1_105_c.jpeg){:height="400px" width="400px"}
+At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal University's Changping Campus, I served as the project lead representative and presented research findings and interdisciplinary research experiences on the topic "Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks."[Related report](https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C){:target="_blank"}  
+![project lead representative and presented research findings](/assets/img/photos/2025/55185DBD-7488-4C12-8C13-810210EEDE4D_1_105_c.jpeg){:height="400px" width="550px"}
 
 ----------
 #### **2024**
@@ -30,9 +30,9 @@ This November, I volunteered at the Beijing Marathon, providing post-run stretch
 ![marathon volunter](/assets/img/photos/marathon.png){:height="400px" width="400px"}
 
 ##### **2023-08**, **10**
-In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing fourth. I made new friends and grew personally.
+In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing fourth. I made new friends and grew personally.[Related report](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ#:~:text=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6Thomas%20Duan%E5%9B%A2%E9%98%9F%E7%AD%89%E4%B8%89%E7%AD%89%E5%A5%96%E9%A1%B9%E7%9B%AE5%E4%BB%B6){:target="_blank"}  
 
-In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.  
+In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.[Related report](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}  
 ![iflytek](/assets/img/photos/iflytek.png){:height="400px" width="400px"}
 
 
