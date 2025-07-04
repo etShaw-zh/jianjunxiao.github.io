@@ -5,6 +5,17 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
 ----------
+#### **2025**
+
+##### **2025-06**
+At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms and typical application cases of the cMOOC Platform.  
+![keynote presentation](/assets/img/photos/2025/BE0DAFB9-2749-4E08-8873-91E0B8C2D676_4_5005_c.jpeg){:height="400px" width="400px"}
+
+##### **2025-05**
+At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal University's Changping Campus, I served as the project lead representative and presented research findings and interdisciplinary research experiences on the topic "Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks."  
+![project lead representative and presented research findings](/assets/img/photos/2025/55185DBD-7488-4C12-8C13-810210EEDE4D_1_105_c.jpeg){:height="400px" width="400px"}
+
+----------
 #### **2024**
 
 ##### **2024-04**
