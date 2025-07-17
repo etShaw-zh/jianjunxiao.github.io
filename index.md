@@ -4,7 +4,9 @@ title: Jianjun Xiao
 subtitle: PhD @ Beijing Normal University
 ---
 
-I am currently pursuing a PhD at the **[Research Centre of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at Beijing Normal University, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_connectivism_**, **_learning analysis_**, and **_cMOOC platforms_**. I am good at data analysis, including **_basic statistical tests_**, **_social networks_**, **_dynamic models_** and **_interpretable machine learning_**. Besides, developing open source software is an important entertainment for me. 
+I am Jianjun Xiao, a Ph.D. candidate in Internet Education at **[Research Centre of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at **Beijing Normal University**, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_Connectivism_**, **_Online Learning Environments_**, **_Learning Analytics_**, and **_AI in Education_**, with a focus on integrating education and technology.
+
+Since 2019, I have been responsible for the design and development of the **[cMOOC platform](https://cmooc.bnu.edu.cn){:target="_blank"}**, leading the functional design and iteration based on **WordPress** and the **WeChat ecosystem**. In the fields of Learning Analytics and AI in Education, I have led and participated in multiple research and opensource projects, published several academic papers, and developed a solid research background in the educational applications of **complex network modelling**, **natural language processing (NLP)**, and **explainable AI**.
 
 <!-- <div id="particles-js"></div> -->
 <!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->
