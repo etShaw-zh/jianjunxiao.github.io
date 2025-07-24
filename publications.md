@@ -10,7 +10,7 @@ subtitle: What I've been up to in the academic world
 #### **Computer Program**
 
 ##### **2025**
-> **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: Group Conversation Analysis Tool (v0.4.3). (Version v0.4.3) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14647251](https://doi.org/10.5281/zenodo.14647251){:target="_blank"}
+> **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: A Python Package for Group Conversation Analysis (v0.4.6). (Version v0.4.6) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.16020248](https://doi.org/10.5281/zenodo.16020248){:target="_blank"}
 
 ##### **2024**
 > **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
@@ -34,10 +34,12 @@ subtitle: What I've been up to in the academic world
 > 社区型课程教学范式研究. -->
 
 <!-- ##### **Coming Soon**
+> **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
+
+> **Xiao, J.**, Tian, Y., & Wang, C., Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC.
+
 > **Xiao, J.**, Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in
 cMOOCs: An Automated Relational Event Modeling Approach.
-
-> **Xiao, J.**, Enhancing Social and Cognitive Presence in cMOOC forums: The Role of Pedagogical Conversational Agents.
 
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
