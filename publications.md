@@ -6,6 +6,16 @@ subtitle: What I've been up to in the academic world
 
 ------------------------
 ### **Publications**
+<!-- ##### **Under review**
+> **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
+
+> **Xiao, J.**, Tian, Y., & Wang, C., Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC.
+
+> **Xiao, J.**, Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in cMOOCs: An Automated Relational Event Modeling Approach.
+
+> Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning
+
+> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 #### **Computer Program**
 
@@ -26,23 +36,6 @@ subtitle: What I've been up to in the academic world
 
 ![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
 
-<!-- ##### Working On
-> 学习理论的发展与在线学习平台的演进研究.
-
-> 新一代在线学习平台研究——cMOOC平台的设计与实现.
-
-> 社区型课程教学范式研究. -->
-
-<!-- ##### **Coming Soon**
-> **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
-
-> **Xiao, J.**, Tian, Y., & Wang, C., Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC.
-
-> **Xiao, J.**, Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in
-cMOOCs: An Automated Relational Event Modeling Approach.
-
-> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
-
 ##### **2024**
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
 
@@ -62,40 +55,40 @@ cMOOCs: An Automated Relational Event Modeling Approach.
 > Bai, Y.-Q., & **Xiao, J.** (2021). **The impact of cMOOC learners’ interaction on content production**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–12. [https://doi.org/10.1080/10494820.2021.1969955](https://doi.org/10.1080/10494820.2021.1969955){:target="_blank"}  
 
 ------------------------
-#### **Conference Papers/Reports**
+#### **Conference Papers**
 
-##### **2025**
-> **肖建军 _☨_** (2025). **基于双重网络的cMOOC学习者交互水平自动评估及提升路径研究**. _北京师范大学2025年昌平校园博士生学科交叉创新论坛, 北京, 中国_, ([链接](https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C){:target="_blank"}).
+<!-- ##### **2025** -->
+<!-- > **肖建军 _☨_** (2025). **基于双重网络的cMOOC学习者交互水平自动评估及提升路径研究**. _北京师范大学2025年昌平校园博士生学科交叉创新论坛, 北京, 中国_, ([链接](https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C){:target="_blank"}). -->
 
 ##### **2024**
 > **Xiao, J. _☨_** (2024). **Automatic Assessment of Social and Cognitive Presence to Promote Meaningful Collaboration between cMOOC Learners and GPT-Driven Agents**. _The Asian Students’ Seminar & Round Table 2024. Kansai University, Osaka, Japan_. (Young Scholar Award)
 
-##### **2023**
-> **肖建军 _☨_** (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 中国_, ([链接](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}).
+<!-- ##### **2023**
+> **肖建军 _☨_** (2023). **自动评估cMOOC学习者与AI模型GPT-3的有意义交互**. _第五届讯飞智能教育论坛 - 博士生分论坛, 合肥, 中国_, ([链接](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}). -->
 
 ##### **2022**
 > **Xiao, J. _☨_** (2022). **Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis**. _The Asian Students’ Seminar & Round Table 2022. South China Normal University, Guangzhou, China_.
 
-------------------------
-#### **Competition Scholarships**
+<!-- ------------------------ -->
+<!-- #### **Competition Scholarships** -->
 
-##### **2025**
+<!-- ##### **2025**
 > **Second Class Award for Academic Innovation for Postgraduate Students**, _Beijing Normal University, Beijing, China_;
 
 ##### **2024**
 > **Second Class Competition Scholarship**, _Beijing Normal University, Beijing, China_;
 
 ##### **2017**
-> **Second Class Innovation and Entrepreneurship Scholarship**, _Linyi University, Shandong, China_;
+> **Second Class Innovation and Entrepreneurship Scholarship**, _Linyi University, Shandong, China_; -->
 
-------------------------
+<!-- ------------------------
 #### **Academic Thesis**
 
 ##### **Master**
 > **Xiao, J.** (2023). **Design and Application Verification of Learning Partner Recommendation Strategy Based on Attention Network in Connectivist Learning Process**. _Master of Science in Educational Technology, Beijing Normal University, Beijing, China_.
 
 ##### **Bachelor**
-> **Xiao, J.** (2018). **Application and validation of 3D printing technology in STEM education**. _Bachelor of Education in Educational Technology, Linyi University, Shandong, China_.
+> **Xiao, J.** (2018). **Application and validation of 3D printing technology in STEM education**. _Bachelor of Education in Educational Technology, Linyi University, Shandong, China_. -->
 
 ------------------------
 #### **Academic Projects**
