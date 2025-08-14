@@ -6,38 +6,35 @@ subtitle: What I've been up to in the academic world
 
 ------------------------
 ### **Publications**
-<!-- ##### **Under review**
+
+#### **Journal Article**
+
+##### **Under review**
 > **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
 
 > **Xiao, J.**, Tian, Y., & Wang, C., Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC.
 
-> **Xiao, J.**, Exploring the Role of Reciprocity and Connectivist Interaction Engagement Levels in cMOOCs: An Automated Relational Event Modeling Approach.
+> **Xiao, J.**, Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement.
 
-> Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning
+> Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.
 
-> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
-
-#### **Computer Program**
+> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.
 
 ##### **2025**
+> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1; A&HCI)_. [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}.
+
+> Tian, Y., & **Xiao, J. _†_** (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
+
 > **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: A Python Package for Group Conversation Analysis (v0.4.6). (Version v0.4.6) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.16020248](https://doi.org/10.5281/zenodo.16020248){:target="_blank"}
 
-##### **2024**
-> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
-
-#### **Journal Article**
-
-##### **2025**
-> Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1). [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}.
-
-> Tian, Y., & **Xiao, J. _†_**. (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [(https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
-
-> Wang, C., & **Xiao, J. _†_**. (2025). **A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
+> Wang, C., & **Xiao, J. _†_** (2025). **A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 
 ![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
 
 ##### **2024**
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
+
+> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
