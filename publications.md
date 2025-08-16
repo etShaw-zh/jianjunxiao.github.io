@@ -9,7 +9,7 @@ subtitle: What I've been up to in the academic world
 
 #### **Journal Article _(† = Corresponding author)_**
 
-##### **Under review**
+<!-- ##### **Under review**
 > **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
 
 > **Xiao, J.**, Tian, Y., & Wang, C., Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC.
@@ -18,7 +18,7 @@ subtitle: What I've been up to in the academic world
 
 > Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.
 
-> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.
+> Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 ##### **2025**
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1; A&HCI)_. [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}.
