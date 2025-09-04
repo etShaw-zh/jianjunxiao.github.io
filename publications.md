@@ -19,7 +19,7 @@ subtitle: What I've been up to in the academic world
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 ##### **2025**
-> **Xiao, J.**, Tian, Y., & Wang, C., **Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC**. _Computers & Education_ _(SSCI Q1)_.
+> **Xiao, J.**, Tian, Y., & Wang, C. (2025) **Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC**. _Computers & Education_ _(SSCI Q1)_.
 
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1; A&HCI)_. [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}.
 
