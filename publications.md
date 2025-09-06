@@ -21,6 +21,8 @@ subtitle: What I've been up to in the academic world
 ##### **2025**
 > **Xiao, J.**, Tian, Y., & Wang, C. (2025) **Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC**. _Computers & Education_ _(SSCI Q1)_. [https://doi.org/10.1016/j.compedu.2025.105451](https://doi.org/10.1016/j.compedu.2025.105451){:target="_blank"}
 
+![Collaborative_AI_in_the_Loop](/assets/img/photos/2025/Collaborative_AI_in_the_Loop.png)
+
 > Kong X., Fang H., Chen W., **Xiao, J.**, & Zhang M. (2025). **Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model**. _Humanities and Social Sciences Communications_ _(SSCI Q1; A&HCI)_. [https://doi.org/10.1057/s41599-025-05097-z](https://doi.org/10.1057/s41599-025-05097-z){:target="_blank"}
 
 > Tian, Y., & **Xiao, J. _†_** (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
@@ -29,7 +31,7 @@ subtitle: What I've been up to in the academic world
 
 > Wang, C., & **Xiao, J. _†_** (2025). **A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 
-![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg){:height="330px" width="720px"}
+![Role recognition](/assets/img/photos/2024/11/role_recognition.jpg)
 
 ##### **2024**
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
@@ -39,7 +41,7 @@ subtitle: What I've been up to in the academic world
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
 
-![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png){:height="400px" width="720px"}
+![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png)
 
 ##### **2022**
 > 王东华, 张翼然, **肖建军**, 王小凯, & 徐亚倩. (2022). **联通主义学习路径与学习者发展**. _开放学习研究_, 27(05), 27-33+42. [https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004](https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004){:target="_blank"}  
