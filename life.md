@@ -1,8 +1,14 @@
 ---
 layout: page
-title: Life
+title: News
 subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
+
+----------
+#### **Announcement**
+##### **2025-09**
+> I am deeply honored to be invited by Director Zhou Yanfang of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on **18 September 2025**.
+The session will address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.
 
 ----------
 #### **2025**
