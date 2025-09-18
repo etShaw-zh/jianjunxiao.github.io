@@ -4,14 +4,12 @@ title: News
 subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
-----------
-#### **Announcement**
-##### **2025-09**
-> I am deeply honored to be invited by Director Zhou Yanfang of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on **18 September 2025**.
-The session will address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.
 
 ----------
 #### **2025**
+##### **2025-09**
+I am deeply honored to be invited by Director Zhou Yanfang of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation. The session address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.
+![keynote presentation](/assets/img/photos/2025/wechat_2025-09-18_171135_438.png){:height="400px" width="550px"}
 
 ##### **2025-06**
 At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms and typical application cases of the cMOOC Platform.[Related report](https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"},[Related report](https://mp.weixin.qq.com/s/olmuwEkolr1apxffDkXGzQ#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"}  
