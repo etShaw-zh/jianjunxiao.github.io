@@ -22,3 +22,4 @@ beautiful-jekyll-theme-*.gem
 
 #Ignore cursor AI rules
 .cursor/rules/codacy.mdc
+.codacy/cli.sh

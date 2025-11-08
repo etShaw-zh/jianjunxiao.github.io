@@ -115,7 +115,7 @@ subtitle: What I've been up to in the academic world
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
 ##### **Journal Reviewer**
-> **2021 -**, Reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**, and **[the journal of Open Source Software](https://joss.theoj.org/about){:target="_blank"}**.
+> **2021 -**, Reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**, **[the journal of Open Source Software](https://joss.theoj.org/about){:target="_blank"}**, and **[Scientific Reports](https://www.nature.com/srep/about){:target="_blank"}**.
 
 ##### **Editorial Board Member**
 > **2025 -**, Editorial Board Member of the journal **[Contemporary Education and Teaching Research](https://ojs.bonfuturepress.com/index.php/CETR/editorial_board#:~:text=Xiao%20Jianjun){:target="_blank"}**.
