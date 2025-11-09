@@ -8,14 +8,21 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ----------
 #### **2025**
 ##### **2025-11**
-I participated in the [2nd Global Digital Intelligence Education Innovation Competition (AI for Learning Track)](https://diidea.pku.edu.cn/competition2025/index_en.html){:target="_blank"}, and my project _"DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences_" received the **Bronze Award** and the **Feishu Special Award**.
+I participated in the [2nd Global Digital Intelligence Education Innovation Competition (AI for Learning Track)](https://diidea.pku.edu.cn/competition2025/index_en.html){:target="_blank"}, and my project _"DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences_" received the **Bronze Award** and the **Feishu Special Award**. [news](https://diidea.pku.edu.cn/competition2025/learning.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"} 
+
+![AI for Learning](/assets/img/photos/2025/AI4Learning.png){width="700px"}
+
+I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project _“cMOOC — The Third-Generation Online Learning Platform”_ was awarded **First Prize 🥇**. 
+The award ceremony was held at the China National Convention CenterⅡ, and highlights from the final round were broadcast on China Education Television (CETV). [news](https://www.caet.org.cn/site/content/1031.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}, [news](https://m.cetv.cn/p/568090.html?v=1762236562491?v=1762260917725?v=1762261002459){:target="_blank"}
+
+![cMOOC Platform](/assets/img/photos/2025/cmooc_platform.png){width="700px"}
 
 ##### **2025-09**
 I am deeply honored to be invited by Director Yanfang Zhou of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation. The session address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.
 ![keynote presentation](/assets/img/photos/2025/wechat_2025-09-18_171135_438.png){:height="400px" width="700px"}
 
 ##### **2025-06**
-At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms and typical application cases of the cMOOC Platform.[news](https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"},[news](https://mp.weixin.qq.com/s/olmuwEkolr1apxffDkXGzQ#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"}  
+At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms.[news](https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"},[news](https://mp.weixin.qq.com/s/olmuwEkolr1apxffDkXGzQ#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"}  
 ![keynote presentation](/assets/img/photos/2025/BE0DAFB9-2749-4E08-8873-91E0B8C2D676_4_5005_c.jpeg){:height="400px" width="550px"}
 
 ##### **2025-05**
