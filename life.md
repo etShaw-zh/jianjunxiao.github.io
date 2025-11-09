@@ -44,7 +44,7 @@ This November, I volunteered at the Beijing Marathon, providing post-run stretch
 ![marathon volunter](/assets/img/photos/marathon.png){:height="400px" width="400px"}
 
 ##### **2023-08**, **10**
-In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing fourth. I made new friends and grew personally.[news](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ#:~:text=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6Thomas%20Duan%E5%9B%A2%E9%98%9F%E7%AD%89%E4%B8%89%E7%AD%89%E5%A5%96%E9%A1%B9%E7%9B%AE5%E4%BB%B6){:target="_blank"}  
+In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing third 🥉. I made new friends and grew personally.[news](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ#:~:text=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6Thomas%20Duan%E5%9B%A2%E9%98%9F%E7%AD%89%E4%B8%89%E7%AD%89%E5%A5%96%E9%A1%B9%E7%9B%AE5%E4%BB%B6){:target="_blank"}  
 
 In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.[news](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}  
 ![iflytek](/assets/img/photos/iflytek.png){:height="400px" width="400px"}
