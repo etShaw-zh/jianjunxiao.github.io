@@ -19,7 +19,7 @@ subtitle: What I've been up to in the academic world
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 ##### **2026**
-> **Xiao, J.**, Wang, C., Zhang, W. (2026). Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model. _16th International Conference on Learning Analytics and Knowledge (LAK26)_. (full research paper accepted)
+> **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_. (full research paper accepted)
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}
