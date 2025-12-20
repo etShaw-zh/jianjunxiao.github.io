@@ -19,7 +19,7 @@ subtitle: What I've been up to in the academic world
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 ##### **2026**
-> **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted)
+> **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted). (No. arXiv:2512.13061). arXiv. [https://doi.org/10.48550/arXiv.2512.13061](https://doi.org/10.48550/arXiv.2512.13061){:target="_blank"}
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}
@@ -30,7 +30,7 @@ subtitle: What I've been up to in the academic world
 
 > Tian, Y., & **Xiao, J. _†_** (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
 
-> **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: A Python Package for Group Conversation Analysis (v0.4.6). (Version v0.4.6) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.16020248](https://doi.org/10.5281/zenodo.16020248){:target="_blank"}
+<!-- > **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: A Python Package for Group Conversation Analysis (v0.4.6). (Version v0.4.6) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.16020248](https://doi.org/10.5281/zenodo.16020248){:target="_blank"} -->
 
 > Wang, C., & **Xiao, J. _†_** (2025). **A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 
@@ -39,7 +39,7 @@ subtitle: What I've been up to in the academic world
 ##### **2024**
 > Bai, Y., Chen, L., Zhou, X., **Xiao, J.**, & He, X. (2024). **The Evolution of cMOOC Learners' Resource Use Behaviour**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–24. [https://doi.org/10.1080/10494820.2024.2437542](https://doi.org/10.1080/10494820.2024.2437542){:target="_blank"}
 
-> **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"}
+<!-- > **Xiao, J.** (2024). AICO: An artificial intelligence text-coding officer with integrated classifiers (Version v1.0.4) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.14227645](https://doi.org/10.5281/zenodo.14227645){:target="_blank"} -->
 
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
