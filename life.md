@@ -18,7 +18,7 @@ The award ceremony was held at the China National Convention CenterⅡ, and high
 ![cMOOC Platform](/assets/img/photos/2025/cmooc_platform.png){:width="700px"}
 
 ##### **2025-09**
-I am deeply honored to be invited by Director Yanfang Zhou of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation. The session address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.
+I am deeply honored to be invited by Director Yanfang Zhou of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation. The session address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.[news](https://www.gdmu.edu.cn/info/1488/58832.htm#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}  
 ![keynote presentation](/assets/img/photos/2025/wechat_2025-09-18_171135_438.png){:height="400px" width="700px"}
 
 ##### **2025-06**
