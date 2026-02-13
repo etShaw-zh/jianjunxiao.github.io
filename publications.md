@@ -10,15 +10,19 @@ subtitle: What I've been up to in the academic world
 #### **Journal Article _(† = Corresponding author)_**
 
 <!-- ##### **Under review**
-> **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
+> **Xiao, J.**, Gao, D. Emergent Learning Ecological Niches: How Social Media Affordances Shape Learners' Roles in Knowledge Ecosystems.
 
-> **Xiao, J. _†_**, Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement.
+> **Xiao, J.**, Wang, C. Designing a Network-Structure-Driven Pedagogical Conversational Agent with Emergent Roles to Enhance Social and Cognitive Presence in cMOOCs: A Design-Based Study.
+
+> **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
 
 > Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.
 
 > Wang, C., Xu, Y., & **Xiao, J.**, Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory. -->
 
 ##### **2026**
+> **Xiao, J. _†_** (2026). Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
+
 > **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted). (No. arXiv:2512.13061). arXiv. [https://doi.org/10.48550/arXiv.2512.13061](https://doi.org/10.48550/arXiv.2512.13061){:target="_blank"}
 
 ##### **2025**
