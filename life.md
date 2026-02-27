@@ -4,6 +4,10 @@ title: News
 subtitle: A skinny adolescent had turned into a confident presentable young man.
 ---
 
+----------
+#### **2026**
+##### **2026-01**
+Delighted to share that I’ve been nominated as a candidate for the 2026 SoLAR Executive Committee Student Member position. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
 
 ----------
 #### **2025**

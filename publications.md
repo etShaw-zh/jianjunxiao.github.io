@@ -23,7 +23,11 @@ subtitle: What I've been up to in the academic world
 ##### **2026**
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
 
+![REM26](/assets/img/photos/2026/REM26.png)
+
 > **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted). (No. arXiv:2512.13061). arXiv. [https://doi.org/10.48550/arXiv.2512.13061](https://doi.org/10.48550/arXiv.2512.13061){:target="_blank"}
+
+![LAK26](/assets/img/photos/2026/LAK26.png)
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}
@@ -122,10 +126,10 @@ subtitle: What I've been up to in the academic world
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
 
 ##### **Journal Reviewer**
-> **2021 -**, SSCI journal reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**, **[the journal of Open Source Software](https://joss.theoj.org/about){:target="_blank"}**, **[Computers & Education](https://www.sciencedirect.com/journal/computers-and-education/about/insights){:target="_blank"}**, **[Scientific Reports](https://www.nature.com/srep/about){:target="_blank"}**, **[BMC Medical Education](https://link.springer.com/journal/12909/aims-and-scope){:target="_blank"}** and **[BMC Psychology](https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX){:target="_blank"}**.
+> **2021 -**, Journal reviewer for the journal **[Interactive Learning Environments](https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope){:target="_blank"}**, the journal **[Information, Communication & Society](https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope){:target="_blank"}**, **[the journal of Open Source Software](https://joss.theoj.org/about){:target="_blank"}**, **[Computers & Education](https://www.sciencedirect.com/journal/computers-and-education/about/insights){:target="_blank"}**, **[Scientific Reports](https://www.nature.com/srep/about){:target="_blank"}**, **[BMC Medical Education](https://link.springer.com/journal/12909/aims-and-scope){:target="_blank"}**, **[Discover Education](https://link.springer.com/journal/44217/aims-and-scope){:target="_blank"}**, and **[BMC Psychology](https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX){:target="_blank"}**.
 
 ##### **Editorial Board Member**
-> **2025 -**, Editorial Board Member of the journal **[Contemporary Education and Teaching Research](https://ojs.bonfuturepress.com/index.php/CETR/editorial_board#:~:text=Xiao%20Jianjun){:target="_blank"}**.
+> **2025**, Editorial Board Member of the journal **[Contemporary Education and Teaching Research](https://ojs.bonfuturepress.com/index.php/CETR/editorial_board#:~:text=Xiao%20Jianjun){:target="_blank"}**.
 
 ------------------------
 > *Notes: † = Corresponding author, ☨ = Oral Presentation*
