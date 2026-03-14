@@ -19,7 +19,7 @@ subtitle: What I've been up to in the academic world
 > Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.-->
 
 ##### **2026**
-> Wang, C., Xu, Y., & **Xiao, J.**, **Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory**. _Educational Technology & Society_ _(SSCI Q1)_, (accepted)
+> Wang, C., Xu, Y., & **Xiao, J.** (2026). **Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory**. _Educational Technology & Society_ _(SSCI Q1)_, (accepted)
 
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
 
