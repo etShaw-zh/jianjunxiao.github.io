@@ -7,7 +7,9 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ----------
 #### **2026**
 ##### **2026-01**
-Delighted to share that I’ve been nominated as a candidate for the 2026 SoLAR Executive Committee Student Member position. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
+Delighted to share that I’ve been nominated as a candidate for the 2026 - 2027 SoLAR Executive Committee Student Member. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
+
+![SoLAR Executive Committee Nominees](/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png){:height="400px" width="700px"}
 
 ----------
 #### **2025**
