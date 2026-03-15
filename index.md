@@ -60,8 +60,8 @@ Since 2019, I have been responsible for the design and development of the **[cMO
   <img src="https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io"  alt="Visitors">
 </p> -->
 
-<div style="text-align: center; width: 80%;">
+<div style="text-align: center;">
   <a href="https://info.flagcounter.com/hnzv">
-    <img src="https://s01.flagcounter.com/map/hnzv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_3/flags_3/" alt="Flag Counter" border="0">
+    <img style="width: 80%;" src="https://s01.flagcounter.com/map/hnzv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_3/flags_3/" alt="Flag Counter" border="0">
   </a>
 </div>
