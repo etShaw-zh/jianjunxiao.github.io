@@ -12,13 +12,15 @@ subtitle: What I've been up to in the academic world
 <!-- ##### **Under review**
 > **Xiao, J.**, Gao, D. Emergent Learning Ecological Niches: How Social Media Affordances Shape Learners' Roles in Knowledge Ecosystems.
 
-> **Xiao, J.**, Wang, C. Designing Human-GenAI Interaction for cMOOC Discussion Facilitation: Effects of a Collaborative AI-in-the-Loop Workflow on Social and Cognitive Presence.
-
 > **Xiao, J.**, Li, L., Kong, X. & Wang, C., Does the Pedagogical Conversational Agent Promote Effective Learning in cMOOC? Insights from Integrating Social and Cognitive Presence.
 
 > Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.-->
 
 ##### **2026**
+> **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v1](https://arxiv.org/abs/2603.29285v1){:target="_blank"}
+
+![PCA](/assets/img/photos/2026/PCA.png)
+
 > Wang, C., Xu, Y., & **Xiao, J.** (2026). **Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory**. _Educational Technology & Society_ _(SSCI Q1)_, (accepted)
 
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
