@@ -17,6 +17,9 @@ subtitle: What I've been up to in the academic world
 > Chen, A., **Xiao, J.**, & Liu, H., Cognitive Offloading or Strategic Partnership? A Network Clustering Approach to Understanding Learning Analytics Dashboard-Supported Human-AI Collaboration in Learning.-->
 
 ##### **2026**
+
+> **Xiao, J.**, Long, Y. (2026). Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities. 
+
 > **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v1](https://arxiv.org/abs/2603.29285v1){:target="_blank"}
 
 ![PCA](/assets/img/photos/2026/PCA.png)
