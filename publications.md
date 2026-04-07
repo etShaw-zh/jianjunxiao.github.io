@@ -18,9 +18,9 @@ subtitle: What I've been up to in the academic world
 
 ##### **2026**
 
-> **Xiao, J.**, Long, Y. (2026). Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities. 
+> **Xiao, J.**, Long, Y. (2026). Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities. [https://arxiv.org/abs/2604.03643](https://arxiv.org/abs/2604.03643){:target="_blank"}
 
-> **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v1](https://arxiv.org/abs/2603.29285v1){:target="_blank"}
+> **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v2](https://arxiv.org/abs/2603.29285v2){:target="_blank"}
 
 ![PCA](/assets/img/photos/2026/PCA.png)
 
