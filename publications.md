@@ -7,6 +7,14 @@ subtitle: What I've been up to in the academic world
 ------------------------
 ### **Publications**
 
+#### **Preprint**
+
+> **Xiao, J.**, Long, Y. (2026). Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities. [https://arxiv.org/abs/2604.03643](https://arxiv.org/abs/2604.03643){:target="_blank"}
+
+> **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v2](https://arxiv.org/abs/2603.29285v2){:target="_blank"}
+
+![PCA](/assets/img/photos/2026/PCA.png)
+
 #### **Journal Article _(† = Corresponding author)_**
 
 <!-- ##### **Under review**
@@ -18,21 +26,11 @@ subtitle: What I've been up to in the academic world
 
 ##### **2026**
 
-> **Xiao, J.**, Long, Y. (2026). Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities. [https://arxiv.org/abs/2604.03643](https://arxiv.org/abs/2604.03643){:target="_blank"}
-
-> **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v2](https://arxiv.org/abs/2603.29285v2){:target="_blank"}
-
-![PCA](/assets/img/photos/2026/PCA.png)
-
 > Wang, C., Xu, Y., & **Xiao, J.** (2026). **Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory**. _Educational Technology & Society_ _(SSCI Q1)_, (accepted)
 
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
 
 ![REM26](/assets/img/photos/2026/REM26.png)
-
-> **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted). (No. arXiv:2512.13061). arXiv. [https://doi.org/10.48550/arXiv.2512.13061](https://doi.org/10.48550/arXiv.2512.13061){:target="_blank"}
-
-![LAK26](/assets/img/photos/2026/LAK26.png)
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}
@@ -72,7 +70,16 @@ subtitle: What I've been up to in the academic world
 ------------------------
 #### **Conference Papers _(☨ = Oral Presentation)_**
 
+##### **2026**
+
+> **肖建军**, 高灯, 欧阳中石 (2026). **人机对话学习中学生主体性与智能体主导性的行为转移模式研究——基于转移网络分析方法**. _2026年中国教育技术学术大会, 浙江, 中国_.
+
+> **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. (full research paper accepted). [https://doi.org/10.48550/arXiv.2512.13061](https://doi.org/10.48550/arXiv.2512.13061){:target="_blank"}
+
+![LAK26](/assets/img/photos/2026/LAK26.png)
+
 ##### **2025**
+
 > **肖建军**, 王辞晓 (2025) **技术可供性对cMOOC学习者知识创造的影响研究——整合异质交互网络分析与群体交流分析方法**. _中国高等教育学会学习科学研究分会2025年学术年会: WS3：复杂网络分析的前沿教育应用工作坊, 北京, 中国_. (优秀论文)
 
 <!-- > **肖建军 _☨_** (2025). **基于双重网络的cMOOC学习者交互水平自动评估及提升路径研究**. _北京师范大学2025年昌平校园博士生学科交叉创新论坛, 北京, 中国_, ([链接](https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C){:target="_blank"}). -->
@@ -125,7 +132,7 @@ subtitle: What I've been up to in the academic world
 > **China's Model and Promotion Path of Education Modernisation Driven by Education Informatisation**, _Project entrusted by the Secretariat Bureau of the Central Education Work Leading Group_.
 
 ------------------------
-#### **Academic Services**
+#### **Services**
 
 ##### **Teaching Assistant**
 > **2021.09 - 2022.01**, Teaching Assistant for the course **_"Data Management and Analysis"_** (35 Students) _Undergraduate Public Restricted Courses at Beijing Normal University_.
