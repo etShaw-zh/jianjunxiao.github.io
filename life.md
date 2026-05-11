@@ -8,7 +8,7 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 #### **2026**
 
 ##### **2026-04**
-I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I was honored to participate in the Doctoral Consortium and share our research work through both an oral presentation and a poster session. Thank you to every colleague at the conference who offered valuable feedback. ✨
+I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I was honored to participate in the Doctoral Consortium and share our research work through both an oral presentation and a poster session. Thank you to every colleague at the conference who offered valuable feedback. ✨ [news](https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF4W6BAB-oUFk-VljGWBct3pynJUwSr_1ys){:target="_blank"}  
 
 ![LAK26 Bergen](/assets/img/photos/2026/LAK26-bergen.png){:width="700px"}
 
