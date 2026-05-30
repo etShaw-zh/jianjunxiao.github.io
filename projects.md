@@ -5,6 +5,39 @@ subtitle: What's been eating away my free time
 ---
 
 ------
+#### **Competitions/Activities** 
+
+##### **Plugin of Large Language Model**
+
+* **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 🥉), General Artificial Intelligence Innovation and Application Competition (2023.11, 🥉), Hefei, China. ([LINK](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ){:target="_blank"})
+<div class="video-container">
+<video controls muted playsinline poster="/assets/img/photos/2024/08/sparkshopping-cover.png">
+  <source src="/assets/img/photos/2024/08/sparkshopping-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+<style>
+/* CSS样式 */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 的纵横比 */
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden; /* 确保圆角效果不超出容器 */
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 55%;
+  border-radius: 10px; /* 添加圆角 */
+}
+</style>
+
+
+------
 
 #### **Software development**
 
@@ -40,36 +73,4 @@ subtitle: What's been eating away my free time
 * **RCDEALLRUN** - A WeChat miniprogram for punch card management.  
 ![RCDERUN](/assets/img/photos/201912-rcderun-min.jpg){:height="50%" width="50%"}
 
-
-------
-#### **Competitions/Activities** 
-
-##### **Plugin of Large Language Model**
-
-* **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 🥉), General Artificial Intelligence Innovation and Application Competition (2023.11, 🥉), Hefei, China. ([LINK](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ){:target="_blank"})
-<div class="video-container">
-<video controls muted playsinline poster="/assets/img/photos/2024/08/sparkshopping-cover.png">
-  <source src="/assets/img/photos/2024/08/sparkshopping-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</div>
-
-<style>
-/* CSS样式 */
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 的纵横比 */
-  padding-top: 25px;
-  height: 0;
-  overflow: hidden; /* 确保圆角效果不超出容器 */
-}
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 55%;
-  height: 55%;
-  border-radius: 10px; /* 添加圆角 */
-}
-</style>
 
