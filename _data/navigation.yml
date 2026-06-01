@@ -1,0 +1,18 @@
+en:
+  - label: Publications
+    url: /publications.html
+  - label: Projects
+    url: /projects.html
+  - label: News
+    url: /life.html
+  - label: About
+    url: /aboutme.html
+zh:
+  - label: 论文
+    url: /zh/#publications
+  - label: 项目
+    url: /zh/#projects
+  - label: 动态
+    url: /zh/#news
+  - label: 关于
+    url: /zh/#about

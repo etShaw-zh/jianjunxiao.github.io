@@ -1,5 +1,16 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+{% assign active_language = page.language | default: site.language | default: "en" %}
+{% assign navigation_links = site.data.navigation[active_language] %}
+{% if active_language == "zh" %}
+  {% assign default_alternate_url = "/" %}
+  {% assign default_alternate_label = "EN" %}
+{% else %}
+  {% assign default_alternate_url = "/zh/" %}
+  {% assign default_alternate_label = "中文" %}
+{% endif %}
+{% assign alternate_url = page.alternate-url | default: default_alternate_url %}
+{% assign alternate_label = page.alternate-label | default: default_alternate_label %}
 
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
   {%- elsif site.title -%}
@@ -12,24 +23,21 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      {%- for link in site.navbar-links -%}
-        {%- if link[1].first %}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {%- for childlink in link[1] -%}
-                {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
-                {%- endfor -%}
-              {%- endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
-          </li>
-        {%- endif -%}
+      {%- for link in navigation_links -%}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.label }}</a>
+        </li>
       {%- endfor -%}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cv-dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
+        <div class="dropdown-menu" aria-labelledby="cv-dropdown-toggle">
+          <a class="dropdown-item" href="{{ '/assets/pdf/jianjun-xiao.pdf' | relative_url }}">English</a>
+          <a class="dropdown-item" href="{{ '/assets/pdf/jianjun-xiao-in-chinese.pdf' | relative_url }}">中文</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link language-switch" href="{{ alternate_url | relative_url }}">{{ alternate_label }}</a>
+      </li>
     </ul>
   </div>
 
