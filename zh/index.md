@@ -162,8 +162,7 @@ hide-page-heading: true
           <div class="project-card__meta">Python 工具包 · PyPI · DOI · 2024</div>
           <p>面向群体对话分析的 Python 工具包，提供基于 NLP 的交互指标与分析能力。</p>
           <div class="project-card__links">
-            <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">文档</a>
-            <a href="https://github.com/etShaw-zh/gca_analyzer" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">在线文档</a>
           </div>
         </div>
       </article>
@@ -174,8 +173,7 @@ hide-page-heading: true
           <div class="project-card__meta">WordPress · 16,712 用户 · 自 2019 年起</div>
           <p>面向联通主义在线课程的学习平台设计与迭代，支持协作学习社群。</p>
           <div class="project-card__links">
-            <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">访问</a>
-            <a href="https://rcde.bnu.edu.cn" target="_blank" rel="noopener">RCDE</a>
+            <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">在线访问</a>
           </div>
         </div>
       </article>
@@ -186,8 +184,7 @@ hide-page-heading: true
           <div class="project-card__meta">星火训练营 · 铜奖 · 合肥 · 2023</div>
           <p>在讯飞星火训练营完成的大模型购物助手项目，并在后续通用人工智能创新与应用竞赛中获奖。</p>
           <div class="project-card__links">
-            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">LINK</a>
-            <a href="/projects/">项目页</a>
+            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">获奖报道</a>
           </div>
         </div>
       </article>

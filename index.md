@@ -163,7 +163,6 @@ show-avatar: false
           <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
           <div class="project-card__links">
             <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
-            <a href="https://github.com/etShaw-zh/gca_analyzer" target="_blank" rel="noopener">GitHub</a>
           </div>
         </div>
       </article>
@@ -175,7 +174,6 @@ show-avatar: false
           <p>Connectivist MOOC platform design and iteration for collaborative learning communities.</p>
           <div class="project-card__links">
             <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">Visit</a>
-            <a href="https://rcde.bnu.edu.cn" target="_blank" rel="noopener">RCDE</a>
           </div>
         </div>
       </article>
@@ -186,8 +184,7 @@ show-avatar: false
           <div class="project-card__meta">Spark Training Camp · Bronze · Hefei · 2023</div>
           <p>Large language model shopping assistant developed during the iFLYTEK Spark Training Camp and later recognized in the General Artificial Intelligence Innovation and Application Competition.</p>
           <div class="project-card__links">
-            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">LINK</a>
-            <a href="/projects/">Projects</a>
+            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">Award report</a>
           </div>
         </div>
       </article>
