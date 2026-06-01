@@ -1,67 +1,157 @@
 ---
-layout: home
+layout: page
 title: Jianjun Xiao
-subtitle: PhD @ Beijing Normal University
+subtitle: PhD Candidate · Learning Analytics · AI in Education
+language: en
+alternate-url: /zh/
+alternate-label: 中文
+show-avatar: false
+full-width: true
 ---
 
-I am Jianjun Xiao, a Ph.D. candidate in Internet Education at **[Research Centre of Distance Education](https://rcde.bnu.edu.cn/){:target="_blank"} (RCDE)** at **Beijing Normal University**, under the supervision of **[Prof. Li Chen](https://fe.bnu.edu.cn/pc/cms1info/resume/51/94){:target="_blank"}**. My research interests include **_Connectivism_**, **_Online Learning Environments_**, **_Learning Analytics_**, and **_AI in Education_**, with a focus on integrating education and technology.
-
-Since 2019, I have been responsible for the design and development of the **[cMOOC platform](https://cmooc.bnu.edu.cn){:target="_blank"}**, leading the functional design and iteration based on **WordPress** and the **WeChat ecosystem**. In the fields of Learning Analytics and AI in Education, I have led and participated in multiple research and opensource projects, published several academic papers, and developed a solid research background in the educational applications of **complex network modelling**, **natural language processing (NLP)**, and **explainable AI**.
-
-<!-- <div id="particles-js"></div> -->
-<!-- <script src="https://www.yan-holtz.com/js/particles.js"></script> -->
-<!-- <script src="https://www.yan-holtz.com/js/appHome.js"></script> -->
-
-<div class="row hide-if-small-screen" style="text-align: center; padding-top: 1%; display: none">
-  <div class="col-lg-12 text-center">
-    <svg width="650" height="100">
-      <line x1="0" y1="50" x2="650" y2="50" style="stroke:black; stroke-width:1.5" />
-
-      <circle cx="150" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
-      <text text-anchor="middle" x="150" y="80" fill="black">2018</text>
-      <text font-size="13" text-anchor="middle" x="70" y="30" fill="black">Bachelor Degree</text>
-      <text style="font-style: italic" font-size="13" text-anchor="middle" x="70" y="80" fill="#808080">Linyi University</text>
-
-      <circle cx="450" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" />
-      <text text-anchor="middle" x="450" y="80" fill="black">2020</text>
-      <text font-size="13" text-anchor="middle" x="300" y="30" fill="black">Software Development</text>
-      <text style="font-style: italic" font-size="13" text-anchor="middle" x="300" y="80" fill="#808080">Research Center of Distance Education</text>
-
-      <!-- <circle cx="650" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" /> -->
-      <!-- <text text-anchor="middle" x="650" y="80" fill="black">2023</text> -->
-      <text font-size="13" text-anchor="middle" x="550" y="30" fill="black">Master Degree</text>
-      <text style="font-style: italic" font-size="13" text-anchor="middle" x="550" y="80" fill="#808080">Beijing Normal University</text>
-
-      <!-- <circle cx="850" cy="50" r="10" stroke="#f8f9fa" stroke-width="6" fill="#69b3a2" /> -->
-      <!-- <text text-anchor="middle" x="850" y="80" fill="black">2023</text> -->
-      <!-- <text font-size="13" text-anchor="middle" x="750" y="30" fill="black">PhD degree</text> -->
-      <!-- <text style="font-style: italic" font-size="13" text-anchor="middle" x="750" y="80" fill="#808080">Beijing Normal University</text> -->
-
-     <!-- <text font-size="13" text-anchor="middle" x="930" y="30" fill="black">Data - Science - Viz</text>
-      <text style="font-style: italic" font-size="13" text-anchor="middle" x="930" y="80"
-        fill="#808080">Freelance</text> -->
-
-    </svg>
+<div class="homepage-shell">
+  <div class="homepage-hero">
+    <div class="homepage-hero__copy">
+      <p class="homepage-hero__role">PhD Candidate · Learning Analytics · AI in Education</p>
+      <h1>Jianjun Xiao<br><span>肖建军</span></h1>
+      <p>Researching how people learn, collaborate, and create knowledge in digitally mediated environments.</p>
+      <div class="homepage-actions">
+        <a class="homepage-button" href="#publications">Selected Publications</a>
+        <a class="homepage-button homepage-button--secondary" href="/assets/pdf/jianjun-xiao.pdf">Download CV</a>
+        <a class="homepage-button homepage-button--secondary" href="mailto:et_shaw@126.com">Contact</a>
+      </div>
+    </div>
+    <img class="homepage-hero__portrait" src="/assets/img/shaw.jpg" alt="Portrait of Jianjun Xiao">
   </div>
-</div>
 
-<!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=AH8eVtgCfiPuvsbrYIjSemGUlWIjlwHxIamb405BrEc&cl=ffffff&w=a"></script> -->
-<!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=AH8eVtgCfiPuvsbrYIjSemGUlWIjlwHxIamb405BrEc"></script> -->
+  <section class="homepage-section" id="research">
+    <div class="homepage-section__header">
+      <h2>Research Focus</h2>
+      <a class="homepage-section__link" href="#publications">See publications</a>
+    </div>
+    <div class="focus-grid">
+      <article class="focus-item">
+        <h3>Learning Analytics</h3>
+        <p>Studying interaction patterns, learner roles, and evidence-driven feedback in digital learning environments.</p>
+      </article>
+      <article class="focus-item">
+        <h3>AI in Education</h3>
+        <p>Designing human-AI collaboration workflows that support reflection, facilitation, and educational decision-making.</p>
+      </article>
+      <article class="focus-item">
+        <h3>Connectivist MOOCs</h3>
+        <p>Exploring how cMOOCs and online learning communities shape participation, knowledge creation, and collaboration.</p>
+      </article>
+    </div>
+  </section>
 
-------
+  <section class="homepage-section" id="publications">
+    <div class="homepage-section__header">
+      <h2>Selected Publications</h2>
+      <a class="homepage-section__link" href="/publications.html">View all</a>
+    </div>
+    <ol class="publication-list">
+      <li class="publication-item">
+        <div class="publication-item__year">2026</div>
+        <div>
+          <div>Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities.</div>
+          <div class="publication-item__meta">Preprint · arXiv · <a href="https://arxiv.org/abs/2604.03643" target="_blank" rel="noopener">arXiv</a></div>
+        </div>
+      </li>
+      <li class="publication-item">
+        <div class="publication-item__year">2026</div>
+        <div>
+          <div>Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence.</div>
+          <div class="publication-item__meta">Preprint · arXiv · <a href="https://arxiv.org/abs/2603.29285v2" target="_blank" rel="noopener">arXiv</a></div>
+        </div>
+      </li>
+      <li class="publication-item">
+        <div class="publication-item__year">2026</div>
+        <div>
+          <div>Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.</div>
+          <div class="publication-item__meta">Educational Technology &amp; Society · accepted</div>
+        </div>
+      </li>
+    </ol>
+  </section>
 
-![TheClimbers202009](/assets/img/photos/TheClimbers-202009.png "TheClimbers202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }
+  <section class="homepage-section" id="projects">
+    <div class="homepage-section__header">
+      <h2>Featured Projects</h2>
+      <a class="homepage-section__link" href="/projects.html">See projects</a>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer results dashboard">
+        <h3>GCA Analyzer</h3>
+        <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
+        <div class="project-card__links">
+          <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
+          <a href="https://github.com/etShaw-zh/gca_analyzer" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img class="project-card__media" src="/assets/img/photos/cmooc_platform.jpg" alt="cMOOC platform homepage">
+        <h3>cMOOC Platform</h3>
+        <p>Connectivist MOOC platform design and iteration for collaborative learning communities.</p>
+        <div class="project-card__links">
+          <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">Visit</a>
+          <a href="https://rcde.bnu.edu.cn" target="_blank" rel="noopener">RCDE</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img class="project-card__media" src="/assets/img/screenshot_2.png" alt="AI Coding Officer application screenshot">
+        <h3>AICO · AI Coding Officer</h3>
+        <p>Cross-platform desktop assistant designed to support coding and text-coding workflows.</p>
+        <div class="project-card__links">
+          <a href="/aicodingofficer.html">Details</a>
+          <a href="https://xiaojianjun.cn/aicodingofficer" target="_blank" rel="noopener">Project site</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-------
+  <section class="homepage-section" id="news">
+    <div class="homepage-section__header">
+      <h2>Latest News</h2>
+      <a class="homepage-section__link" href="/life.html">All news</a>
+    </div>
+    <ul class="news-list">
+      <li class="news-item">
+        <div class="news-item__date">2026-04</div>
+        <div>
+          <div>I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference and presenting our work in the Doctoral Consortium and poster session.</div>
+          <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn update</a></div>
+        </div>
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2026-01</div>
+        <div>
+          <div>Honored to be nominated as a candidate for the 2026 - 2027 SoLAR Executive Committee Student Member.</div>
+          <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">Nominees announcement</a></div>
+        </div>
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2025-11</div>
+        <div>
+          <div>Projects on AI for learning and the cMOOC platform received recognition in national innovation competitions and public broadcasts.</div>
+          <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">Competition coverage</a></div>
+        </div>
+      </li>
+    </ul>
+  </section>
 
-<!-- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io){:style="visibility: hidden;" } -->
-
-<!-- <p align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=etShaw-zh.jianjunxiao.github.io"  alt="Visitors">
-</p> -->
-
-<div style="text-align: center;">
-  <a href="https://info.flagcounter.com/hnzv">
-    <img style="width: 80%;" src="https://s01.flagcounter.com/map/hnzv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_3/flags_3/" alt="Flag Counter" border="0">
-  </a>
+  <section class="homepage-section" id="about">
+    <div class="homepage-section__header">
+      <h2>About</h2>
+      <a class="homepage-section__link" href="/assets/pdf/jianjun-xiao.pdf">CV PDF</a>
+    </div>
+    <p>I am a PhD candidate at the Research Centre of Distance Education, Beijing Normal University. My work focuses on learning analytics, AI-supported education, and the design of online learning communities.</p>
+    <div class="homepage-actions">
+      <a class="homepage-button" href="mailto:et_shaw@126.com">Email</a>
+      <a class="homepage-button homepage-button--secondary" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="homepage-button homepage-button--secondary" href="https://orcid.org/0000-0003-0000-9630" target="_blank" rel="noopener">ORCID</a>
+      <a class="homepage-button homepage-button--secondary" href="https://github.com/etShaw-zh" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
 </div>
