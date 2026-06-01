@@ -3,16 +3,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="img/ico" href="/assets/img/favicon.jpg" />
 
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?9486655509e82378c17f910494394501";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
@@ -135,8 +125,10 @@
   {% else %}
   <meta name="twitter:card" content="summary">
   {% endif %}
+  {% if site.social-network-links.twitter %}
   <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
   <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
+  {% endif %}
 
   <meta property="twitter:title" content="{{ title }}">
   <meta property="twitter:description" content="{{ description }}">
