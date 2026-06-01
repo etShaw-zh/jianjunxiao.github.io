@@ -170,7 +170,7 @@ Xiao, J. (2024). AICO: An artificial intelligence text-coding officer with integ
 ```bibtex
 @software{jianjun_xiao_2024_14227645,
   author       = {Jianjun Xiao},
-  title        = {{AICO: An artificial intelligence text-coding officer with integrated classifiers}},
+  title        = {AICO: An artificial intelligence text-coding officer with integrated classifiers},
   month        = nov,
   year         = 2024,
   publisher    = {Zenodo},

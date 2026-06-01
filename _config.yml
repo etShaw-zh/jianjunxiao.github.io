@@ -248,12 +248,14 @@ defaults:
 exclude:
   - CHANGELOG.md
   - CNAME
+  - .bundle/
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - screenshot.png
   - docs/
+  - vendor/
 
 plugins:
   - jekyll-paginate
