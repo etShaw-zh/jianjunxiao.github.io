@@ -13,7 +13,7 @@ I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I
 ![LAK26 Bergen](/assets/img/photos/2026/LAK26-bergen.png){:width="700px"}
 
 ##### **2026-01**
-Delighted to share that I’ve been nominated as a candidate for the 2026 - 2027 SoLAR Executive Committee Student Member. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
+Delighted to share that I’ve been nominated as a candidate for the SoLAR Executive Committee Student Member. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
 
 ![SoLAR Executive Committee Nominees](/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png){:height="500px" width="700px"}
 

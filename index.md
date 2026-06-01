@@ -1,18 +1,19 @@
 ---
 layout: page
 title: Jianjun Xiao
-subtitle: PhD Candidate · Learning Analytics · AI in Education
+subtitle: PhD Candidate @ Beijing Normal University
 language: en
 alternate-url: /zh/
 alternate-label: 中文
-show-avatar: false
 full-width: true
+hide-page-heading: true
+show-avatar: false
 ---
 
 <div class="homepage-shell">
   <div class="homepage-hero">
     <div class="homepage-hero__copy">
-      <p class="homepage-hero__role">PhD Candidate · Learning Analytics · AI in Education</p>
+      <p class="homepage-hero__role">Connectivist MOOC · Learning Analytics · AI in Education</p>
       <h1>Jianjun Xiao<br><span>肖建军</span></h1>
       <p>Researching how people learn, collaborate, and create knowledge in digitally mediated environments.</p>
       <div class="homepage-actions">
@@ -21,7 +22,7 @@ full-width: true
         <a class="homepage-button homepage-button--secondary" href="mailto:et_shaw@126.com">Contact</a>
       </div>
     </div>
-    <img class="homepage-hero__portrait" src="/assets/img/shaw.jpg" alt="Portrait of Jianjun Xiao">
+    <img class="homepage-hero__portrait" src="/assets/img/jianjunxiao-hero.jpg" alt="Portrait of Jianjun Xiao">
   </div>
 
   <section class="homepage-section" id="research">
@@ -45,113 +46,151 @@ full-width: true
     </div>
   </section>
 
-  <section class="homepage-section" id="publications">
+  <section class="homepage-section" id="news">
+    <div class="homepage-section__header">
+      <h2>Latest News</h2>
+      <a class="homepage-section__link" href="/life/">All news</a>
+    </div>
+    <ul class="news-list">
+      <li class="news-item">
+        <div class="news-item__date">2026-04</div>
+        <div class="news-item__content">
+          <div>I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference and presenting our work in the Doctoral Consortium and poster session.</div>
+          <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn update</a></div>
+        </div>
+        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.png" alt="LAK26 Bergen thumbnail">
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2026-01</div>
+        <div class="news-item__content">
+          <div>Honored to be nominated as a candidate for the SoLAR Executive Committee Student Member.</div>
+          <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">Nominees announcement</a></div>
+        </div>
+        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png" alt="SoLAR executive committee nominees thumbnail">
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2025-11</div>
+        <div class="news-item__content">
+          <div>Projects on AI for learning and the cMOOC platform received recognition in national innovation competitions and public broadcasts.</div>
+          <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">Competition coverage</a></div>
+        </div>
+        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.png" alt="AI for Learning thumbnail">
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2025-11</div>
+        <div class="news-item__content">
+          <div>I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project “cMOOC — The Third-Generation Online Learning Platform” was awarded First Prize 🥇. The award ceremony was held at the China National Convention CenterⅡ, and highlights from the final round were broadcast on China Education Television (CETV).</div>
+          <div class="publication-item__meta">
+            <a href="https://www.caet.org.cn/site/content/1031.html" target="_blank" rel="noopener">Award report</a>
+            &nbsp;·&nbsp;
+            <a href="https://m.cetv.cn/p/568090.html" target="_blank" rel="noopener">CETV broadcast</a>
+          </div>
+        </div>
+        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.png" alt="cMOOC platform thumbnail">
+      </li>
+      <li class="news-item">
+        <div class="news-item__date">2025-09</div>
+        <div class="news-item__content">
+          <div>I was invited by the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on AI agent technology and its pedagogical applications.</div>
+          <div class="publication-item__meta"><a href="https://www.gdmu.edu.cn/info/1488/58832.htm" target="_blank" rel="noopener">Talk announcement</a></div>
+        </div>
+        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.png" alt="Faculty development presentation thumbnail">
+      </li>
+    </ul>
+  </section>
+
+  <section class="homepage-section homepage-section--featured" id="publications">
     <div class="homepage-section__header">
       <h2>Selected Publications</h2>
-      <a class="homepage-section__link" href="/publications.html">View all</a>
+      <a class="homepage-section__link" href="/publications/">View all</a>
     </div>
-    <ol class="publication-list">
-      <li class="publication-item">
-        <div class="publication-item__year">2026</div>
-        <div>
-          <div>Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities.</div>
-          <div class="publication-item__meta">Preprint · arXiv · <a href="https://arxiv.org/abs/2604.03643" target="_blank" rel="noopener">arXiv</a></div>
+    <div class="selected-paper-grid">
+      <article class="selected-paper-card">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.png" alt="LAK26 in Bergen">
+        <div class="selected-paper-card__body">
+          <h3 class="selected-paper-card__title">Collaborative Problem Solving Dynamics from Group Discourse</h3>
+          <p class="selected-paper-card__authors">Xiao, J., Wang, C., Zhang, W. (2026)</p>
+          <ul class="selected-paper-card__meta">
+            <li>Venue · LAK26 · Bergen, Norway · Full research paper</li>
+          </ul>
+          <div class="selected-paper-card__links">
+            <a href="https://doi.org/10.1145/3785022.3785049" target="_blank" rel="noopener">DOI</a>
+          </div>
         </div>
-      </li>
-      <li class="publication-item">
-        <div class="publication-item__year">2026</div>
-        <div>
-          <div>Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence.</div>
-          <div class="publication-item__meta">Preprint · arXiv · <a href="https://arxiv.org/abs/2603.29285v2" target="_blank" rel="noopener">arXiv</a></div>
+      </article>
+
+      <article class="selected-paper-card">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.png" alt="Interaction patterns visualization">
+        <div class="selected-paper-card__body">
+          <h3 class="selected-paper-card__title">Interaction Patterns in Open Learning Environments</h3>
+          <p class="selected-paper-card__authors">Xiao, J. (2026)</p>
+          <ul class="selected-paper-card__meta">
+            <li>Journal · Interactive Learning Environments · SSCI Q1 · online first</li>
+          </ul>
+          <div class="selected-paper-card__links">
+            <a href="https://doi.org/10.1080/10494820.2026.2632766" target="_blank" rel="noopener">DOI</a>
+          </div>
         </div>
-      </li>
-      <li class="publication-item">
-        <div class="publication-item__year">2026</div>
-        <div>
-          <div>Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory.</div>
-          <div class="publication-item__meta">Educational Technology &amp; Society · accepted</div>
+      </article>
+
+      <article class="selected-paper-card">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/PCA.png" alt="Collaborative AI-in-the-loop workflow">
+        <div class="selected-paper-card__body">
+          <h3 class="selected-paper-card__title">Human-GenAI Interaction for cMOOC Discussion Facilitation</h3>
+          <p class="selected-paper-card__authors">Xiao, J., &amp; Wang, C. (2026)</p>
+          <ul class="selected-paper-card__meta">
+            <li>Preprint · cMOOC discussion facilitation · arXiv</li>
+          </ul>
+          <div class="selected-paper-card__links">
+            <a href="https://arxiv.org/abs/2603.29285v2" target="_blank" rel="noopener">arXiv</a>
+          </div>
         </div>
-      </li>
-    </ol>
+      </article>
+    </div>
   </section>
 
   <section class="homepage-section" id="projects">
     <div class="homepage-section__header">
       <h2>Featured Projects</h2>
-      <a class="homepage-section__link" href="/projects.html">See projects</a>
+      <a class="homepage-section__link" href="/projects/">See projects</a>
     </div>
     <div class="project-grid">
       <article class="project-card">
         <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer results dashboard">
-        <h3>GCA Analyzer</h3>
-        <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
-        <div class="project-card__links">
-          <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
-          <a href="https://github.com/etShaw-zh/gca_analyzer" target="_blank" rel="noopener">GitHub</a>
+        <div class="project-card__body">
+          <h3>GCA Analyzer</h3>
+          <div class="project-card__meta">Python package · PyPI · DOI · 2024</div>
+          <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
+          <div class="project-card__links">
+            <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
+            <a href="https://github.com/etShaw-zh/gca_analyzer" target="_blank" rel="noopener">GitHub</a>
+          </div>
         </div>
       </article>
       <article class="project-card">
         <img class="project-card__media" src="/assets/img/photos/cmooc_platform.jpg" alt="cMOOC platform homepage">
-        <h3>cMOOC Platform</h3>
-        <p>Connectivist MOOC platform design and iteration for collaborative learning communities.</p>
-        <div class="project-card__links">
-          <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">Visit</a>
-          <a href="https://rcde.bnu.edu.cn" target="_blank" rel="noopener">RCDE</a>
+        <div class="project-card__body">
+          <h3>cMOOC Platform</h3>
+          <div class="project-card__meta">WordPress · 16,712 users · since 2019</div>
+          <p>Connectivist MOOC platform design and iteration for collaborative learning communities.</p>
+          <div class="project-card__links">
+            <a href="https://cmooc.bnu.edu.cn" target="_blank" rel="noopener">Visit</a>
+            <a href="https://rcde.bnu.edu.cn" target="_blank" rel="noopener">RCDE</a>
+          </div>
         </div>
       </article>
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/screenshot_2.png" alt="AI Coding Officer application screenshot">
-        <h3>AICO · AI Coding Officer</h3>
-        <p>Cross-platform desktop assistant designed to support coding and text-coding workflows.</p>
-        <div class="project-card__links">
-          <a href="/aicodingofficer.html">Details</a>
-          <a href="https://xiaojianjun.cn/aicodingofficer" target="_blank" rel="noopener">Project site</a>
+        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.png" alt="Spark Shopping project cover">
+        <div class="project-card__body">
+          <h3>Spark Shopping</h3>
+          <div class="project-card__meta">Spark Training Camp · Bronze · Hefei · 2023</div>
+          <p>Large language model shopping assistant developed during the iFLYTEK Spark Training Camp and later recognized in the General Artificial Intelligence Innovation and Application Competition.</p>
+          <div class="project-card__links">
+            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">LINK</a>
+            <a href="/projects/">Projects</a>
+          </div>
         </div>
       </article>
-    </div>
-  </section>
-
-  <section class="homepage-section" id="news">
-    <div class="homepage-section__header">
-      <h2>Latest News</h2>
-      <a class="homepage-section__link" href="/life.html">All news</a>
-    </div>
-    <ul class="news-list">
-      <li class="news-item">
-        <div class="news-item__date">2026-04</div>
-        <div>
-          <div>I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference and presenting our work in the Doctoral Consortium and poster session.</div>
-          <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn update</a></div>
-        </div>
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2026-01</div>
-        <div>
-          <div>Honored to be nominated as a candidate for the 2026 - 2027 SoLAR Executive Committee Student Member.</div>
-          <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">Nominees announcement</a></div>
-        </div>
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-11</div>
-        <div>
-          <div>Projects on AI for learning and the cMOOC platform received recognition in national innovation competitions and public broadcasts.</div>
-          <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">Competition coverage</a></div>
-        </div>
-      </li>
-    </ul>
-  </section>
-
-  <section class="homepage-section" id="about">
-    <div class="homepage-section__header">
-      <h2>About</h2>
-      <a class="homepage-section__link" href="/assets/pdf/jianjun-xiao.pdf">CV PDF</a>
-    </div>
-    <p>I am a PhD candidate at the Research Centre of Distance Education, Beijing Normal University. My work focuses on learning analytics, AI-supported education, and the design of online learning communities.</p>
-    <div class="homepage-actions">
-      <a class="homepage-button" href="mailto:et_shaw@126.com">Email</a>
-      <a class="homepage-button homepage-button--secondary" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-      <a class="homepage-button homepage-button--secondary" href="https://orcid.org/0000-0003-0000-9630" target="_blank" rel="noopener">ORCID</a>
-      <a class="homepage-button homepage-button--secondary" href="https://github.com/etShaw-zh" target="_blank" rel="noopener">GitHub</a>
     </div>
   </section>
 </div>
