@@ -44,7 +44,7 @@
   letter-spacing: 0.12em;
   line-height: 1.4;
   margin-bottom: 1rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .homepage-hero__copy h1 {
@@ -65,10 +65,10 @@
 
 .homepage-hero__copy p {
   color: var(--muted);
-  font-size: 1.08rem;
+  /* font-size: 1.08rem;
   line-height: 1.65;
   margin-bottom: 0;
-  max-width: 650px;
+  max-width: 650px; */
 }
 
 .homepage-hero__portrait {
