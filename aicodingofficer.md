@@ -6,7 +6,7 @@ subtitle: AI coding officer, make coding ease.
 
 ----------
 
-![AI Coding Officer screenshot](/assets/img/AICO-logo.png){:height="" width="300px" style="display: block; margin: 0 auto" }
+![AI Coding Officer screenshot](/assets/img/AICO-logo.jpg){:height="" width="300px" style="display: block; margin: 0 auto" }
 
 <p align="center">
     <div align="center">
@@ -86,7 +86,7 @@ AICO is an artificial intelligence text-coding officer with integrated classifie
 
 <div class="slideshow-container">
     <div class="slides">
-        <img src="/assets/img/screenshot_2.png" style="width:800px;height: 400px;">
+        <img src="/assets/img/screenshot_2.jpg" style="width:800px;height: 400px;">
         <div class="text">Automatic Encoding</div>
     </div>
     <div class="slides">
@@ -130,7 +130,7 @@ AICO is an artificial intelligence text-coding officer with integrated classifie
     }
 </script>
 
-<!-- ![AI Coding Officer screenshot 2](/assets/img/screenshot_2.png){:height="400px" width="600px" style="display: block; margin: 0 auto" }
+<!-- ![AI Coding Officer screenshot 2](/assets/img/screenshot_2.jpg){:height="400px" width="600px" style="display: block; margin: 0 auto" }
 
 ![AI Coding Officer screenshot](/assets/img/screenshot.jpg){:height="400px" width="600px" style="display: block; margin: 0 auto" } -->
 
@@ -192,4 +192,4 @@ Xiao, J. (2024). AICO: An artificial intelligence text-coding officer with integ
 
 - **Address:** Room 1005A, Block C, Science and Technology Building, Beijing Normal University
 
-![my info](/assets/img//shaw.png){:height="200px" width="400px" style="display: block; margin: 0 auto" }
+![my info](/assets/img/shaw.png){:height="200px" width="400px" style="display: block; margin: 0 auto" }

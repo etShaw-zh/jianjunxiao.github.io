@@ -3,7 +3,7 @@ layout: post
 title: Notes on Research Methods
 subtitle: Excerpt from Research Methods of Educational Technology by Prof. Kedong Li
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/thumb.jpg
 share-img: /assets/img/path.jpg
 tags: [Reading Notes, Research Methods]
 comments: true

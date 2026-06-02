@@ -28,13 +28,13 @@
           <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.label }}</a>
         </li>
       {%- endfor -%}
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="cv-dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
         <div class="dropdown-menu" aria-labelledby="cv-dropdown-toggle">
           <a class="dropdown-item" href="{{ '/assets/pdf/jianjun-xiao.pdf' | relative_url }}">English</a>
           <a class="dropdown-item" href="{{ '/assets/pdf/jianjun-xiao-in-chinese.pdf' | relative_url }}">中文</a>
         </div>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link language-switch" href="{{ alternate_url | relative_url }}">{{ alternate_label }}</a>
       </li>

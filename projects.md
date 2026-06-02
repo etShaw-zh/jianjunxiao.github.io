@@ -11,7 +11,7 @@ subtitle: What's been eating away my free time
 
 * **Spark Shopping** - Large Language Models for Your Shopping. iFLYTEK Spark Training Camp (2023.08, 🥉), General Artificial Intelligence Innovation and Application Competition (2023.11, 🥉), Hefei, China. ([LINK](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ){:target="_blank"})
 <div class="video-container">
-<video controls muted playsinline poster="/assets/img/photos/2024/08/sparkshopping-cover.png">
+<video controls muted playsinline poster="/assets/img/photos/2024/08/sparkshopping-cover.jpg">
   <source src="/assets/img/photos/2024/08/sparkshopping-demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -46,11 +46,11 @@ subtitle: What's been eating away my free time
 [![PyPI version](https://badge.fury.io/py/gca-analyzer.svg)](https://pypi.org/project/gca-analyzer) [![support-version](https://img.shields.io/pypi/pyversions/gca-analyzer)](https://img.shields.io/pypi/pyversions/gca-analyzer) [![license](https://img.shields.io/github/license/etShaw-zh/gca_analyzer)](https://github.com/etShaw-zh/gca_analyzer/blob/master/LICENSE) [![commit](https://img.shields.io/github/last-commit/etShaw-zh/gca_analyzer)](https://github.com/etShaw-zh/gca_analyzer/commits/master) [![flake8](https://github.com/etShaw-zh/gca_analyzer/workflows/lint/badge.svg)](https://github.com/etShaw-zh/gca_analyzer/actions?query=workflow%3ALint) 
 ![Tests](https://github.com/etShaw-zh/gca_analyzer/actions/workflows/python-test.yml/badge.svg) [![Coverage Status](https://codecov.io/gh/etShaw-zh/gca_analyzer/branch/main/graph/badge.svg?token=GLAVYYCD9L)](https://codecov.io/gh/etShaw-zh/gca_analyzer) [![Documentation Status](https://readthedocs.org/projects/gca-analyzer/badge/?version=latest)](https://gca-analyzer.readthedocs.io/en/latest/?badge=latest) [![PyPI Downloads](https://static.pepy.tech/badge/gca-analyzer)](https://pepy.tech/projects/gca-analyzer) [![PyPI Downloads](https://static.pepy.tech/badge/gca-analyzer/month)](https://pepy.tech/projects/gca-analyzer) [![DOI](https://zenodo.org/badge/915395583.svg)](https://doi.org/10.5281/zenodo.14647250)  
 ![GCAAnalyzer](/assets/img/gca_results.jpg){:height="50%" width="50%"}
-![GCAAnalyzer](/assets/img/vizs.png){:height="50%" width="50%"}
+![GCAAnalyzer](/assets/img/vizs.jpg){:height="50%" width="50%"}
 
 ##### **Applications**
 * **[AICodingOffier](https://xiaojianjun.cn/aicodingofficer){:target="_blank"} (AICO)** - AICO is a state-of-the-art AI coding assistant designed to boost the efficiency of text encoding. This app is built on pyqt6 and works on Windows, macOS and Linux.  
-![AICodingOffier](/assets/img/screenshot_2.png){:height="50%" width="50%"}  
+![AICodingOffier](/assets/img/screenshot_2.jpg){:height="50%" width="50%"}  
 
 ------
 ##### **Websites**
@@ -60,7 +60,7 @@ subtitle: What's been eating away my free time
 ------
 ##### **Chrome Extension**
 * **[Bnu-consumption-pattern](https://github.com/etShaw-zh/bnu-consumption-pattern){:target="_blank"}** - Plug-in for mining consumption patterns for students at Beijing Normal University.  
-![Bnu-consumption-pattern](/assets/img/photos/Bnu-consuption-pattern.png){:height="50%" width="50%"}
+![Bnu-consumption-pattern](/assets/img/photos/Bnu-consuption-pattern.jpg){:height="50%" width="50%"}
 
 ------
 ##### **WeChat miniprogram**

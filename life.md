@@ -10,28 +10,28 @@ subtitle: A skinny adolescent had turned into a confident presentable young man.
 ##### **2026-04**
 I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I was honored to participate in the Doctoral Consortium and share our research work through both an oral presentation and a poster session. Thank you to every colleague at the conference who offered valuable feedback. ✨ [news](https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF4W6BAB-oUFk-VljGWBct3pynJUwSr_1ys){:target="_blank"}  
 
-![LAK26 Bergen](/assets/img/photos/2026/LAK26-bergen.png){:width="700px"}
+![LAK26 Bergen](/assets/img/photos/2026/LAK26-bergen.jpg){:width="700px"}
 
 ##### **2026-01**
 Delighted to share that I’ve been nominated as a candidate for the SoLAR Executive Committee Student Member. [news](https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/#:~:text=Jianjun%20Xiao){:target="_blank"}
 
-![SoLAR Executive Committee Nominees](/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png){:height="500px" width="700px"}
+![SoLAR Executive Committee Nominees](/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg){:height="500px" width="700px"}
 
 ----------
 #### **2025**
 ##### **2025-11**
 I participated in the [2nd Global Digital Intelligence Education Innovation Competition (AI for Learning Track)](https://diidea.pku.edu.cn/competition2025/index_en.html){:target="_blank"}, and my project _"DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences_" received the **Bronze Award** and the **Feishu Special Award**. [news](https://diidea.pku.edu.cn/competition2025/learning.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"} 
 
-![AI for Learning](/assets/img/photos/2025/AI4Learning.png){:width="700px"}
+![AI for Learning](/assets/img/photos/2025/AI4Learning.jpg){:width="700px"}
 
 I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project _“cMOOC — The Third-Generation Online Learning Platform”_ was awarded **First Prize 🥇**. 
 The award ceremony was held at the China National Convention CenterⅡ, and highlights from the final round were broadcast on China Education Television (CETV). [news](https://www.caet.org.cn/site/content/1031.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}, [news](https://m.cetv.cn/p/568090.html?v=1762236562491?v=1762260917725?v=1762261002459){:target="_blank"}
 
-![cMOOC Platform](/assets/img/photos/2025/cmooc_platform.png){:width="700px"}
+![cMOOC Platform](/assets/img/photos/2025/cmooc_platform.jpg){:width="700px"}
 
 ##### **2025-09**
 I am deeply honored to be invited by Director Yanfang Zhou of the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation. The session address **_“AI Agent Technology and Its Pedagogical Applications,”_** exploring its potential to transform teaching and learning practices.[news](https://www.gdmu.edu.cn/info/1488/58832.htm#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}  
-![keynote presentation](/assets/img/photos/2025/wechat_2025-09-18_171135_438.png){:height="400px" width="700px"}
+![keynote presentation](/assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg){:height="400px" width="700px"}
 
 ##### **2025-06**
 At the pre-competition training session for the "AI-Empowered Online Teaching Innovation Competition" held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms.[news](https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"},[news](https://mp.weixin.qq.com/s/olmuwEkolr1apxffDkXGzQ#:~:text=北京师范大学远程教育研究中心博士生肖建军着重介绍了智能在线学习平台的解读、知识洞平台的典型案例相关情况。){:target="_blank"}  
@@ -46,20 +46,20 @@ At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal U
 
 ##### **2024-04**
 This April, I visited Japan and gave a talk at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Collaboration between cMOOC Learners and GPT-Driven Agents," earning the "Young Scholar Award." I also enjoyed feeding deer in Nara.  
-![Japan](/assets/img/photos/2024/04/24-04-japan.png){:height="400px" width="400px"}
+![Japan](/assets/img/photos/2024/04/24-04-japan.jpg){:height="400px" width="400px"}
 
 ----------
 #### **2023**
 
 ##### **2023-11**
 This November, I volunteered at the Beijing Marathon, providing post-run stretching services. I'd already received professional training in stretching services before that.  
-![marathon volunter](/assets/img/photos/marathon.png){:height="400px" width="400px"}
+![marathon volunter](/assets/img/photos/marathon.jpg){:height="400px" width="400px"}
 
 ##### **2023-08**, **10**
 In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing third 🥉. I made new friends and grew personally.[news](https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ#:~:text=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6Thomas%20Duan%E5%9B%A2%E9%98%9F%E7%AD%89%E4%B8%89%E7%AD%89%E5%A5%96%E9%A1%B9%E7%9B%AE5%E4%BB%B6){:target="_blank"}  
 
 In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.[news](https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B){:target="_blank"}  
-![iflytek](/assets/img/photos/iflytek.png){:height="400px" width="400px"}
+![iflytek](/assets/img/photos/iflytek.jpg){:height="400px" width="400px"}
 
 
 ##### **2023-06**

@@ -58,7 +58,7 @@ show-avatar: false
           <div>I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference and presenting our work in the Doctoral Consortium and poster session.</div>
           <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn update</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.png" alt="LAK26 Bergen thumbnail">
+        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.jpg" alt="LAK26 Bergen thumbnail">
       </li>
       <li class="news-item">
         <div class="news-item__date">2026-01</div>
@@ -66,7 +66,7 @@ show-avatar: false
           <div>Honored to be nominated as a candidate for the SoLAR Executive Committee Student Member.</div>
           <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">Nominees announcement</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png" alt="SoLAR executive committee nominees thumbnail">
+        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg" alt="SoLAR executive committee nominees thumbnail">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-11</div>
@@ -74,7 +74,7 @@ show-avatar: false
           <div>Projects on AI for learning and the cMOOC platform received recognition in national innovation competitions and public broadcasts.</div>
           <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">Competition coverage</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.png" alt="AI for Learning thumbnail">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.jpg" alt="AI for Learning thumbnail">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-11</div>
@@ -86,7 +86,7 @@ show-avatar: false
             <a href="https://m.cetv.cn/p/568090.html" target="_blank" rel="noopener">CETV broadcast</a>
           </div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.png" alt="cMOOC platform thumbnail">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.jpg" alt="cMOOC platform thumbnail">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-09</div>
@@ -94,7 +94,7 @@ show-avatar: false
           <div>I was invited by the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on AI agent technology and its pedagogical applications.</div>
           <div class="publication-item__meta"><a href="https://www.gdmu.edu.cn/info/1488/58832.htm" target="_blank" rel="noopener">Talk announcement</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.png" alt="Faculty development presentation thumbnail">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg" alt="Faculty development presentation thumbnail">
       </li>
     </ul>
   </section>
@@ -106,7 +106,7 @@ show-avatar: false
     </div>
     <div class="selected-paper-grid">
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.png" alt="LAK26 in Bergen">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.jpg" alt="LAK26 in Bergen">
         <div class="selected-paper-card__body">
           <h3 class="selected-paper-card__title">Collaborative Problem Solving Dynamics from Group Discourse</h3>
           <p class="selected-paper-card__authors">Xiao, J., Wang, C., Zhang, W. (2026)</p>
@@ -120,7 +120,7 @@ show-avatar: false
       </article>
 
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.png" alt="Interaction patterns visualization">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.jpg" alt="Interaction patterns visualization">
         <div class="selected-paper-card__body">
           <h3 class="selected-paper-card__title">Interaction Patterns in Open Learning Environments</h3>
           <p class="selected-paper-card__authors">Xiao, J. (2026)</p>
@@ -134,7 +134,7 @@ show-avatar: false
       </article>
 
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/PCA.png" alt="Collaborative AI-in-the-loop workflow">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/PCA.jpg" alt="Collaborative AI-in-the-loop workflow">
         <div class="selected-paper-card__body">
           <h3 class="selected-paper-card__title">Human-GenAI Interaction for cMOOC Discussion Facilitation</h3>
           <p class="selected-paper-card__authors">Xiao, J., &amp; Wang, C. (2026)</p>
@@ -178,7 +178,7 @@ show-avatar: false
         </div>
       </article>
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.png" alt="Spark Shopping project cover">
+        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.jpg" alt="Spark Shopping project cover">
         <div class="project-card__body">
           <h3>Spark Shopping</h3>
           <div class="project-card__meta">Spark Training Camp · Bronze · Hefei · 2023</div>

@@ -13,7 +13,7 @@ subtitle: What I've been up to in the academic world
 
 > **Xiao, J.**, & Wang, C. (2026). Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence. [https://arxiv.org/abs/2603.29285v2](https://arxiv.org/abs/2603.29285v2){:target="_blank"}
 
-![PCA](/assets/img/photos/2026/PCA.png)
+![PCA](/assets/img/photos/2026/PCA.jpg)
 
 #### **Journal Article _(† = Corresponding author)_**
 
@@ -30,7 +30,7 @@ subtitle: What I've been up to in the academic world
 
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
 
-![REM26](/assets/img/photos/2026/REM26.png)
+![REM26](/assets/img/photos/2026/REM26.jpg)
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}
@@ -55,7 +55,7 @@ subtitle: What I've been up to in the academic world
 ##### **2023**
 > Wang, C., & **Xiao, J. _†_** (2023). **Who will participate in online collaborative problem solving? A longitudinal network analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–18. [https://doi.org/10.1080/10494820.2023.2266523](https://doi.org/10.1080/10494820.2023.2266523){:target="_blank"}
 
-![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.png)
+![SAOM collabortion](/assets/img/photos/2024/11/saom_collaboration.jpg)
 
 ##### **2022**
 > 王东华, 张翼然, **肖建军**, 王小凯, & 徐亚倩. (2022). **联通主义学习路径与学习者发展**. _开放学习研究_, 27(05), 27-33+42. [https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004](https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004){:target="_blank"}  
@@ -76,7 +76,7 @@ subtitle: What I've been up to in the academic world
 
 > **Xiao, J.**, Wang, C., Zhang, W. (2026). **Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model**. _16th International Conference on Learning Analytics and Knowledge (LAK26)_, Bergen, Norway. [https://doi.org/10.1145/3785022.3785049](https://doi.org/10.1145/3785022.3785049){:target="_blank"}
 
-![LAK26](/assets/img/photos/2026/LAK26.png)
+![LAK26](/assets/img/photos/2026/LAK26.jpg)
 
 ##### **2025**
 

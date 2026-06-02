@@ -13,4 +13,4 @@ alternate-label: EN
 
 ------
 
-![TheClimbers202009](/assets/img/photos/TheClimbers-202009.png "TheClimbers202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }
+![TheClimbers202009](/assets/img/photos/TheClimbers-202009.jpg "TheClimbers202009"){:height="65%" width="80%" style="display: block; margin: 0 auto" }

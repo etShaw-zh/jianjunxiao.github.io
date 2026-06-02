@@ -58,7 +58,7 @@ hide-page-heading: true
           <div>我在挪威卑尔根参加 LAK2026，并在 Doctoral Consortium 与海报环节分享研究工作。</div>
           <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn 动态</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.png" alt="LAK26 卑尔根缩略图">
+        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.jpg" alt="LAK26 卑尔根缩略图">
       </li>
       <li class="news-item">
         <div class="news-item__date">2026-01</div>
@@ -66,7 +66,7 @@ hide-page-heading: true
           <div>我很荣幸被提名为 SoLAR Executive Committee Student Member 候选人。</div>
           <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">提名公告</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.png" alt="SoLAR 候选人缩略图">
+        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg" alt="SoLAR 候选人缩略图">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-11</div>
@@ -74,7 +74,7 @@ hide-page-heading: true
           <div>围绕 AI for Learning 与 cMOOC 平台的项目在全国创新竞赛与公开传播中获得认可。</div>
           <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">赛事报道</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.png" alt="AI for Learning 缩略图">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.jpg" alt="AI for Learning 缩略图">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-11</div>
@@ -86,7 +86,7 @@ hide-page-heading: true
             <a href="https://m.cetv.cn/p/568090.html" target="_blank" rel="noopener">CETV 报道</a>
           </div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.png" alt="cMOOC 平台缩略图">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.jpg" alt="cMOOC 平台缩略图">
       </li>
       <li class="news-item">
         <div class="news-item__date">2025-09</div>
@@ -94,7 +94,7 @@ hide-page-heading: true
           <div>我受广东医科大学教务处邀请，作题为“AI Agent 技术及其教学应用”的教师发展专题报告。</div>
           <div class="publication-item__meta"><a href="https://www.gdmu.edu.cn/info/1488/58832.htm" target="_blank" rel="noopener">报告通知</a></div>
         </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.png" alt="教师发展报告缩略图">
+        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg" alt="教师发展报告缩略图">
       </li>
     </ul>
   </section>
@@ -106,9 +106,9 @@ hide-page-heading: true
     </div>
     <div class="selected-paper-grid">
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.png" alt="LAK26 会议现场">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.jpg" alt="LAK26 会议现场">
         <div class="selected-paper-card__body">
-          <h3 class="selected-paper-card__title">Group Discourse 中的协作问题解决动态</h3>
+          <h3 class="selected-paper-card__title">群体话语中的协作问题解决动态</h3>
           <p class="selected-paper-card__authors">Xiao, J., Wang, C., Zhang, W. (2026)</p>
           <ul class="selected-paper-card__meta">
             <li>会议 · LAK26 · Bergen, Norway · Full research paper</li>
@@ -120,7 +120,7 @@ hide-page-heading: true
       </article>
 
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.png" alt="互动模式研究图">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.jpg" alt="互动模式研究图">
         <div class="selected-paper-card__body">
           <h3 class="selected-paper-card__title">开放学习环境中的交互模式</h3>
           <p class="selected-paper-card__authors">Xiao, J. (2026)</p>
@@ -134,7 +134,7 @@ hide-page-heading: true
       </article>
 
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/PCA.png" alt="协同 AI-in-the-loop 工作流">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/PCA.jpg" alt="协同 AI-in-the-loop 工作流">
         <div class="selected-paper-card__body">
           <h3 class="selected-paper-card__title">面向 cMOOC 讨论促进的人机交互设计</h3>
           <p class="selected-paper-card__authors">Xiao, J., &amp; Wang, C. (2026)</p>
@@ -178,7 +178,7 @@ hide-page-heading: true
         </div>
       </article>
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.png" alt="Spark Shopping 项目封面">
+        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.jpg" alt="Spark Shopping 项目封面">
         <div class="project-card__body">
           <h3>Spark Shopping</h3>
           <div class="project-card__meta">星火训练营 · 铜奖 · 合肥 · 2023</div>
