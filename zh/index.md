@@ -44,6 +44,32 @@ hide-page-heading: true
         <p>探索 cMOOC 与在线学习社群如何影响参与、协作与知识创造。</p>
       </article>
     </div>
+    {% assign orcid_peer_reviews = site.data.orcid_peer_reviews %}
+    {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
+      <div class="research-focus-service">
+        <p class="service-intro"><strong>学术服务。</strong> 共 {{ orcid_peer_reviews.review_count }} 次审稿，覆盖 {{ orcid_peer_reviews.journal_count | default: orcid_peer_reviews.journals.size }} 本期刊。</p>
+        <ul class="service-tags" aria-label="期刊审稿列表">
+          {% for journal in orcid_peer_reviews.journals %}
+            <li><a href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-tags__label">{{ journal.title }}</span><span class="service-tags__count">{{ journal.review_count }}</span></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% else %}
+    <div class="research-focus-service">
+      <p class="service-intro"><strong>学术服务。</strong> 目前为 9 本期刊审稿。</p>
+      <ul class="service-tags" aria-label="期刊审稿列表">
+        <li><a href="https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope" target="_blank" rel="noopener"><span class="service-tags__label">Interactive Learning Environments</span><span class="service-tags__count">2</span></a></li>
+        <li><a href="https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope" target="_blank" rel="noopener"><span class="service-tags__label">Information, Communication &amp; Society</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://joss.theoj.org/about" target="_blank" rel="noopener"><span class="service-tags__label">the journal of Open Source Software</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://www.sciencedirect.com/journal/computers-and-education/about/insights" target="_blank" rel="noopener"><span class="service-tags__label">Computers &amp; Education</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://www.nature.com/srep/about" target="_blank" rel="noopener"><span class="service-tags__label">Scientific Reports</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://link.springer.com/journal/12909/aims-and-scope" target="_blank" rel="noopener"><span class="service-tags__label">BMC Medical Education</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://link.springer.com/journal/44217/aims-and-scope" target="_blank" rel="noopener"><span class="service-tags__label">Discover Education</span><span class="service-tags__count">1</span></a></li>
+        <li><a href="https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX" target="_blank" rel="noopener"><span class="service-tags__label">BMC Psychology</span><span class="service-tags__count">4</span></a></li>
+        <li><a href="https://www.nature.com/palcomms/journal-information" target="_blank" rel="noopener"><span class="service-tags__label">Humanities &amp; Social Sciences Communications</span><span class="service-tags__count">3</span></a></li>
+      </ul>
+    </div>
+    {% endif %}
   </section>
 
   <section class="homepage-section" id="news">
