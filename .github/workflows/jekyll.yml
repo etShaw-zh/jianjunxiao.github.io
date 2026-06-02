@@ -8,7 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        persist-credentials: true
     - name: Sync ORCID work stats
       run: ruby scripts/sync_orcid_work_stats.rb
       env:
@@ -19,6 +22,21 @@ jobs:
       env:
         ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
         ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
+    - name: Commit ORCID data updates
+      if: github.event_name != 'pull_request'
+      env:
+        TARGET_BRANCH: ${{ github.ref_name }}
+      run: |
+        if git diff --quiet -- _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml; then
+          echo "No ORCID data changes to commit."
+          exit 0
+        fi
+
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml
+        git commit -m "chore: sync ORCID data [skip ci]"
+        git push origin HEAD:${TARGET_BRANCH}
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
