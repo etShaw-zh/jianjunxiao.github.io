@@ -2,7 +2,7 @@ en:
   - label: News
     url: /#news
   - label: Publications
-    url: /#research
+    url: /#publications
   - label: Projects
     url: /#projects
   - label: About
@@ -11,7 +11,7 @@ zh:
   - label: 动态
     url: /zh/#news
   - label: 论文
-    url: /zh/#research
+    url: /zh/#publications
   - label: 项目
     url: /zh/#projects
   - label: 关于

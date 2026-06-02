@@ -13,7 +13,7 @@ show-avatar: false
 <div class="homepage-shell">
   <div class="homepage-hero">
     <div class="homepage-hero__copy">
-      <p class="homepage-hero__role">Connectivist MOOC · Learning Analytics · AI in Education</p>
+      <p class="homepage-hero__role">PhD Candidate @ Faculty of Education, Beijing Normal University</p>
       <h1>Jianjun Xiao<br><span>肖建军</span></h1>
       <p>Researching how people learn, collaborate, and create knowledge in digitally mediated environments.</p>
       <div class="homepage-actions">
@@ -30,6 +30,16 @@ show-avatar: false
       <h2>Research Focus</h2>
       <a class="homepage-section__link" href="#publications">See publications</a>
     </div>
+    {% assign orcid_work_stats = site.data.orcid_work_stats %}
+    {% assign work_total = orcid_work_stats.total | default: 20 %}
+    {% assign journal_articles = orcid_work_stats.journal_articles | default: 14 %}
+    {% assign conference_outputs = orcid_work_stats.conference_outputs | default: 2 %}
+    {% assign software_count = orcid_work_stats.software | default: 2 %}
+    {% assign patent_count = orcid_work_stats.patents | default: 2 %}
+    <p class="selected-publications__stats"><strong>{{ work_total }} works</strong> · {{ journal_articles }} journal articles · {{ conference_outputs }} conference papers/posters · {{ software_count }} software · {{ patent_count }} patents</p>
+    {% if orcid_work_stats and orcid_work_stats.last_synced_at %}
+      <p class="selected-publications__updated">Updated {{ orcid_work_stats.last_synced_at | date: "%Y-%m-%d %H:%M UTC" }} from ORCID</p>
+    {% endif %}
     <div class="focus-grid">
       <article class="focus-item">
         <h3>Learning Analytics</h3>
@@ -48,6 +58,9 @@ show-avatar: false
     {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
       <div class="research-focus-service">
         <p class="service-intro"><strong>Academic Service.</strong> {{ orcid_peer_reviews.review_count }} reviews across {{ orcid_peer_reviews.journal_count | default: orcid_peer_reviews.journals.size }} journals.</p>
+        {% if orcid_peer_reviews and orcid_peer_reviews.last_synced_at %}
+          <p class="selected-publications__updated">Updated {{ orcid_peer_reviews.last_synced_at | date: "%Y-%m-%d %H:%M UTC" }} from ORCID</p>
+        {% endif %}
         <ul class="service-tags" aria-label="Journal reviewer list">
           {% for journal in orcid_peer_reviews.journals %}
             <li><a href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-tags__label">{{ journal.title }}</span><span class="service-tags__count">{{ journal.review_count }}</span></a></li>
@@ -75,7 +88,7 @@ show-avatar: false
   <section class="homepage-section" id="news">
     <div class="homepage-section__header">
       <h2>Latest News</h2>
-      <a class="homepage-section__link" href="/life/">All news</a>
+      <a class="homepage-section__link" href="/life/">View all</a>
     </div>
     <ul class="news-list">
       <li class="news-item">
@@ -128,7 +141,7 @@ show-avatar: false
   <section class="homepage-section homepage-section--featured" id="publications">
     <div class="homepage-section__header">
       <h2>Selected Publications</h2>
-      <a class="homepage-section__link" href="/publications/">View all</a>
+      <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">View all</a>
     </div>
     <div class="selected-paper-grid">
       <article class="selected-paper-card">
@@ -178,14 +191,14 @@ show-avatar: false
   <section class="homepage-section" id="projects">
     <div class="homepage-section__header">
       <h2>Featured Projects</h2>
-      <a class="homepage-section__link" href="/projects/">See projects</a>
+      <a class="homepage-section__link" href="/projects/">View all</a>
     </div>
     <div class="project-grid">
       <article class="project-card">
         <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer results dashboard">
         <div class="project-card__body">
           <h3>GCA Analyzer</h3>
-          <div class="project-card__meta">Python package · PyPI · DOI · 2024</div>
+          <div class="project-card__meta">Python package · PyPI · 2024</div>
           <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
           <div class="project-card__links">
             <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
@@ -218,6 +231,9 @@ show-avatar: false
   </section>
 
   <section class="homepage-section" id="visitors">
+    <div class="homepage-section__header">
+      <h2>Flag Map</h2>
+    </div>
     <div style="text-align: center;">
       <a href="https://info.flagcounter.com/hnzv">
         <img style="width: 100%;" src="https://s01.flagcounter.com/map/hnzv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_3/flags_3/" alt="Flag Counter" border="0">

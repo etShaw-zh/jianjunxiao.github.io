@@ -271,6 +271,23 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.selected-publications__stats {
+  color: var(--muted);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  margin: 0 0 0.9rem;
+}
+
+.selected-publications__updated {
+  color: var(--muted);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  margin: -0.45rem 0 0.9rem;
+}
+
 .selected-paper-card {
   background: var(--surface);
   border: 1px solid var(--border);

@@ -13,7 +13,7 @@ hide-page-heading: true
 <div class="homepage-shell">
   <div class="homepage-hero">
     <div class="homepage-hero__copy">
-      <p class="homepage-hero__role">cMOOC · 学习分析 · 人工智能教育应用</p>
+      <p class="homepage-hero__role">博士研究生 @ 北京师范大学 · 教育学部</p>
       <h1>肖建军<br><span>Jianjun Xiao</span></h1>
       <p>关注数字化学习环境中的学习、协作与知识创造，研究如何通过数据与人工智能支持教育实践。</p>
       <div class="homepage-actions">
@@ -30,13 +30,23 @@ hide-page-heading: true
       <h2>研究方向</h2>
       <a class="homepage-section__link" href="#publications">查看论文</a>
     </div>
+    {% assign orcid_work_stats = site.data.orcid_work_stats %}
+    {% assign work_total = orcid_work_stats.total | default: 20 %}
+    {% assign journal_articles = orcid_work_stats.journal_articles | default: 14 %}
+    {% assign conference_outputs = orcid_work_stats.conference_outputs | default: 2 %}
+    {% assign software_count = orcid_work_stats.software | default: 2 %}
+    {% assign patent_count = orcid_work_stats.patents | default: 2 %}
+    <p class="selected-publications__stats"><strong>共 {{ work_total }} 项成果</strong> · {{ journal_articles }} 篇期刊论文 · {{ conference_outputs }} 篇会议论文/海报 · {{ software_count }} 项软件 · {{ patent_count }} 项专利</p>
+    {% if orcid_work_stats and orcid_work_stats.last_synced_at %}
+      <p class="selected-publications__updated">更新时间 {{ orcid_work_stats.last_synced_at | date: "%Y-%m-%d %H:%M UTC" }}，数据来自 ORCID</p>
+    {% endif %}
     <div class="focus-grid">
       <article class="focus-item">
         <h3>学习分析</h3>
         <p>研究数字学习环境中的交互模式、学习角色与数据驱动反馈机制。</p>
       </article>
       <article class="focus-item">
-        <h3>人工智能教育应用</h3>
+        <h3>人工智能教育</h3>
         <p>设计人机协作流程，支持反思、促学与教育决策。</p>
       </article>
       <article class="focus-item">
@@ -48,6 +58,9 @@ hide-page-heading: true
     {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
       <div class="research-focus-service">
         <p class="service-intro"><strong>学术服务。</strong> 共 {{ orcid_peer_reviews.review_count }} 次审稿，覆盖 {{ orcid_peer_reviews.journal_count | default: orcid_peer_reviews.journals.size }} 本期刊。</p>
+        {% if orcid_peer_reviews and orcid_peer_reviews.last_synced_at %}
+          <p class="selected-publications__updated">更新时间 {{ orcid_peer_reviews.last_synced_at | date: "%Y-%m-%d %H:%M UTC" }}，数据来自 ORCID</p>
+        {% endif %}
         <ul class="service-tags" aria-label="期刊审稿列表">
           {% for journal in orcid_peer_reviews.journals %}
             <li><a href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-tags__label">{{ journal.title }}</span><span class="service-tags__count">{{ journal.review_count }}</span></a></li>
@@ -75,7 +88,7 @@ hide-page-heading: true
   <section class="homepage-section" id="news">
     <div class="homepage-section__header">
       <h2>最新动态</h2>
-      <a class="homepage-section__link" href="/life/">全部动态</a>
+      <a class="homepage-section__link" href="/life/">查看全部</a>
     </div>
     <ul class="news-list">
       <li class="news-item">
@@ -128,7 +141,7 @@ hide-page-heading: true
   <section class="homepage-section homepage-section--featured" id="publications">
     <div class="homepage-section__header">
       <h2>精选论文</h2>
-      <a class="homepage-section__link" href="/publications/">查看全部</a>
+      <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">查看全部</a>
     </div>
     <div class="selected-paper-grid">
       <article class="selected-paper-card">
@@ -178,14 +191,14 @@ hide-page-heading: true
   <section class="homepage-section" id="projects">
     <div class="homepage-section__header">
       <h2>代表项目</h2>
-      <a class="homepage-section__link" href="/projects/">查看项目</a>
+      <a class="homepage-section__link" href="/projects/">查看全部</a>
     </div>
     <div class="project-grid">
       <article class="project-card">
         <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer 结果界面">
         <div class="project-card__body">
           <h3>GCA Analyzer</h3>
-          <div class="project-card__meta">Python 工具包 · PyPI · DOI · 2024</div>
+          <div class="project-card__meta">Python 工具包 · PyPI · 2024</div>
           <p>面向群体对话分析的 Python 工具包，提供基于 NLP 的交互指标与分析能力。</p>
           <div class="project-card__links">
             <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">在线文档</a>
@@ -218,6 +231,9 @@ hide-page-heading: true
   </section>
 
   <section class="homepage-section" id="visitors">
+    <div class="homepage-section__header">
+      <h2>访客地图</h2>
+    </div>  
     <div style="text-align: center;">
       <a href="https://info.flagcounter.com/hnzv">
         <img style="width: 100%;" src="https://s01.flagcounter.com/map/hnzv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_3/flags_3/" alt="Flag Counter" border="0">

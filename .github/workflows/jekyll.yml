@@ -9,6 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Sync ORCID work stats
+      run: ruby scripts/sync_orcid_work_stats.rb
+      env:
+        ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
+        ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
     - name: Sync ORCID peer review data
       run: ruby scripts/sync_orcid_peer_reviews.rb
       env:
