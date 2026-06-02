@@ -88,53 +88,10 @@ hide-page-heading: true
   <section class="homepage-section" id="news">
     <div class="homepage-section__header">
       <h2>最新动态</h2>
-      <a class="homepage-section__link" href="/life/">查看全部</a>
+      <a class="homepage-section__link" href="/zh/life/">查看全部</a>
     </div>
     <ul class="news-list">
-      <li class="news-item">
-        <div class="news-item__date">2026-04</div>
-        <div class="news-item__content">
-          <div>我在挪威卑尔根参加 LAK2026，并在 Doctoral Consortium 与海报环节分享研究工作。</div>
-          <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn 动态</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.jpg" alt="LAK26 卑尔根缩略图">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2026-01</div>
-        <div class="news-item__content">
-          <div>我很荣幸被提名为 SoLAR Executive Committee Student Member 候选人。</div>
-          <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">提名公告</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg" alt="SoLAR 候选人缩略图">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-11</div>
-        <div class="news-item__content">
-          <div>围绕 AI for Learning 与 cMOOC 平台的项目在全国创新竞赛与公开传播中获得认可。</div>
-          <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">赛事报道</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.jpg" alt="AI for Learning 缩略图">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-11</div>
-        <div class="news-item__content">
-          <div>我代表团队参加 AI 赋能在线教学创新大赛，项目“cMOOC——第三代在线学习平台”获一等奖。颁奖典礼在国家会议中心Ⅱ举行，决赛精彩片段也在中国教育电视台（CETV）播出。</div>
-          <div class="publication-item__meta">
-            <a href="https://www.caet.org.cn/site/content/1031.html" target="_blank" rel="noopener">获奖报道</a>
-            &nbsp;·&nbsp;
-            <a href="https://m.cetv.cn/p/568090.html" target="_blank" rel="noopener">CETV 报道</a>
-          </div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.jpg" alt="cMOOC 平台缩略图">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-09</div>
-        <div class="news-item__content">
-          <div>我受广东医科大学教务处邀请，作题为“AI Agent 技术及其教学应用”的教师发展专题报告。</div>
-          <div class="publication-item__meta"><a href="https://www.gdmu.edu.cn/info/1488/58832.htm" target="_blank" rel="noopener">报告通知</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg" alt="教师发展报告缩略图">
-      </li>
+      {% include news-feed.html language=page.language limit=5 %}
     </ul>
   </section>
 

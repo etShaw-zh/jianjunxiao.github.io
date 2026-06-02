@@ -30,6 +30,7 @@ test -f zh/index.md || fail "zh/index.md must exist"
 test -f assets/css/homepage-redesign.css || fail "custom redesign stylesheet must exist"
 test -f _data/orcid_peer_reviews.yml || fail "orcid peer review data file must exist"
 test -f _data/orcid_work_stats.yml || fail "orcid work stats data file must exist"
+test -f _data/news.yml || fail "news data file must exist"
 
 assert_contains _config.yml 'url: "https://xiaojianjun.cn"'
 assert_contains _config.yml 'repository: "etShaw-zh/jianjunxiao.github.io"'
@@ -54,6 +55,7 @@ assert_contains index.md 'Featured Projects'
 assert_contains index.md 'Latest News'
 assert_contains index.md 'site.data.orcid_peer_reviews'
 assert_contains index.md 'site.data.orcid_work_stats'
+assert_contains index.md 'news-feed.html'
 assert_contains zh/index.md 'homepage-hero'
 assert_contains zh/index.md 'full-width: true'
 assert_contains zh/index.md '精选论文'
@@ -61,5 +63,8 @@ assert_contains zh/index.md '代表项目'
 assert_contains zh/index.md '最新动态'
 assert_contains zh/index.md 'site.data.orcid_peer_reviews'
 assert_contains zh/index.md 'site.data.orcid_work_stats'
+assert_contains zh/index.md 'news-feed.html'
+assert_contains life.md 'news-feed.html'
+assert_contains life.md 'mode="archive"'
 
 printf 'Homepage foundation checks passed.\n'

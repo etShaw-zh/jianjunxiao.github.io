@@ -1,0 +1,84 @@
+{% assign project_sections = site.data.projects.sections %}
+<div class="projects-archive">
+  {% for section in project_sections %}
+    {% if include.language == 'zh' %}
+      {% assign section_title = section.title_zh %}
+    {% else %}
+      {% assign section_title = section.title_en %}
+    {% endif %}
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <div>
+          <h2>{{ section_title }}</h2>
+        </div>
+      </div>
+
+      {% for group in section.groups %}
+        {% if include.language == 'zh' %}
+          {% assign group_title = group.title_zh %}
+        {% else %}
+          {% assign group_title = group.title_en %}
+        {% endif %}
+        <div class="projects-group">
+          <h3 class="projects-group__title">{{ group_title }}</h3>
+          <div class="projects-grid">
+            {% for item in group.items %}
+              {% if include.language == 'zh' %}
+                {% assign item_title = item.title_zh %}
+                {% assign item_description = item.description_zh %}
+                {% assign item_subtitle = item.subtitle_zh %}
+                {% assign media_alt = item.media.alt_zh | default: item.title_zh %}
+                {% assign media_fallback = '你的浏览器不支持视频标签。' %}
+              {% else %}
+                {% assign item_title = item.title_en %}
+                {% assign item_description = item.description_en %}
+                {% assign item_subtitle = item.subtitle_en %}
+                {% assign media_alt = item.media.alt_en | default: item.title_en %}
+                {% assign media_fallback = 'Your browser does not support the video tag.' %}
+              {% endif %}
+              <article class="project-archive-card">
+                <div class="project-archive-card__media{% if item.media.type == 'gallery' %} project-archive-card__media--gallery{% endif %}">
+                  {% if item.media.type == 'video' %}
+                    <video class="project-archive-card__video" controls muted playsinline poster="{{ item.media.poster }}">
+                      <source src="{{ item.media.src }}" type="video/mp4">
+                      {{ media_fallback }}
+                    </video>
+                  {% elsif item.media.type == 'gallery' %}
+                    <div class="project-archive-card__gallery">
+                      {% for image in item.media.images %}
+                        <img src="{{ image.src }}" alt="{% if include.language == 'zh' %}{{ image.alt_zh }}{% else %}{{ image.alt_en }}{% endif %}">
+                      {% endfor %}
+                    </div>
+                  {% else %}
+                    <img class="project-archive-card__image" src="{{ item.media.src }}" alt="{{ media_alt }}">
+                  {% endif %}
+                </div>
+
+                <div class="project-archive-card__body">
+                  <div class="project-archive-card__eyebrow">{{ group_title }}</div>
+                  <h4 class="project-archive-card__title">
+                    {% if item_subtitle %}
+                      {{ item_title }} <span>{{ item_subtitle }}</span>
+                    {% else %}
+                      {{ item_title }}
+                    {% endif %}
+                  </h4>
+                  <p class="project-archive-card__desc">
+                    {{ item_description }}
+                  </p>
+                  {% if item.links %}
+                    <div class="project-archive-card__links">
+                      {% for link in item.links %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener">{% if include.language == 'zh' %}{{ link.label_zh }}{% else %}{{ link.label_en }}{% endif %}</a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+  {% endfor %}
+</div>

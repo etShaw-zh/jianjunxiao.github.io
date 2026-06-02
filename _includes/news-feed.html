@@ -1,0 +1,71 @@
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+
+{% if include.mode == 'archive' %}
+  <div class="news-archive">
+  {% assign current_year = nil %}
+  {% assign current_month = nil %}
+  {% for item in news_items %}
+    {% assign item_year = item.date | slice: 0, 4 %}
+    {% assign item_month = item.date | slice: 0, 7 %}
+    {% if item_year != current_year %}
+      {% unless forloop.first %}</section>{% endunless %}
+      <section class="news-archive-year">
+      <h3 class="news-archive-year__title">{{ item_year }}</h3>
+    {% assign current_year = item_year %}
+    {% assign current_month = nil %}
+    {% endif %}
+    {% if item_month != current_month %}
+    <h4 class="news-archive-month__title">{{ item_month }}</h4>
+    {% assign current_month = item_month %}
+    {% endif %}
+<article class="news-archive-entry{% if item.pinned %} news-archive-entry--pinned{% endif %}">
+  <div class="news-archive-entry__body">
+    <div class="news-archive-entry__text">
+      {% if include.language == 'zh' %}
+        {{ item.body_zh | markdownify }}
+      {% else %}
+        {{ item.body_en | markdownify }}
+      {% endif %}
+    </div>
+    {% if item.links %}
+      <div class="publication-item__meta">
+        {% for link in item.links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener">{% if include.language == 'zh' %}{{ link.label_zh }}{% else %}{{ link.label_en }}{% endif %}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+    {% if item.image %}
+    <img class="news-archive-entry__thumb" src="{{ item.image }}" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}">
+  {% endif %}
+</article>
+  {% if forloop.last %}</section>{% endif %}
+{% endfor %}
+  </div>
+{% else %}
+  {% assign news_items = news_items | slice: 0, include.limit %}
+  {% for item in news_items %}
+  <li class="news-item{% if item.pinned %} news-item--pinned{% endif %}">
+    <div class="news-item__date">{{ item.date }}</div>
+    <div class="news-item__content">
+      <div>
+        {% if include.language == 'zh' %}
+          {{ item.body_zh }}
+        {% else %}
+          {{ item.body_en }}
+        {% endif %}
+      </div>
+      {% if item.links %}
+        <div class="publication-item__meta">
+          {% for link in item.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{% if include.language == 'zh' %}{{ link.label_zh }}{% else %}{{ link.label_en }}{% endif %}</a>{% unless forloop.last %}&nbsp;·&nbsp;{% endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    {% if item.image %}
+      <img class="news-item__thumb" src="{{ item.image }}" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}"{% if item.image_width %} style="width: {{ item.image_width }};"{% endif %}{% if item.image_height %} height="{{ item.image_height }}" {% endif %}>
+    {% endif %}
+  </li>
+  {% endfor %}
+{% endif %}

@@ -91,50 +91,7 @@ show-avatar: false
       <a class="homepage-section__link" href="/life/">View all</a>
     </div>
     <ul class="news-list">
-      <li class="news-item">
-        <div class="news-item__date">2026-04</div>
-        <div class="news-item__content">
-          <div>I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference and presenting our work in the Doctoral Consortium and poster session.</div>
-          <div class="publication-item__meta"><a href="https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm" target="_blank" rel="noopener">LinkedIn update</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/LAK26-bergen.jpg" alt="LAK26 Bergen thumbnail">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2026-01</div>
-        <div class="news-item__content">
-          <div>Honored to be nominated as a candidate for the SoLAR Executive Committee Student Member.</div>
-          <div class="publication-item__meta"><a href="https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/" target="_blank" rel="noopener">Nominees announcement</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg" alt="SoLAR executive committee nominees thumbnail">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-11</div>
-        <div class="news-item__content">
-          <div>Projects on AI for learning and the cMOOC platform received recognition in national innovation competitions and public broadcasts.</div>
-          <div class="publication-item__meta"><a href="https://diidea.pku.edu.cn/competition2025/learning.html" target="_blank" rel="noopener">Competition coverage</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/AI4Learning.jpg" alt="AI for Learning thumbnail">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-11</div>
-        <div class="news-item__content">
-          <div>I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project “cMOOC — The Third-Generation Online Learning Platform” was awarded First Prize 🥇. The award ceremony was held at the China National Convention CenterⅡ, and highlights from the final round were broadcast on China Education Television (CETV).</div>
-          <div class="publication-item__meta">
-            <a href="https://www.caet.org.cn/site/content/1031.html" target="_blank" rel="noopener">Award report</a>
-            &nbsp;·&nbsp;
-            <a href="https://m.cetv.cn/p/568090.html" target="_blank" rel="noopener">CETV broadcast</a>
-          </div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/cmooc_platform.jpg" alt="cMOOC platform thumbnail">
-      </li>
-      <li class="news-item">
-        <div class="news-item__date">2025-09</div>
-        <div class="news-item__content">
-          <div>I was invited by the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on AI agent technology and its pedagogical applications.</div>
-          <div class="publication-item__meta"><a href="https://www.gdmu.edu.cn/info/1488/58832.htm" target="_blank" rel="noopener">Talk announcement</a></div>
-        </div>
-        <img class="news-item__thumb" src="/assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg" alt="Faculty development presentation thumbnail">
-      </li>
+      {% include news-feed.html language=page.language limit=5 %}
     </ul>
   </section>
 

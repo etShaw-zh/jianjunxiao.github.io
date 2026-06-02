@@ -1,0 +1,203 @@
+---
+- date: 2026-04
+  pinned: true
+  order: 1
+  title_en: LAK2026 in Bergen
+  title_zh: LAK2026 卑尔根之行
+  body_en: I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I was honored to participate in the Doctoral Consortium and share our research work through both an oral presentation and a poster session. ✨
+  body_zh: 我在挪威卑尔根参加 LAK2026，并在 Doctoral Consortium 与海报环节分享研究工作。
+  links:
+    - label_en: LinkedIn update
+      label_zh: LinkedIn 动态
+      url: https://www.linkedin.com/posts/neginm_lak26-learninganalytics-ai-activity-7455279252138053633-dazm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF4W6BAB-oUFk-VljGWBct3pynJUwSr_1ys
+  image: /assets/img/photos/2026/LAK26-bergen.jpg
+  image_alt_en: LAK26 Bergen
+  image_alt_zh: LAK26 卑尔根
+  image_width: 700px
+- date: 2026-01
+  pinned: true
+  order: 2
+  title_en: SoLAR Executive Committee nomination
+  title_zh: SoLAR Executive Committee 候选人提名
+  body_en: Delighted to share that I’ve been nominated as a candidate for the SoLAR Executive Committee Student Member.
+  body_zh: 我很荣幸被提名为 SoLAR Executive Committee Student Member 候选人。
+  links:
+    - label_en: Nominees announcement
+      label_zh: 提名公告
+      url: https://www.solaresearch.org/2026/01/2026-solar-executive-committee-nominees/
+  image: /assets/img/photos/2026/SoLAR_Executive_Committee_Nominees.jpg
+  image_alt_en: SoLAR executive committee nominees
+  image_alt_zh: SoLAR 候选人
+  image_height: 500px
+  image_width: 700px
+- date: 2025-11
+  pinned: true
+  order: 3
+  title_en: AI for Learning competition
+  title_zh: AI for Learning 竞赛
+  body_en: 'I participated in the 2nd Global Digital Intelligence Education Innovation Competition (AI for Learning Track), and my project "DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences" received the Bronze Award and the Feishu Special Award.'
+  body_zh: '我参加了第二届全球数字智能教育创新大赛（AI for Learning 赛道），项目“多维智汇：基于AI的专业学习经验共建共享平台”获得铜奖和飞书专项奖。'
+  links:
+    - label_en: Competition coverage
+      label_zh: 赛事报道
+      url: https://diidea.pku.edu.cn/competition2025/learning.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B
+  image: /assets/img/photos/2025/AI4Learning.jpg
+  image_alt_en: AI for Learning
+  image_alt_zh: AI for Learning
+  image_width: 700px
+- date: 2025-11
+  pinned: true
+  order: 4
+  title_en: cMOOC platform recognition
+  title_zh: cMOOC 平台获奖
+  body_en: I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project "cMOOC — The Third-Generation Online Learning Platform" was awarded First Prize. The award ceremony was held at the China National Convention Center II, and highlights from the final round were broadcast on China Education Television (CETV).
+  body_zh: 我代表团队参加 AI 赋能在线教学创新大赛，项目“cMOOC——第三代在线学习平台”获一等奖。颁奖典礼在国家会议中心Ⅱ举行，决赛精彩片段也在中国教育电视台（CETV）播出。
+  links:
+    - label_en: Award report
+      label_zh: 获奖报道
+      url: https://www.caet.org.cn/site/content/1031.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B
+    - label_en: CETV broadcast
+      label_zh: CETV 报道
+      url: https://m.cetv.cn/p/568090.html?v=1762236562491?v=1762260917725?v=1762261002459
+  image: /assets/img/photos/2025/cmooc_platform.jpg
+  image_alt_en: cMOOC platform
+  image_alt_zh: cMOOC 平台
+  image_width: 700px
+- date: 2025-09
+  pinned: true
+  order: 5
+  title_en: Faculty development talk at GDMU
+  title_zh: 广东医科大学教师发展报告
+  body_en: I was invited by the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on AI agent technology and its pedagogical applications.
+  body_zh: 我受广东医科大学教务处邀请，作题为“AI Agent 技术及其教学应用”的教师发展专题报告。
+  links:
+    - label_en: Talk announcement
+      label_zh: 报告通知
+      url: https://www.gdmu.edu.cn/info/1488/58832.htm
+  image: /assets/img/photos/2025/wechat_2025-09-18_171135_438.jpg
+  image_alt_en: Faculty development presentation
+  image_alt_zh: 教师发展报告
+  image_height: 400px
+  image_width: 700px
+- date: 2025-06
+  order: 6
+  title_en: Keynote at pre-competition training session
+  title_zh: 赛前培训专题报告
+  body_en: At the pre-competition training session for the AI-Empowered Online Teaching Innovation Competition held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms.
+  body_zh: 在北京印刷学院举办的“AI 赋能在线教学创新大赛”赛前培训会上，我受邀作题为智能在线学习平台深度解析的专题报告。
+  links:
+    - label_en: Report 1
+      label_zh: 报道 1
+      url: https://mp.weixin.qq.com/s/g-Ec3Q-a1R-ZpdGBjZ-NOw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%BF%9C%E7%A8%8B%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E7%9D%80%E9%87%8D%E4%BB%8B%E7%BB%8D%E4%BA%86%E6%99%BA%E8%83%BD%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%A7%A3%E8%AF%BB%E3%80%81%E7%9F%A5%E8%AF%86%E6%B4%9E%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BE%8B%E7%9B%B8%E5%85%B3%E6%83%85%E5%86%B5%E3%80%82
+    - label_en: Report 2
+      label_zh: 报道 2
+      url: https://mp.weixin.qq.com/s/olmuwEkolr1apxffDkXGzQ#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%BF%9C%E7%A8%8B%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E7%9D%80%E9%87%8D%E4%BB%8B%E7%BB%8D%E4%BA%86%E6%99%BA%E8%83%BD%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0%E5%B9%B3%E5%8F%B0%E7%9A%84%E8%A7%A3%E8%AF%BB%E3%80%81%E7%9F%A5%E8%AF%86%E6%B4%9E%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BE%8B%E7%9B%B8%E5%85%B3%E6%83%85%E5%86%B5%E3%80%82
+  image: /assets/img/photos/2025/BE0DAFB9-2749-4E08-8873-91E0B8C2D676_4_5005_c.jpeg
+  image_alt_en: Keynote presentation
+  image_alt_zh: 专题报告
+  image_height: 400px
+  image_width: 550px
+- date: 2025-05
+  order: 7
+  title_en: Doctoral interdisciplinary innovation forum
+  title_zh: 博士生交叉创新论坛
+  body_en: At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal University's Changping Campus, I served as the project lead representative and presented research findings and interdisciplinary research experiences on the topic "Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks."
+  body_zh: 在北京师范大学昌平校园举办的 2025 年博士生交叉创新论坛上，我作为项目主持人代表分享了“基于双重网络的 cMOOC 学习者交互水平自动评估及提升路径研究”的研究成果和跨学科研究经验。
+  links:
+    - label_en: Forum coverage
+      label_zh: 论坛报道
+      url: https://mp.weixin.qq.com/s/Xtt5sTwvtkRSr_ehQaxlyw#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E5%8D%9A%E5%A3%AB%E7%94%9F%E8%82%96%E5%BB%BA%E5%86%9B%E4%BD%9C%E4%B8%BA%E9%A1%B9%E7%9B%AE%E4%B8%BB%E6%8C%81%E4%BA%BA%E4%BB%A3%E8%A1%A8%E4%BB%A5%E2%80%9C%E5%9F%BA%E4%BA%8E%E5%8F%8C%E9%87%8D%E7%BD%91%E7%BB%9C%E7%9A%84cMOOC%E5%AD%A6%E4%B9%A0%E8%80%85%E4%BA%A4%E4%BA%92%E6%B0%B4%E5%B9%B3%E8%87%AA%E5%8A%A8%E8%AF%84%E4%BC%B0%E5%8F%8A%E6%8F%90%E5%8D%87%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6%E2%80%9D%E4%B8%BA%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB%E4%BA%86%E7%BB%93%E9%A1%B9%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E7%A0%94%E7%A9%B6%E7%BB%8F%E9%AA%8C
+  image: /assets/img/photos/2025/55185DBD-7488-4C12-8C13-810210EEDE4D_1_105_c.jpeg
+  image_alt_en: Project lead representative and presented research findings
+  image_alt_zh: 项目主持人代表分享研究成果
+  image_height: 400px
+  image_width: 550px
+- date: 2024-04
+  order: 8
+  title_en: Kansai University talk and Japan visit
+  title_zh: 关西大学报告与日本行
+  body_en: This April, I visited Japan and gave a talk at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Collaboration between cMOOC Learners and GPT-Driven Agents," earning the "Young Scholar Award." I also enjoyed feeding deer in Nara.
+  body_zh: 今年四月，我访问日本并在关西大学作报告，题为“Automatic Assessment of Social and Cognitive Presence to Promote Collaboration between cMOOC Learners and GPT-Driven Agents”，并获得“Young Scholar Award”。期间也在奈良喂了鹿。
+  image: /assets/img/photos/2024/04/24-04-japan.jpg
+  image_alt_en: Japan
+  image_alt_zh: 日本
+  image_height: 400px
+  image_width: 400px
+- date: 2023-11
+  order: 9
+  title_en: Beijing Marathon volunteering
+  title_zh: 北京马拉松志愿服务
+  body_en: This November, I volunteered at the Beijing Marathon, providing post-run stretching services. I'd already received professional training in stretching services before that.
+  body_zh: 这一年 11 月，我在北京马拉松担任志愿者，为跑者提供赛后拉伸服务。此前我已经接受过相关专业培训。
+  image: /assets/img/photos/marathon.jpg
+  image_alt_en: Marathon volunteer
+  image_alt_zh: 马拉松志愿服务
+  image_height: 400px
+  image_width: 400px
+- date: 2023-08
+  order: 10
+  title_en: iFLYTEK Spark Training Camp
+  title_zh: 讯飞星火训练营
+  body_en: In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing third 🥉. I made new friends and grew personally.
+  body_zh: 8 月，我在合肥参加讯飞星火训练营，和团队一起完成了讯飞星火大模型评测报告和购物助手插件开发，获得第三名 🥉。我也在过程中认识了新朋友。
+  links:
+    - label_en: Competition coverage
+      label_zh: 赛事报道
+      url: https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ#:~:text=%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%A6Thomas%20Duan%E5%9B%A2%E9%98%9F%E7%AD%89%E4%B8%89%E7%AD%89%E5%A5%96%E9%A1%B9%E7%9B%AE5%E4%BB%B6
+  image: /assets/img/photos/iflytek.jpg
+  image_alt_en: iFLYTEK Spark
+  image_alt_zh: 讯飞星火
+  image_height: 400px
+  image_width: 400px
+- date: 2023-10
+  order: 11
+  title_en: 5th iFLYTEK Intelligent Education Forum
+  title_zh: 第五届讯飞智能教育论坛
+  body_en: In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.
+  body_zh: 10 月，我代表研究团队参加第五届讯飞智能教育论坛博士生分论坛，汇报了我们的研究成果。
+  links:
+    - label_en: Forum coverage
+      label_zh: 论坛报道
+      url: https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B
+  image: /assets/img/photos/iflytek.jpg
+  image_alt_en: iFLYTEK forum
+  image_alt_zh: 讯飞论坛
+  image_height: 400px
+  image_width: 400px
+- date: 2023-06
+  order: 12
+  title_en: MSc graduation
+  title_zh: 硕士毕业
+  body_en: I've completed my MSc in Educational Technology at Beijing Normal University. The graduation ceremony was held at Fu Jen Catholic University, followed by a trip to Beibei Farm.
+  body_zh: 我已完成北京师范大学教育技术学硕士学业。毕业典礼在辅仁大学举行，之后还去了贝贝农场。
+  image: /assets/img/photos/graduate.jpg
+  image_alt_en: Graduated
+  image_alt_zh: 毕业
+  image_height: 400px
+  image_width: 400px
+- date: 2022-05
+  order: 13
+  title_en: Foot injury during pandemic restrictions
+  title_zh: 疫情期间脚伤
+  body_en: During the pandemic, our school implemented a closed management policy. I broke my foot playing badminton, but friends and colleagues were very supportive during my recovery.
+  body_zh: 疫情期间学校实施封闭管理，我打羽毛球时把脚弄伤了，但朋友和同事在康复期间给了我很多支持。
+  image: /assets/img/photos/injury.jpg
+  image_alt_en: Injury
+  image_alt_zh: 受伤
+  image_height: 400px
+  image_width: 400px
+- date: 2020-01
+  order: 14
+  title_en: First half marathon
+  title_zh: 首次半马
+  body_en: I completed my first half marathon on January 1, 2020, finishing in 1 hour, 46 minutes and 37 seconds.
+  body_zh: 2020 年 1 月 1 日，我完成了人生中的第一次半程马拉松，用时 1 小时 46 分 37 秒。
+  links:
+    - label_en: Half marathon
+      label_zh: 半程马拉松
+      url: https://en.wikipedia.org/wiki/Half_marathon
+  image: /assets/img/photos/marathon-2020-01-01.jpg
+  image_alt_en: Finish the marathon for the first time
+  image_alt_zh: 首次完赛
+  image_height: 400px
+  image_width: 400px
