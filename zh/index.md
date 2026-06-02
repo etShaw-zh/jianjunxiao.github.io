@@ -191,7 +191,7 @@ hide-page-heading: true
   <section class="homepage-section" id="projects">
     <div class="homepage-section__header">
       <h2>代表项目</h2>
-      <a class="homepage-section__link" href="/projects/">查看全部</a>
+      <a class="homepage-section__link" href="/zh/projects/">查看全部</a>
     </div>
     <div class="project-grid">
       <article class="project-card">
