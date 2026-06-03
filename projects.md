@@ -2,7 +2,7 @@
 layout: page
 language: en
 title: Projects
-subtitle: What's been eating away my free time
+subtitle: Explore Jianjun Xiao's projects including GCA Analyzer, cMOOC Platform, and AI-powered educational tools. Open-source software for learning analytics research.
 alternate-url: /zh/projects/
 alternate-label: 中文
 ---
