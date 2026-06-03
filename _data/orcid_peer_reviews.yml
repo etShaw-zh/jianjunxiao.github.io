@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-06-03T13:35:54Z'
-review_count: 18
+last_synced_at: '2026-06-03T15:20:45Z'
+review_count: 20
 journal_count: 10
 journals:
 - issn: 1744-5191
@@ -29,7 +29,7 @@ journals:
 - issn: 1472-6920
   title: BMC Medical Education
   url: https://link.springer.com/journal/12909/aims-and-scope
-  review_count: 1
+  review_count: 2
 - issn: 2731-5525
   title: Discover Education
   url: https://link.springer.com/journal/44217/aims-and-scope
@@ -41,7 +41,7 @@ journals:
 - issn: 2662-9992
   title: Humanities & Social Sciences Communications
   url: https://www.nature.com/palcomms/journal-information
-  review_count: 3
+  review_count: 4
 - issn: 2662-9283
   title: SN social sciences
   url: https://portal.issn.org/resource/ISSN/2662-9283
