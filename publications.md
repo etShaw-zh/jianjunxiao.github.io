@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academic
-subtitle: What I've been up to in the academic world
+title: Publications
+subtitle: Browse Jianjun Xiao's academic publications in learning analytics, AI in education, and collaborative learning environments. Includes journal articles and conference papers.
 ---
 
 ------------------------
