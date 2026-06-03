@@ -2,9 +2,9 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-06-03T09:12:12Z'
-review_count: 17
-journal_count: 9
+last_synced_at: '2026-06-03T13:35:54Z'
+review_count: 18
+journal_count: 10
 journals:
 - issn: 1744-5191
   title: Interactive Learning Environments
@@ -42,3 +42,7 @@ journals:
   title: Humanities & Social Sciences Communications
   url: https://www.nature.com/palcomms/journal-information
   review_count: 3
+- issn: 2662-9283
+  title: SN social sciences
+  url: https://portal.issn.org/resource/ISSN/2662-9283
+  review_count: 1
