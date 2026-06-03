@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-06-02T07:16:54Z'
-review_count: 16
+last_synced_at: '2026-06-03T09:12:12Z'
+review_count: 17
 journal_count: 9
 journals:
 - issn: 1744-5191
@@ -25,7 +25,7 @@ journals:
 - issn: 2045-2322
   title: Scientific Reports
   url: https://www.nature.com/srep/about
-  review_count: 1
+  review_count: 2
 - issn: 1472-6920
   title: BMC Medical Education
   url: https://link.springer.com/journal/12909/aims-and-scope
