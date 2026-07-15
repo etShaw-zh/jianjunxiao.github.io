@@ -23,7 +23,8 @@ TITLE_OVERRIDES = {
   'issn:1472-6920' => 'BMC Medical Education',
   'issn:2731-5525' => 'Discover Education',
   'issn:2050-7283' => 'BMC Psychology',
-  'issn:2662-9992' => 'Humanities & Social Sciences Communications'
+  'issn:2662-9992' => 'Humanities & Social Sciences Communications',
+  'issn:2504-284X' => 'Frontiers in education'
 }.freeze
 
 URL_OVERRIDES = {
@@ -36,7 +37,8 @@ URL_OVERRIDES = {
   'issn:1472-6920' => 'https://link.springer.com/journal/12909/aims-and-scope',
   'issn:2731-5525' => 'https://link.springer.com/journal/44217/aims-and-scope',
   'issn:2050-7283' => 'https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX',
-  'issn:2662-9992' => 'https://www.nature.com/palcomms/journal-information'
+  'issn:2662-9992' => 'https://www.nature.com/palcomms/journal-information',
+  'issn:2504-284X' => 'https://www.frontiersin.org/journals/education/about#about-scope'
 }.freeze
 
 FALLBACK_JOURNAL_COUNTS = {
@@ -48,7 +50,8 @@ FALLBACK_JOURNAL_COUNTS = {
   'BMC Medical Education' => 1,
   'Discover Education' => 1,
   'BMC Psychology' => 4,
-  'Humanities & Social Sciences Communications' => 3
+  'Humanities & Social Sciences Communications' => 3,
+  'Frontiers in education' => 1
 }.freeze
 
 ISSN_TITLE_CACHE = {}
