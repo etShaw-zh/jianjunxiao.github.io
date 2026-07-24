@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-07-15T08:46:21Z'
-review_count: 22
+last_synced_at: '2026-07-24T12:38:33Z'
+review_count: 23
 journal_count: 11
 journals:
 - issn: 1744-5191
@@ -41,7 +41,7 @@ journals:
 - issn: 2662-9992
   title: Humanities & Social Sciences Communications
   url: https://www.nature.com/palcomms/journal-information
-  review_count: 5
+  review_count: 6
 - issn: 2504-284x
   title: Frontiers in education (Lausanne)
   url: https://portal.issn.org/resource/ISSN/2504-284x
