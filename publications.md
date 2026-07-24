@@ -30,7 +30,7 @@ subtitle: Browse Jianjun Xiao's academic publications in learning analytics, AI 
 
 > **Xiao, J. _†_** (2026). **Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2026.2632766](https://doi.org/10.1080/10494820.2026.2632766){:target="_blank"}
 
-![REM26](/assets/img/photos/2026/REM26.jpg)
+![REM26](/assets/img/photos/2026/REM_recip_CIE.compressed.jpg)
 
 ##### **2025**
 > **_RETRACTED by EIC & AUTHORS:_** Collaborative AI-in-the-Loop Pedagogical Conversational Agent to Enhance Social and Cognitive Presence in cMOOC. _Computers & Education_. [https://doi.org/10.1016/j.compedu.2025.105516](https://doi.org/10.1016/j.compedu.2025.105516){:target="_blank"}

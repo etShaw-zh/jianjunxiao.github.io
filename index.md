@@ -104,7 +104,7 @@ show-avatar: false
       <article class="selected-paper-card">
         <img class="selected-paper-card__media" src="/assets/img/photos/2026/LAK26.jpg" alt="LAK26 in Bergen">
         <div class="selected-paper-card__body">
-          <h3 class="selected-paper-card__title">Collaborative Problem Solving Dynamics from Group Discourse</h3>
+          <h3 class="selected-paper-card__title">Modeling collaborative problem solving dynamics from group discourse: A text-mining approach with synergy degree model</h3>
           <p class="selected-paper-card__authors">Xiao, J., Wang, C., Zhang, W. (2026)</p>
           <ul class="selected-paper-card__meta">
             <li>Venue · LAK26 · Bergen, Norway · Full research paper</li>
@@ -116,9 +116,9 @@ show-avatar: false
       </article>
 
       <article class="selected-paper-card">
-        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM26.jpg" alt="Interaction patterns visualization">
+        <img class="selected-paper-card__media" src="/assets/img/photos/2026/REM_recip_CIE.compressed.jpg" alt="Interaction patterns visualization">
         <div class="selected-paper-card__body">
-          <h3 class="selected-paper-card__title">Interaction Patterns in Open Learning Environments</h3>
+          <h3 class="selected-paper-card__title">Exploring interaction patterns in open learning environments: integrating network dynamics and cognitive engagement</h3>
           <p class="selected-paper-card__authors">Xiao, J. (2026)</p>
           <ul class="selected-paper-card__meta">
             <li>Journal · Interactive Learning Environments · SSCI Q1 · online first</li>
