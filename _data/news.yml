@@ -1,7 +1,18 @@
 ---
-- date: 2026-04
+- date: 2026-08
   pinned: true
   order: 1
+  title_en: Talk at Wolfson College, University of Cambridge
+  title_zh: 剑桥大学沃尔夫森学院学术报告
+  body_en: I presented my research at Wolfson College, University of Cambridge, and was honored to receive the Young Scholar Award. ✨
+  body_zh: 我在剑桥大学沃尔夫森学院汇报研究工作，并获颁青年学者奖。
+  image: /assets/img/photos/2026/wolfson.jpeg
+  image_alt_en: Receiving the Young Scholar Award at Wolfson College, University of Cambridge
+  image_alt_zh: 在剑桥大学沃尔夫森学院获颁青年学者奖
+  image_width: 700px
+- date: 2026-04
+  pinned: true
+  order: 2
   title_en: LAK2026 in Bergen
   title_zh: LAK2026 卑尔根之行
   body_en: I spent a fulfilling week in Bergen, Norway, attending the LAK2026 conference. I was honored to participate in the Doctoral Consortium and share our research work through both an oral presentation and a poster session. ✨
@@ -16,7 +27,7 @@
   image_width: 700px
 - date: 2026-01
   pinned: true
-  order: 2
+  order: 3
   title_en: SoLAR Executive Committee nomination
   title_zh: SoLAR Executive Committee 候选人提名
   body_en: Delighted to share that I’ve been nominated as a candidate for the SoLAR Executive Committee Student Member.
@@ -32,7 +43,7 @@
   image_width: 700px
 - date: 2025-11
   pinned: true
-  order: 3
+  order: 4
   title_en: AI for Learning competition
   title_zh: AI for Learning 竞赛
   body_en: 'I participated in the 2nd Global Digital Intelligence Education Innovation Competition (AI for Learning Track), and my project "DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences" received the Bronze Award and the Feishu Special Award.'
@@ -47,7 +58,7 @@
   image_width: 700px
 - date: 2025-11
   pinned: true
-  order: 4
+  order: 5
   title_en: cMOOC platform recognition
   title_zh: cMOOC 平台获奖
   body_en: I participated in the AI Empowered Online Teaching Innovation Competition on behalf of my team, and our project "cMOOC — The Third-Generation Online Learning Platform" was awarded First Prize. The award ceremony was held at the China National Convention Center II, and highlights from the final round were broadcast on China Education Television (CETV).
@@ -65,7 +76,7 @@
   image_width: 700px
 - date: 2025-09
   pinned: true
-  order: 5
+  order: 6
   title_en: Faculty development talk at GDMU
   title_zh: 广东医科大学教师发展报告
   body_en: I was invited by the Academic Affairs Office at Guangdong Medical University to deliver a faculty development presentation on AI agent technology and its pedagogical applications.
@@ -80,7 +91,7 @@
   image_height: 400px
   image_width: 700px
 - date: 2025-06
-  order: 6
+  order: 7
   title_en: Keynote at pre-competition training session
   title_zh: 赛前培训专题报告
   body_en: At the pre-competition training session for the AI-Empowered Online Teaching Innovation Competition held at Beijing Institute of Graphic Communication, I was invited to deliver a keynote presentation covering in-depth analysis of intelligent online learning platforms.
@@ -98,7 +109,7 @@
   image_height: 400px
   image_width: 550px
 - date: 2025-05
-  order: 7
+  order: 8
   title_en: Doctoral interdisciplinary innovation forum
   title_zh: 博士生交叉创新论坛
   body_en: At the 2025 Doctoral Interdisciplinary Innovation Forum held at Beijing Normal University's Changping Campus, I served as the project lead representative and presented research findings and interdisciplinary research experiences on the topic "Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks."
@@ -113,7 +124,7 @@
   image_height: 400px
   image_width: 550px
 - date: 2024-04
-  order: 8
+  order: 9
   title_en: Kansai University talk and Japan visit
   title_zh: 关西大学报告与日本行
   body_en: This April, I visited Japan and gave a talk at Kansai University on "Automatic Assessment of Social and Cognitive Presence to Promote Collaboration between cMOOC Learners and GPT-Driven Agents," earning the "Young Scholar Award." I also enjoyed feeding deer in Nara.
@@ -124,7 +135,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2023-11
-  order: 9
+  order: 10
   title_en: Beijing Marathon volunteering
   title_zh: 北京马拉松志愿服务
   body_en: This November, I volunteered at the Beijing Marathon, providing post-run stretching services. I'd already received professional training in stretching services before that.
@@ -135,7 +146,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2023-08
-  order: 10
+  order: 11
   title_en: iFLYTEK Spark Training Camp
   title_zh: 讯飞星火训练营
   body_en: In August, I attended the iFLYTEK Spark Training Camp in Hefei, where my team and I created an evaluation report on the iFLYTEK Spark large language model and developed a shopping assistance plugin, finishing third 🥉. I made new friends and grew personally.
@@ -150,7 +161,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2023-10
-  order: 11
+  order: 12
   title_en: 5th iFLYTEK Intelligent Education Forum
   title_zh: 第五届讯飞智能教育论坛
   body_en: In October, I represented my research team at the 5th iFLYTEK Intelligent Education Forum – Doctoral Sub-forum, presenting our research findings.
@@ -165,7 +176,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2023-06
-  order: 12
+  order: 13
   title_en: MSc graduation
   title_zh: 硕士毕业
   body_en: I've completed my MSc in Educational Technology at Beijing Normal University. The graduation ceremony was held at Fu Jen Catholic University, followed by a trip to Beibei Farm.
@@ -176,7 +187,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2022-05
-  order: 13
+  order: 14
   title_en: Foot injury during pandemic restrictions
   title_zh: 疫情期间脚伤
   body_en: During the pandemic, our school implemented a closed management policy. I broke my foot playing badminton, but friends and colleagues were very supportive during my recovery.
@@ -187,7 +198,7 @@
   image_height: 400px
   image_width: 400px
 - date: 2020-01
-  order: 14
+  order: 15
   title_en: First half marathon
   title_zh: 首次半马
   body_en: I completed my first half marathon on January 1, 2020, finishing in 1 hour, 46 minutes and 37 seconds.

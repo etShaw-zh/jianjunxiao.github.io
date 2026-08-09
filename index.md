@@ -91,7 +91,7 @@ show-avatar: false
       <a class="homepage-section__link" href="/life/">View all</a>
     </div>
     <ul class="news-list">
-      {% include news-feed.html language=page.language limit=5 %}
+      {% include news-feed.html language=page.language limit=6 %}
     </ul>
   </section>
 

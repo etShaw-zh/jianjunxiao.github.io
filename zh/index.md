@@ -91,7 +91,7 @@ hide-page-heading: true
       <a class="homepage-section__link" href="/zh/life/">查看全部</a>
     </div>
     <ul class="news-list">
-      {% include news-feed.html language=page.language limit=5 %}
+      {% include news-feed.html language=page.language limit=6 %}
     </ul>
   </section>
 
