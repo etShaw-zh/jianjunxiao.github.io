@@ -2,9 +2,9 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-08-09T13:46:22Z'
-review_count: 24
-journal_count: 11
+last_synced_at: '2026-08-13T22:42:21Z'
+review_count: 25
+journal_count: 12
 journals:
 - issn: 1744-5191
   title: Interactive Learning Environments
@@ -18,7 +18,7 @@ journals:
   title: the journal of Open Source Software
   url: https://joss.theoj.org/about
   review_count: 1
-- issn: 1873-782x
+- issn: 0360-1315
   title: Computers & Education
   url: https://www.sciencedirect.com/journal/computers-and-education/about/insights
   review_count: 1
@@ -45,6 +45,10 @@ journals:
 - issn: 2504-284x
   title: Frontiers in education (Lausanne)
   url: https://portal.issn.org/resource/ISSN/2504-284x
+  review_count: 1
+- issn: 1664-1078
+  title: Frontiers in psychology
+  url: https://portal.issn.org/resource/ISSN/1664-1078
   review_count: 1
 - issn: 2662-9283
   title: SN social sciences
