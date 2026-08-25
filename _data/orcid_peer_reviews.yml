@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-08-13T22:42:21Z'
-review_count: 25
+last_synced_at: '2026-08-25T02:57:01Z'
+review_count: 26
 journal_count: 12
 journals:
 - issn: 1744-5191
@@ -18,10 +18,10 @@ journals:
   title: the journal of Open Source Software
   url: https://joss.theoj.org/about
   review_count: 1
-- issn: 0360-1315
+- issn: 1873-782x
   title: Computers & Education
   url: https://www.sciencedirect.com/journal/computers-and-education/about/insights
-  review_count: 1
+  review_count: 2
 - issn: 2045-2322
   title: Scientific Reports
   url: https://www.nature.com/srep/about
