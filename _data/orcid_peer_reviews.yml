@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-08-25T02:57:01Z'
-review_count: 26
+last_synced_at: '2026-08-27T14:59:30Z'
+review_count: 28
 journal_count: 12
 journals:
 - issn: 1744-5191
@@ -49,7 +49,7 @@ journals:
 - issn: 1664-1078
   title: Frontiers in psychology
   url: https://portal.issn.org/resource/ISSN/1664-1078
-  review_count: 1
+  review_count: 2
 - issn: 2662-9283
   title: SN social sciences
   url: https://portal.issn.org/resource/ISSN/2662-9283
