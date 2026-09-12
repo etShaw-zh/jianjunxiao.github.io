@@ -18,7 +18,7 @@ hide-page-heading: true
       <p>关注数字化学习环境中的学习、协作与知识创造，研究如何通过数据与人工智能支持教育实践。</p>
       <div class="homepage-actions">
         <a class="homepage-button" href="#publications">精选论文</a>
-        <a class="homepage-button homepage-button--secondary" href="/assets/pdf/jianjun-xiao-in-chinese.pdf">下载简历</a>
+        <a class="homepage-button homepage-button--secondary" href="/assets/pdf/Xiao_Jianjun_Resume_CN.pdf">下载简历</a>
         <a class="homepage-button homepage-button--secondary" href="mailto:et_shaw@126.com">联系我</a>
       </div>
     </div>

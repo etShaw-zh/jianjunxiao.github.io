@@ -18,7 +18,7 @@ show-avatar: false
       <p>Researching how people learn, collaborate, and create knowledge in digitally mediated environments.</p>
       <div class="homepage-actions">
         <a class="homepage-button" href="#publications">Selected Publications</a>
-        <a class="homepage-button homepage-button--secondary" href="/assets/pdf/jianjun-xiao.pdf">Download CV</a>
+        <a class="homepage-button homepage-button--secondary" href="/assets/pdf/Xiao_Jianjun_Resume_EN.pdf">Download CV</a>
         <a class="homepage-button homepage-button--secondary" href="mailto:et_shaw@126.com">Contact</a>
       </div>
     </div>
