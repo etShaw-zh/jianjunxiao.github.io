@@ -28,3 +28,5 @@ beautiful-jekyll-theme-*.gem
 .codacy/cli.sh
 
 .env
+assets/pdf/肖建军_简历.docx
+assets/pdf/Xiao_Jianjun_Resume_EN.docx
