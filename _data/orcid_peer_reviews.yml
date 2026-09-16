@@ -2,9 +2,9 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-09-13T14:44:34Z'
-review_count: 29
-journal_count: 12
+last_synced_at: '2026-09-16T08:27:47Z'
+review_count: 30
+journal_count: 13
 journals:
 - issn: 1744-5191
   title: Interactive Learning Environments
@@ -42,6 +42,10 @@ journals:
   title: Humanities & Social Sciences Communications
   url: https://www.nature.com/palcomms/journal-information
   review_count: 8
+- issn: 1061-3773
+  title: Computer applications in engineering education
+  url: https://portal.issn.org/resource/ISSN/1061-3773
+  review_count: 1
 - issn: 2504-284x
   title: Frontiers in education (Lausanne)
   url: https://portal.issn.org/resource/ISSN/2504-284x
