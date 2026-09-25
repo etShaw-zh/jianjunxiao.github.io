@@ -2,9 +2,9 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-09-24T16:43:16Z'
-review_count: 30
-journal_count: 13
+last_synced_at: '2026-09-25T07:38:05Z'
+review_count: 31
+journal_count: 14
 journals:
 - issn: 1744-5191
   title: Interactive Learning Environments
@@ -54,6 +54,10 @@ journals:
   title: Frontiers in psychology
   url: https://portal.issn.org/resource/ISSN/1664-1078
   review_count: 2
+- issn: 1929-7750
+  title: Journal of learning analytics
+  url: https://portal.issn.org/resource/ISSN/1929-7750
+  review_count: 1
 - issn: 2662-9283
   title: SN social sciences
   url: https://portal.issn.org/resource/ISSN/2662-9283
