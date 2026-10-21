@@ -152,17 +152,6 @@ show-avatar: false
     </div>
     <div class="project-grid">
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer results dashboard">
-        <div class="project-card__body">
-          <h3>GCA Analyzer</h3>
-          <div class="project-card__meta">Python package · PyPI · 2024</div>
-          <p>Python package for group conversation analysis with NLP-based metrics and interaction diagnostics.</p>
-          <div class="project-card__links">
-            <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">Docs</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
         <img class="project-card__media" src="/assets/img/photos/cmooc_platform.jpg" alt="cMOOC platform homepage">
         <div class="project-card__body">
           <h3>cMOOC Platform</h3>

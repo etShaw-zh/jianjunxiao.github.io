@@ -41,7 +41,6 @@ subtitle: Browse Jianjun Xiao's academic publications in learning analytics, AI 
 
 > Tian, Y., & **Xiao, J. _†_** (2025). **The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2025.2498534](https://doi.org/10.1080/10494820.2025.2498534){:target="_blank"}
 
-<!-- > **Xiao, J.** (2025). etShaw-zh/gca_analyzer: GCA Analyzer: A Python Package for Group Conversation Analysis (v0.4.6). (Version v0.4.6) [Computer software]. Zenodo. [https://doi.org/10.5281/zenodo.16020248](https://doi.org/10.5281/zenodo.16020248){:target="_blank"} -->
 
 > Wang, C., & **Xiao, J. _†_** (2025). **A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning**. _Interactive Learning Environments_ _(SSCI Q1)_, 1–20. [https://doi.org/10.1080/10494820.2024.2442706](https://doi.org/10.1080/10494820.2024.2442706){:target="_blank"}
 

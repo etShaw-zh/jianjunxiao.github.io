@@ -31,44 +31,6 @@ sections:
     title_en: Software development
     title_zh: 软件开发
     groups:
-      - key: python-package
-        title_en: Python package
-        title_zh: Python 包
-        items:
-          - title_en: gca_analyzer
-            title_zh: gca_analyzer
-            description_en: >-
-              GCA Analyzer is a Python package for analyzing group conversation
-              dynamics using NLP techniques and quantitative metrics. It provides
-              tools for participation patterns, interaction dynamics, content
-              novelty, and communication density in group conversations.
-            description_zh: >-
-              GCA Analyzer 是一个用于分析群体对话动态的 Python 包，使用 NLP 技术
-              和定量指标，提供对参与模式、交互动态、内容新颖性和交流密度的系统
-              分析工具。
-            media:
-              type: gallery
-              images:
-                - src: /assets/img/gca_results.jpg
-                  alt_en: GCA Analyzer results
-                  alt_zh: GCA Analyzer 结果
-                - src: /assets/img/vizs.jpg
-                  alt_en: GCA Analyzer visualizations
-                  alt_zh: GCA Analyzer 可视化
-            links:
-              - label_en: Docs
-                label_zh: 文档
-                url: https://gca-analyzer.readthedocs.io
-              - label_en: PyPI
-                label_zh: PyPI
-                url: https://pypi.org/project/gca-analyzer
-              - label_en: GitHub
-                label_zh: GitHub
-                url: https://github.com/etShaw-zh/gca_analyzer
-              - label_en: DOI
-                label_zh: DOI
-                url: https://doi.org/10.5281/zenodo.14647250
-
       - key: applications
         title_en: Applications
         title_zh: 应用程序

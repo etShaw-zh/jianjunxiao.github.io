@@ -152,17 +152,6 @@ hide-page-heading: true
     </div>
     <div class="project-grid">
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/gca_results.jpg" alt="GCA Analyzer 结果界面">
-        <div class="project-card__body">
-          <h3>GCA Analyzer</h3>
-          <div class="project-card__meta">Python 工具包 · PyPI · 2024</div>
-          <p>面向群体对话分析的 Python 工具包，提供基于 NLP 的交互指标与分析能力。</p>
-          <div class="project-card__links">
-            <a href="https://gca-analyzer.readthedocs.io" target="_blank" rel="noopener">在线文档</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
         <img class="project-card__media" src="/assets/img/photos/cmooc_platform.jpg" alt="cMOOC 平台首页">
         <div class="project-card__body">
           <h3>cMOOC 平台</h3>
