@@ -2,8 +2,8 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-10-21T21:15:35Z'
-review_count: 31
+last_synced_at: '2026-11-21T14:22:16Z'
+review_count: 32
 journal_count: 14
 journals:
 - issn: 1744-5191
@@ -57,7 +57,7 @@ journals:
 - issn: 1929-7750
   title: Journal of learning analytics
   url: https://portal.issn.org/resource/ISSN/1929-7750
-  review_count: 1
+  review_count: 2
 - issn: 2662-9283
   title: SN social sciences
   url: https://portal.issn.org/resource/ISSN/2662-9283
