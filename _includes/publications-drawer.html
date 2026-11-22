@@ -1,7 +1,6 @@
 {% assign drawer_lang = include.language | default: "en" %}
 {% assign all_items = site.data.publications.items %}
 {% assign grants = site.data.publications.grants %}
-{% assign citation_map = site.data.paper_citations.papers %}
 {% assign academic_items = "" | split: "" %}
 {% for item in all_items %}
   {% unless item.type == "software" %}
@@ -26,9 +25,9 @@
       </h3>
       <p class="pub-archive-drawer__sub">
         {% if drawer_lang == 'zh' %}
-          期刊、会议、预印本及科研基金完整清单（含 Google Scholar / OpenAlex 引用数）。
+          期刊、会议、预印本及科研基金完整清单。
         {% else %}
-          Full index of journals, conferences, preprints, and grants with Google Scholar / OpenAlex citations.
+          Full index of journals, conferences, preprints, and grants.
         {% endif %}
       </p>
     </div>
@@ -60,8 +59,6 @@
 
     <ol class="pub-archive-list">
       {% for item in academic_items %}
-        {% assign cite_entry = citation_map[item.id] %}
-        {% assign cite_num = cite_entry.citations | default: 0 %}
         <li class="pub-archive-row" data-pub-type="{{ item.type }}">
           <span class="pub-archive-row__idx">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
           <span class="pub-archive-row__year">{{ item.year }}</span>
@@ -76,17 +73,12 @@
               {% endif %}
             </p>
             <p class="pub-archive-row__meta">
-              <span>{{ item.authors }}</span>
+              <span>{% if drawer_lang == 'zh' %}{{ item.authors }}{% else %}{{ item.authors_en | default: item.authors }}{% endif %}</span>
               <span aria-hidden="true">&middot;</span>
               <span>{% if drawer_lang == 'zh' %}{{ item.venue_zh }}{% else %}{{ item.venue_en }}{% endif %}</span>
             </p>
           </div>
           <div class="pub-archive-row__aside">
-            {% if cite_num > 0 %}
-              <span class="pill-tag pill-tag--cite">
-                {% if drawer_lang == 'zh' %}被引 {{ cite_num }}{% else %}{{ cite_num }} cites{% endif %}
-              </span>
-            {% endif %}
             <span class="pill-tag">{{ item.badge }}</span>
             {% if item.url and item.url != "" %}
               <a class="pub-archive-row__ext" href="{{ item.url }}" target="_blank" rel="noopener">

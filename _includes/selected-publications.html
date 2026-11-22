@@ -1,0 +1,64 @@
+{% assign pub_lang = include.language | default: "en" %}
+{% assign selected_items = site.data.selected_publications.items %}
+
+<div class="rg-pub-list">
+  {% for pub in selected_items %}
+    {% assign total_figs = pub.figures.size | plus: 1 %}
+    {% assign extra_figs = pub.figures.size %}
+    <article class="rg-pub-entry">
+      <div class="rg-pub-entry__top">
+        <div class="rg-pub-entry__meta">
+          <span class="rg-pub-entry__num">{{ pub.num }}</span>
+          <span>{% if pub_lang == 'zh' %}{{ pub.venue_zh }}{% else %}{{ pub.venue_en }}{% endif %}</span>
+          <span class="pill-tag">{% if pub_lang == 'zh' %}{{ pub.tag_zh }}{% else %}{{ pub.tag_en }}{% endif %}</span>
+        </div>
+        <div class="rg-pub-entry__links">
+          {% for link in pub.links %}
+            <a class="rg-pub-entry__link{% if link.muted %} rg-pub-entry__link--muted{% endif %}" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} &#8599;</a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="rg-pub-entry__overview">
+        <div class="rg-pub-entry__copy">
+          <h3 class="rg-pub-entry__title">{% if pub_lang == 'zh' %}{{ pub.title_zh }}{% else %}{{ pub.title_en }}{% endif %}</h3>
+          <p class="rg-pub-entry__authors">{{ pub.authors_html }}</p>
+          <p class="rg-pub-entry__contribution">{% if pub_lang == 'zh' %}{{ pub.contribution_zh }}{% else %}{{ pub.contribution_en }}{% endif %}</p>
+        </div>
+        <div class="rg-pub-entry__preview">
+          <button type="button" class="rg-figure-tile" data-zoom-group="{{ pub.zoom_group }}" data-zoom-img="{{ pub.preview.img }}" data-zoom-caption="{% if pub_lang == 'zh' %}{{ pub.preview.zoom_caption_zh | escape }}{% else %}{{ pub.preview.zoom_caption_en | escape }}{% endif %}">
+            <span class="rg-figure-tile__thumb">
+              <span class="rg-figure-tile__kind{% if pub.preview.kind == 'table' %} rg-figure-tile__kind--table{% endif %}">{% if pub.preview.kind == 'table' %}{% if pub_lang == 'zh' %}表{% else %}TABLE{% endif %}{% else %}{% if pub_lang == 'zh' %}图{% else %}FIG{% endif %}{% endif %}</span>
+              <img src="{{ pub.preview.img }}" loading="lazy" decoding="async" alt="{% if pub_lang == 'zh' %}{{ pub.preview.alt_zh | escape }}{% else %}{{ pub.preview.alt_en | escape }}{% endif %}">
+            </span>
+            <span class="rg-figure-tile__cap">{% if pub_lang == 'zh' %}{{ pub.preview.cap_zh }}{% else %}{{ pub.preview.cap_en }}{% endif %}</span>
+          </button>
+        </div>
+      </div>
+
+      <details class="rg-figures-details">
+        <summary>{% if pub_lang == 'zh' %}查看全部 {{ total_figs }} 张图表{% else %}View all {{ total_figs }} figures &amp; tables{% endif %}</summary>
+        <div class="rg-figures-wrap" data-rg-strip>
+          <div class="rg-figures-bar">
+            <span class="rg-figures-bar__label">{% if pub_lang == 'zh' %}更多图表 &middot; {{ extra_figs }}{% else %}More figures &amp; tables &middot; {{ extra_figs }}{% endif %}</span>
+            <div class="rg-figures-bar__controls">
+              <button type="button" class="rg-figures-nav" data-rg-prev aria-label="{% if pub_lang == 'zh' %}向左滚动图表{% else %}Scroll figures left{% endif %}">&#8249;</button>
+              <button type="button" class="rg-figures-nav" data-rg-next aria-label="{% if pub_lang == 'zh' %}向右滚动图表{% else %}Scroll figures right{% endif %}">&#8250;</button>
+            </div>
+          </div>
+          <div class="rg-figures-grid" aria-label="{% if pub_lang == 'zh' %}{{ pub.gallery_aria_zh | escape }}{% else %}{{ pub.gallery_aria_en | escape }}{% endif %}">
+            {% for fig in pub.figures %}
+              <button type="button" class="rg-figure-tile" data-zoom-group="{{ pub.zoom_group }}" data-zoom-img="{{ fig.img }}" data-zoom-caption="{% if pub_lang == 'zh' %}{{ fig.zoom_caption_zh | escape }}{% else %}{{ fig.zoom_caption_en | escape }}{% endif %}">
+                <span class="rg-figure-tile__thumb">
+                  <span class="rg-figure-tile__kind{% if fig.kind == 'table' %} rg-figure-tile__kind--table{% endif %}">{% if fig.kind == 'table' %}{% if pub_lang == 'zh' %}表{% else %}TABLE{% endif %}{% else %}{% if pub_lang == 'zh' %}图{% else %}FIG{% endif %}{% endif %}</span>
+                  <img src="{{ fig.img }}" loading="lazy" decoding="async" alt="{% if pub_lang == 'zh' %}{{ fig.alt_zh | escape }}{% else %}{{ fig.alt_en | escape }}{% endif %}">
+                </span>
+                <span class="rg-figure-tile__cap">{% if pub_lang == 'zh' %}{{ fig.cap_zh }}{% else %}{{ fig.cap_en }}{% endif %}</span>
+              </button>
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+    </article>
+  {% endfor %}
+</div>

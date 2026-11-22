@@ -1,7 +1,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="img/ico" href="/assets/img/favicon.jpg" />
+  <link rel="icon" type="image/jpeg" href="/assets/img/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <script>
     (function () {
       try {
@@ -130,6 +133,52 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+  {% if page.alternate-url %}
+    {% assign current_lang = page.language | default: site.language | default: "en" %}
+    {% if current_lang == "zh" %}
+      <link rel="alternate" hreflang="zh" href="{{ page.url | absolute_url | strip_index }}">
+      <link rel="alternate" hreflang="en" href="{{ page.alternate-url | absolute_url | strip_index }}">
+      <link rel="alternate" hreflang="x-default" href="{{ page.alternate-url | absolute_url | strip_index }}">
+    {% else %}
+      <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url | strip_index }}">
+      <link rel="alternate" hreflang="zh" href="{{ page.alternate-url | absolute_url | strip_index }}">
+      <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url | strip_index }}">
+    {% endif %}
+  {% endif %}
+  {% endif %}
+
+  {% if page.url == "/" or page.url == "/index.html" or page.url == "/zh/" or page.url == "/zh/index.html" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jianjun Xiao",
+    "alternateName": "肖建军",
+    "url": "{{ site.url }}",
+    "image": "{{ '/assets/img/jianjunxiao-hero.jpg' | absolute_url }}",
+    "jobTitle": "Ph.D. Candidate in Internet Education",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Research Centre of Distance Education, Faculty of Education, Beijing Normal University",
+      "url": "https://rcde.bnu.edu.cn/"
+    },
+    "knowsAbout": [
+      "Learning Analytics",
+      "Complex Networks",
+      "Connectivism",
+      "cMOOCs",
+      "Human-AI Collaboration",
+      "Collaborative Problem Solving",
+      "Design-Based Research"
+    ],
+    "sameAs": [
+      "https://orcid.org/{{ site.social-network-links.ORCID }}",
+      "https://scholar.google.com/{{ site.social-network-links.google-scholar }}",
+      "https://github.com/{{ site.social-network-links.github }}",
+      "https://www.linkedin.com/in/{{ site.social-network-links.linkedin }}"
+    ]
+  }
+  </script>
   {% endif %}
 
   {% if img != "" and img != site.avatar %}

@@ -1,5 +1,4 @@
 (function () {
-  var RING_YEARS = [2021, 2022, 2023, 2024, 2025, 2026];
   var CITATION_TIER_LABELS = {
     en: ['20+ cites', '10–19', '1–9', 'New / 0'],
     zh: ['20+ 引', '10–19 引', '1–9 引', '新发 / 0']
@@ -129,11 +128,24 @@
     var detailActions = root.querySelector('[data-map-detail-actions]');
     var legendEl = root.querySelector('[data-map-legend]');
 
-    var totalCitations = items.reduce(function (sum, item) { return sum + item.citations; }, 0);
+    var listedCitations = items.reduce(function (sum, item) { return sum + item.citations; }, 0);
+    var attrTotal = parseInt(root.getAttribute('data-total-citations') || '', 10);
+    var totalCitations = (!isNaN(attrTotal) && attrTotal > 0) ? Math.max(attrTotal, listedCitations) : listedCitations;
+
+    var yearsPresent = items
+      .map(function (item) { return Number(item.year); })
+      .filter(function (y) { return Number.isFinite(y) && y >= 2000 && y <= 2100; });
+    var minYear = yearsPresent.length ? Math.min.apply(null, yearsPresent) : 2021;
+    var maxYear = yearsPresent.length ? Math.max.apply(null, yearsPresent) : 2026;
+    var ringYears = [];
+    for (var yr = minYear; yr <= maxYear; yr++) {
+      ringYears.push(yr);
+    }
+    var yearRangeLabel = minYear === maxYear ? String(minYear) : (minYear + '–' + maxYear);
 
     var centerProfile = {
       id: '__profile__',
-      year: '2021–2026',
+      year: yearRangeLabel,
       type: 'profile',
       citations: totalCitations,
       citation_source: 'google_scholar',
@@ -192,7 +204,7 @@
     var byTier = { 1: [], 2: [], 3: [], 4: [] };
 
     items.forEach(function (item) {
-      var y = Math.max(2021, Math.min(2026, Number(item.year) || 2024));
+      var y = Math.max(minYear, Math.min(maxYear, Number(item.year) || maxYear));
       if (!byYear[y]) byYear[y] = [];
       byYear[y].push(item);
 
@@ -208,8 +220,8 @@
     });
 
     var nodeStates = items.map(function (item) {
-      var y = Math.max(2021, Math.min(2026, Number(item.year) || 2024));
-      var yearIdx = RING_YEARS.indexOf(y);
+      var y = Math.max(minYear, Math.min(maxYear, Number(item.year) || maxYear));
+      var yearIdx = ringYears.indexOf(y);
       var yearList = byYear[y] || [];
       var idxInYear = yearList.indexOf(item);
       var countInYear = Math.max(1, yearList.length);
@@ -223,8 +235,8 @@
 
       var baseRadius = citationRadius(item.citations);
       // Kepler-like angular velocity (rad/sec): inner rings gently faster, outer rings stately slower
-      var ringSpeed = 0.055 - yearIdx * 0.0062;
-      var tierSpeed = 0.052 - (tier - 1) * 0.009;
+      var ringSpeed = Math.max(0.014, 0.055 - yearIdx * 0.0062);
+      var tierSpeed = Math.max(0.016, 0.052 - (tier - 1) * 0.009);
 
       return {
         item: item,
@@ -274,7 +286,7 @@
 
     function updateTargets(snap) {
       var g = computeGeometry();
-      var ringCount = RING_YEARS.length;
+      var ringCount = ringYears.length;
 
       nodeStates.forEach(function (n) {
         var matched = matchesFilter(n.item, activeFilter);
@@ -314,6 +326,18 @@
       });
     }
 
+    function updateLegend() {
+      if (!legendEl) return;
+      var touch = width < 520 || window.matchMedia('(hover: none)').matches;
+      var interaction = lang === 'zh'
+        ? (touch ? '点击论文节点查看详情' : '悬停或点击论文节点查看详情')
+        : (touch ? 'Tap a paper to explore' : 'Hover or click a paper to explore');
+      var layout = lang === 'zh'
+        ? (mode === 'rings' ? '越新越靠外，引用越多星越大' : '引用越多越靠内环')
+        : (mode === 'rings' ? 'Newer outward, larger by citations' : 'Higher-cited papers orbit closer to the center');
+      legendEl.textContent = layout + ' · ' + interaction;
+    }
+
     function resize() {
       var rect = canvas.getBoundingClientRect();
       if (!rect.width || !rect.height) return;
@@ -323,6 +347,7 @@
       canvas.width = Math.round(width * dpr);
       canvas.height = Math.round(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      updateLegend();
       updateTargets(true);
       draw(0);
     }
@@ -430,7 +455,7 @@
       ctx.lineTo(p4.x, p4.y);
       ctx.stroke();
 
-      var count = mode === 'rings' ? RING_YEARS.length : 4;
+      var count = mode === 'rings' ? ringYears.length : 4;
       for (var i = 0; i < count; i++) {
         var frac = count > 1 ? (i / (count - 1)) : 1;
         var rx = g.minRx + (g.maxRx - g.minRx) * frac;
@@ -456,9 +481,11 @@
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         var ringText = mode === 'rings'
-          ? String(RING_YEARS[i])
+          ? String(ringYears[i])
           : CITATION_TIER_LABELS[lang][i];
-        ctx.fillText(ringText, labelPos.x, labelPos.y - 6);
+        if (width >= 520 || i === 0 || i === count - 1) {
+          ctx.fillText(ringText, labelPos.x, labelPos.y - 6);
+        }
       }
 
       var tickCount = 96;
@@ -583,7 +610,7 @@
         ctx.fill();
         ctx.restore();
 
-        var showLabel = isHovered || isSelected || cites >= labelThreshold || (activeFilter !== 'all' && matched && cites >= 1);
+        var showLabel = width >= 520 && (isHovered || isSelected || cites >= labelThreshold || (activeFilter !== 'all' && matched && cites >= 1));
         if (showLabel && n.alpha > 0.4) {
           labelsToDraw.push({ n: n, isHovered: isHovered, isSelected: isSelected, isTopCited: isTopCited, cites: cites });
         }
@@ -745,7 +772,7 @@
 
       detailMeta.textContent = metaParts.join(' · ');
       detailTitle.textContent = lang === 'zh' ? item.title_zh : item.title_en;
-      detailAuthors.textContent = item.authors || '';
+      detailAuthors.textContent = (lang === 'en' && item.authors_en) ? item.authors_en : (item.authors || '');
       detailVenue.textContent = lang === 'zh' ? item.venue_zh : item.venue_en;
 
       detailActions.innerHTML = '';
@@ -842,17 +869,7 @@
           b.classList.toggle('is-active', active);
           b.setAttribute('aria-checked', String(active));
         });
-        if (legendEl) {
-          if (lang === 'zh') {
-            legendEl.textContent = mode === 'rings'
-              ? '越新越靠外，引用越多星越大 · 悬停星点查看详情'
-              : '引用越多越靠内环 · 悬停星点查看详情';
-          } else {
-            legendEl.textContent = mode === 'rings'
-              ? 'Newer outward, larger by citations · Hover any star for details'
-              : 'Higher-cited papers orbit closer to the center · Hover any star';
-          }
-        }
+        updateLegend();
         updateTargets(false);
         ensureAnimating();
       });
@@ -927,6 +944,8 @@
       });
 
       track.addEventListener('scroll', syncStripButtons, { passive: true });
+      var details = wrap.closest('details');
+      if (details) details.addEventListener('toggle', syncStripButtons);
       window.addEventListener('resize', syncStripButtons);
       syncStripButtons();
     });

@@ -18,6 +18,7 @@
   data-lang="{{ map_lang }}"
   data-avatar="{{ '/assets/img/jianjunxiao-hero.jpg' | relative_url }}"
   data-about-url="{% if map_lang == 'zh' %}{{ '/zh/aboutme/' | relative_url }}{% else %}{{ '/aboutme/' | relative_url }}{% endif %}"
+  data-total-citations="{{ site.data.paper_citations.total_citations | default: 0 }}"
 >
   <div class="research-map__stage">
     <canvas
@@ -47,7 +48,7 @@
         </button>
       </div>
       <p class="research-map__legend" data-map-legend>
-        {% if map_lang == 'zh' %}越新越靠外，引用越多星越大 · 悬停星点查看详情{% else %}Newer outward, larger by citations · Hover any star for details{% endif %}
+        {% if map_lang == 'zh' %}越新越靠外，引用越多星越大 · 点击论文节点查看详情{% else %}Newer outward, larger by citations · Select a paper to explore{% endif %}
       </p>
     </div>
 

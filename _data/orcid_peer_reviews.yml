@@ -6,59 +6,59 @@ last_synced_at: '2026-11-21T14:22:16Z'
 review_count: 32
 journal_count: 14
 journals:
+- issn: 1873-782x
+  title: Computers & Education
+  url: https://www.sciencedirect.com/journal/computers-and-education/about/insights
+  review_count: 4
+- issn: 1929-7750
+  title: Journal of Learning Analytics
+  url: https://portal.issn.org/resource/ISSN/1929-7750
+  review_count: 2
 - issn: 1744-5191
   title: Interactive Learning Environments
   url: https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope
+  review_count: 2
+- issn: 2662-9992
+  title: Humanities & Social Sciences Communications
+  url: https://www.nature.com/palcomms/journal-information
+  review_count: 8
+- issn: 2045-2322
+  title: Scientific Reports
+  url: https://www.nature.com/srep/about
   review_count: 2
 - issn: 1468-4462
   title: Information, Communication & Society
   url: https://www.tandfonline.com/journals/rics20/about-this-journal#aims-and-scope
   review_count: 1
 - issn: 2475-9066
-  title: the journal of Open Source Software
+  title: The Journal of Open Source Software
   url: https://joss.theoj.org/about
   review_count: 1
-- issn: 1873-782x
-  title: Computers & Education
-  url: https://www.sciencedirect.com/journal/computers-and-education/about/insights
-  review_count: 2
-- issn: 2045-2322
-  title: Scientific Reports
-  url: https://www.nature.com/srep/about
-  review_count: 2
+- issn: 1061-3773
+  title: Computer Applications in Engineering Education
+  url: https://portal.issn.org/resource/ISSN/1061-3773
+  review_count: 1
+- issn: 2050-7283
+  title: BMC Psychology
+  url: https://link.springer.com/journal/40359/aims-and-scope
+  review_count: 4
 - issn: 1472-6920
   title: BMC Medical Education
   url: https://link.springer.com/journal/12909/aims-and-scope
   review_count: 2
+- issn: 1664-1078
+  title: Frontiers in Psychology
+  url: https://portal.issn.org/resource/ISSN/1664-1078
+  review_count: 2
+- issn: 2504-284x
+  title: Frontiers in Education
+  url: https://www.frontiersin.org/journals/education/about#about-scope
+  review_count: 1
 - issn: 2731-5525
   title: Discover Education
   url: https://link.springer.com/journal/44217/aims-and-scope
   review_count: 1
-- issn: 2050-7283
-  title: BMC Psychology
-  url: https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX
-  review_count: 4
-- issn: 2662-9992
-  title: Humanities & Social Sciences Communications
-  url: https://www.nature.com/palcomms/journal-information
-  review_count: 8
-- issn: 1061-3773
-  title: Computer applications in engineering education
-  url: https://portal.issn.org/resource/ISSN/1061-3773
-  review_count: 1
-- issn: 2504-284x
-  title: Frontiers in education (Lausanne)
-  url: https://portal.issn.org/resource/ISSN/2504-284x
-  review_count: 1
-- issn: 1664-1078
-  title: Frontiers in psychology
-  url: https://portal.issn.org/resource/ISSN/1664-1078
-  review_count: 2
-- issn: 1929-7750
-  title: Journal of learning analytics
-  url: https://portal.issn.org/resource/ISSN/1929-7750
-  review_count: 2
 - issn: 2662-9283
-  title: SN social sciences
+  title: SN Social Sciences
   url: https://portal.issn.org/resource/ISSN/2662-9283
   review_count: 1

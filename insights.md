@@ -1,7 +1,9 @@
 ---
 layout: page
+language: en
 title: Insights
-subtitle: Something that touches my heart
+subtitle: Moments and notes outside the lab
+sitemap: false
 ---
 
 I'd like to share a moving scene from the movie **"[The Lion King](https://en.wikipedia.org/wiki/The_Lion_King){:target="_blank"},"** that has inspired me to move forward with courage and to understand my responsibilities more deeply.

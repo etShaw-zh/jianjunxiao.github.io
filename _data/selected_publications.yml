@@ -1,0 +1,205 @@
+items:
+  - id: lak26-synergy-2026
+    num: "01"
+    zoom_group: lak26
+    venue_en: "LAK26 · Bergen, Norway · 2026"
+    venue_zh: "LAK26 · 挪威卑尔根 · 2026"
+    tag_en: "Full Research Paper"
+    tag_zh: "Full Research Paper"
+    title_en: "Modeling collaborative problem solving dynamics from group discourse: A text-mining approach with synergy degree model"
+    title_zh: "基于群体话语的协作问题解决动态过程建模：一种融合协同度模型的文本挖掘方法"
+    authors_html: "<strong>Xiao, J.</strong>, Wang, C., &amp; Zhang, W."
+    contribution_en: "Combines automated discussion coding with a synergy model to track collaborative problem solving, validated through permutation tests and analysis of group differences."
+    contribution_zh: "结合自动话语编码与协同度模型，追踪协作问题解决过程，并通过置换检验与组间差异分析进行验证。"
+    links:
+      - label: "PDF"
+        url: "https://arxiv.org/pdf/2512.13061.pdf"
+        muted: true
+      - label: "DOI"
+        url: "https://doi.org/10.1145/3785022.3785049"
+        muted: false
+    preview:
+      kind: fig
+      img: "/assets/img/photos/2026/figures/lak26-fig1-pipeline.jpg"
+      alt_en: "Figure 1 Research design and procedure"
+      alt_zh: "Figure 1 研究设计与流程"
+      cap_en: "Fig. 1 · Research Design"
+      cap_zh: "Fig. 1 · 研究流程"
+      zoom_caption_en: "LAK26 · Figure 1 — The research design and procedure: data collection, automated CPS classification, Synergy Degree Modeling, and comparative analysis"
+      zoom_caption_zh: "LAK26 · Figure 1 — 研究设计与建模流程：数据采集、CPS 行为自动分类、协同度建模与比较分析"
+    gallery_aria_en: "Figures and tables extracted from LAK26 PDF"
+    gallery_aria_zh: "LAK26 论文 PDF 图表"
+    figures:
+      - kind: table
+        img: "/assets/img/photos/2026/figures/lak26-table3-models.jpg"
+        alt_en: "Table 3 Model performance comparison"
+        alt_zh: "Table 3 模型分类性能对比"
+        cap_en: "Table 3 · Model Perf."
+        cap_zh: "Table 3 · 模型对比"
+        zoom_caption_en: "LAK26 · Table 3 — Mean and standard deviation of model performance (LLMs, Neural Models, Classical ML) on CPS behavior classification"
+        zoom_caption_zh: "LAK26 · Table 3 — 大模型、神经网络与传统机器学习在 CPS 行为分类任务上的性能对比"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/lak26-fig2-permutation.jpg"
+        alt_en: "Figure 2 Permutation test distributions"
+        alt_zh: "Figure 2 置换检验分布图"
+        cap_en: "Fig. 2 · Permutation Test"
+        cap_zh: "Fig. 2 · 置换检验"
+        zoom_caption_en: "LAK26 · Figure 2 — Permutation test of CPS order parameters (O, W, S, C) and synergy degree between Human vs. Model coding"
+        zoom_caption_zh: "LAK26 · Figure 2 — 模型编码与人工编码在各子系统序参量及整体协同度上的置换检验分布"
+      - kind: table
+        img: "/assets/img/photos/2026/figures/lak26-table5-synergy.jpg"
+        alt_en: "Table 5 Descriptive statistics of order parameters and synergy"
+        alt_zh: "Table 5 序参量与协同度描述统计"
+        cap_en: "Table 5 · Synergy Stats"
+        cap_zh: "Table 5 · 协同度统计"
+        zoom_caption_en: "LAK26 · Table 5 — Descriptive statistics of CPS order parameters and synergy degree across Problem Types (PT) and Collaborative Quality (CQ)"
+        zoom_caption_zh: "LAK26 · Table 5 — 不同问题类型（PT）与协作质量等级（CQ）下的序参量与协同度描述统计"
+      - kind: table
+        img: "/assets/img/photos/2026/figures/lak26-table6-anova.jpg"
+        alt_en: "Table 6 Significant group differences ANOVA"
+        alt_zh: "Table 6 组间显著差异检验"
+        cap_en: "Table 6 · Group ANOVA"
+        cap_zh: "Table 6 · 方差分析"
+        zoom_caption_en: "LAK26 · Table 6 — Significant group differences (Kruskal-Wallis & Fisher ANOVA) across Problem Types and Collaborative Quality"
+        zoom_caption_zh: "LAK26 · Table 6 — 问题类型与协作质量组间显著差异检验（Kruskal-Wallis 与 Fisher ANOVA）"
+
+  - id: network-dynamics-cie-2026
+    num: "02"
+    zoom_group: ile26
+    venue_en: "Interactive Learning Environments · 2026"
+    venue_zh: "Interactive Learning Environments · 2026"
+    tag_en: "SSCI Q1 · Solo"
+    tag_zh: "SSCI Q1 · 独立作者"
+    title_en: "Exploring interaction patterns in open learning environments: integrating network dynamics and cognitive engagement"
+    title_zh: "开放学习环境中的交互模式探索：融合网络动态与认知投入"
+    authors_html: "<strong>Xiao, J.<sup>&dagger;</sup></strong>"
+    contribution_en: "Models 39,000+ interactions among 1,939 learners across eight cMOOC iterations to reveal how reciprocity and cognitive engagement interact in online discussion."
+    contribution_zh: "对 8 轮 cMOOC 中 1,939 名学习者的 39,000+ 条交互事件建模，揭示在线讨论中互惠机制与认知投入的交互效应。"
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1080/10494820.2026.2632766"
+        muted: false
+    preview:
+      kind: fig
+      img: "/assets/img/photos/2026/figures/ile26-fig1-framework.jpg"
+      alt_en: "Figure 1 Theoretical framework of REMs and CIE"
+      alt_zh: "Figure 1 理论分析框架图"
+      cap_en: "Fig. 1 · REM Framework"
+      cap_zh: "Fig. 1 · 理论框架"
+      zoom_caption_en: "ILE (2026) · Figure 1 — REMs analysis of reciprocity and interaction levels in cMOOCs (Theoretical Framework)"
+      zoom_caption_zh: "ILE (2026) · Figure 1 — 理论分析框架：融合网络动态（互惠性）与 CIE 联通主义认知投入的关系事件建模"
+    gallery_aria_en: "Figures and tables extracted from Interactive Learning Environments 2026 PDF"
+    gallery_aria_zh: "ILE 2026 论文 PDF 图表"
+    figures:
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/ile26-fig2-design.jpg"
+        alt_en: "Figure 2 Diagram of the research design"
+        alt_zh: "Figure 2 研究设计流程图"
+        cap_en: "Fig. 2 · Research Design"
+        cap_zh: "Fig. 2 · 研究设计"
+        zoom_caption_en: "ILE (2026) · Figure 2 — Diagram of the research design: NLP CIE classification, Relational Event Modeling, and multivariate meta-analysis"
+        zoom_caption_zh: "ILE (2026) · Figure 2 — 研究设计图：NLP 自动 CIE 编码、关系事件建模（REM）与多元元分析"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/ile26-fig4-cie.jpg"
+        alt_en: "Figure 4 Percentage of posts by CIE level"
+        alt_zh: "Figure 4 CIE 认知投入占比分布"
+        cap_en: "Fig. 4 · CIE Distribution"
+        cap_zh: "Fig. 4 · CIE 分布"
+        zoom_caption_en: "ILE (2026) · Figure 4 — Percentage of discussion posts by CIE cognitive engagement level across 8 cMOOC iterations"
+        zoom_caption_zh: "ILE (2026) · Figure 4 — 8 轮 cMOOC 课程中不同认知投入层级（CIE）发帖占比分布"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/ile26-fig5-marginal.jpg"
+        alt_en: "Figure 5 Marginal effects plot"
+        alt_zh: "Figure 5 边际效应图"
+        cap_en: "Fig. 5 · Marginal Effects"
+        cap_zh: "Fig. 5 · 边际效应"
+        zoom_caption_en: "ILE (2026) · Figure 5 — Marginal effects plot for the interaction effect of CIE levels and reciprocity on subsequent interactions"
+        zoom_caption_zh: "ILE (2026) · Figure 5 — 认知投入层级（CIE）与互惠性对后续交互影响的边际效应图（含局部放大）"
+      - kind: table
+        img: "/assets/img/photos/2026/figures/ile26-table2-rem.jpg"
+        alt_en: "Table 2 Meta-analysis of REM parameter estimates"
+        alt_zh: "Table 2 REM 参数估计元分析"
+        cap_en: "Table 2 · REM Meta"
+        cap_zh: "Table 2 · REM 元分析"
+        zoom_caption_en: "ILE (2026) · Table 2 — Meta-analysis of parameter estimates for REMs on reciprocate and CIE level across Courses 2–9"
+        zoom_caption_zh: "ILE (2026) · Table 2 — 跨 8 轮课程的 REM 互惠性与 CIE 层级参数估计元分析结果"
+      - kind: table
+        img: "/assets/img/photos/2026/figures/ile26-table3-interaction.jpg"
+        alt_en: "Table 3 REM reciprocity interaction meta-analysis"
+        alt_zh: "Table 3 交互效应元分析表"
+        cap_en: "Table 3 · Interaction Meta"
+        cap_zh: "Table 3 · 交互元分析"
+        zoom_caption_en: "ILE (2026) · Table 3 — Meta-analysis of parameter estimates for REMs on reciprocate with interaction effect on CIE level"
+        zoom_caption_zh: "ILE (2026) · Table 3 — REM 互惠性与认知投入交互效应的跨轮次元分析参数估计"
+
+  - id: human-genai-cmooc-2026
+    num: "03"
+    zoom_group: pca26
+    venue_en: "arXiv Preprint · 2026"
+    venue_zh: "arXiv 预印本 · 2026"
+    tag_en: "Human–GenAI · DBR"
+    tag_zh: "人机协同 · DBR"
+    title_en: "Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence"
+    title_zh: "面向 cMOOC 讨论促进的人机交互设计：协同 AI-in-the-loop 工作流对社会与认知临场感的影响"
+    authors_html: "<strong>Xiao, J.</strong>, &amp; Wang, C."
+    contribution_en: "Develops <em>FaciHub</em> through two design-based research iterations, combining AI-generated replies with human review and finding gains in social presence in cMOOC discussions with 178 participants."
+    contribution_zh: "通过两轮基于设计的研究构建 <em>FaciHub</em>，结合 AI 生成回复与人工审核，在 178 人参与的 cMOOC 讨论中发现社会临场感提升。"
+    links:
+      - label: "PDF"
+        url: "https://arxiv.org/pdf/2603.29285v2.pdf"
+        muted: true
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2603.29285v2"
+        muted: false
+    preview:
+      kind: fig
+      img: "/assets/img/photos/2026/figures/pca26-fig1-workflow.jpg"
+      alt_en: "Figure 1 FaciHub workflow architecture"
+      alt_zh: "Figure 1 FaciHub 工作流架构"
+      cap_en: "Fig. 1 · FaciHub Flow"
+      cap_zh: "Fig. 1 · FaciHub 流程"
+      zoom_caption_en: "arXiv (2026) · Figure 1 — Workflow structure for PCA target selection, multi-role response generation, and human review in FaciHub"
+      zoom_caption_zh: "arXiv (2026) · Figure 1 — FaciHub 超图选帖、多角色大模型生成与教师审核工作流架构"
+    gallery_aria_en: "Figures and tables extracted from Human-GenAI cMOOC PDF"
+    gallery_aria_zh: "人机协同 cMOOC 论文 PDF 图表"
+    figures:
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/pca26-fig2-interface.jpg"
+        alt_en: "Figure 2 FaciHub human review interface"
+        alt_zh: "Figure 2 FaciHub 人工审核界面"
+        cap_en: "Fig. 2 · FaciHub UI"
+        cap_zh: "Fig. 2 · FaciHub 界面"
+        zoom_caption_en: "arXiv (2026) · Figure 2 — FaciHub interface for contextual inspection and human approval of PCA-generated replies"
+        zoom_caption_zh: "arXiv (2026) · Figure 2 — FaciHub 语境检视与教师人工审核智能体回复的系统界面"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/pca26-fig3-hypergraph.jpg"
+        alt_en: "Figure 3 Hypergraph target selection diagram"
+        alt_zh: "Figure 3 超图目标选帖示例"
+        cap_en: "Fig. 3 · Hypergraph"
+        cap_zh: "Fig. 3 · 超图选帖"
+        zoom_caption_en: "arXiv (2026) · Figure 3 — Example of hypergraph-based target selection for PCA discussion participation"
+        zoom_caption_zh: "arXiv (2026) · Figure 3 — 基于超图结构识别智能体介入焦点帖子的选帖示例"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/pca26-fig4-dbr.jpg"
+        alt_en: "Figure 4 DBR four-phase procedure"
+        alt_zh: "Figure 4 DBR 四阶段研究过程"
+        cap_en: "Fig. 4 · DBR Procedure"
+        cap_zh: "Fig. 4 · DBR 迭代"
+        zoom_caption_en: "arXiv (2026) · Figure 4 — Overview of the two-iteration Design-Based Research procedure aligned with Reeves' (2006) four-phase model"
+        zoom_caption_zh: "arXiv (2026) · Figure 4 — 遵循 Reeves (2006) 四阶段模型的两轮基于设计的研究（DBR）过程"
+      - kind: fig
+        img: "/assets/img/photos/2026/figures/pca26-fig6-daily.jpg"
+        alt_en: "Figure 6 Daily PCA outcomes and role composition"
+        alt_zh: "Figure 6 每日审核结果与角色分布"
+        cap_en: "Fig. 6 · Daily Outcomes"
+        cap_zh: "Fig. 6 · 每日结果"
+        zoom_caption_en: "arXiv (2026) · Figure 6 — Daily distribution of PCA-generated responses, facilitator review outcomes, and role composition"
+        zoom_caption_zh: "arXiv (2026) · Figure 6 — 智能体每日生成回复量、教师审核采纳率及教学角色分布变化"
+      - kind: table
+        img: "/assets/img/photos/2026/figures/pca26-tables56-results.jpg"
+        alt_en: "Tables 5 and 6 Social and cognitive presence results"
+        alt_zh: "Tables 5-6 临场感统计结果"
+        cap_en: "Tables 5–6 · Presence"
+        cap_zh: "Tables 5–6 · 临场感检验"
+        zoom_caption_en: "arXiv (2026) · Tables 5 & 6 — Goal 1 (With-PCA vs. Without-PCA) and Goal 2 (Direct vs. Co-Presence) social & cognitive presence results"
+        zoom_caption_zh: "arXiv (2026) · Tables 5 & 6 — 有无智能体及直接互动组在社会/认知临场感上的统计检验结果"

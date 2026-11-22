@@ -1,0 +1,136 @@
+{% assign archive_lang = include.language | default: "en" %}
+{% assign all_items = site.data.publications.items %}
+{% assign grants = site.data.publications.grants %}
+{% assign orcid_peer_reviews = site.data.orcid_peer_reviews %}
+{% assign academic_items = "" | split: "" %}
+{% for item in all_items %}
+  {% unless item.type == "software" %}
+    {% assign academic_items = academic_items | push: item %}
+  {% endunless %}
+{% endfor %}
+{% assign pub_count = academic_items | size %}
+{% assign grant_count = grants | size %}
+
+<div class="homepage-shell pub-archive-page">
+  <section class="homepage-section">
+    <div class="homepage-section__header">
+      <div>
+        <p class="homepage-eyebrow">{% if archive_lang == 'zh' %}01 / 精选论文{% else %}01 / Selected Works{% endif %}</p>
+        <h2>{% if archive_lang == 'zh' %}代表性论文{% else %}Selected Publications{% endif %}</h2>
+      </div>
+      <div class="homepage-section__actions">
+        <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">ORCID &#8599;</a>
+        <a class="homepage-section__link" href="https://scholar.google.com/citations?hl={% if archive_lang == 'zh' %}zh-CN{% else %}en{% endif %}&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      </div>
+    </div>
+    {% include selected-publications.html language=archive_lang %}
+  </section>
+
+  <section class="homepage-section">
+    <div class="homepage-section__header">
+      <div>
+        <p class="homepage-eyebrow">{% if archive_lang == 'zh' %}02 / 完整索引{% else %}02 / Complete Index{% endif %}</p>
+        <h2>{% if archive_lang == 'zh' %}全部 {{ pub_count }} 篇论文与 {{ grant_count }} 项基金{% else %}All {{ pub_count }} Publications &amp; {{ grant_count }} Grants{% endif %}</h2>
+      </div>
+      <a class="homepage-section__link" href="{% if archive_lang == 'zh' %}/zh/{% else %}/{% endif %}">{% if archive_lang == 'zh' %}返回首页 &rarr;{% else %}Back to Home &rarr;{% endif %}</a>
+    </div>
+
+    <div class="pub-archive-drawer__content pub-archive-page__index" data-pub-drawer>
+      <div class="pub-archive-drawer__tabs" role="group" aria-label="{% if archive_lang == 'zh' %}按类型筛选论文{% else %}Filter publications by type{% endif %}">
+        <button type="button" class="pub-drawer-tab is-active" data-pub-filter="all">
+          {% if archive_lang == 'zh' %}全部{% else %}All{% endif %} ({{ pub_count }})
+        </button>
+        <button type="button" class="pub-drawer-tab" data-pub-filter="journal">
+          {% if archive_lang == 'zh' %}期刊论文{% else %}Journal{% endif %} ({{ academic_items | where: "type", "journal" | size }})
+        </button>
+        <button type="button" class="pub-drawer-tab" data-pub-filter="conference">
+          {% if archive_lang == 'zh' %}会议论文{% else %}Conference{% endif %} ({{ academic_items | where: "type", "conference" | size }})
+        </button>
+        <button type="button" class="pub-drawer-tab" data-pub-filter="preprint">
+          {% if archive_lang == 'zh' %}预印本{% else %}Preprint{% endif %} ({{ academic_items | where: "type", "preprint" | size }})
+        </button>
+      </div>
+
+      <ol class="pub-archive-list">
+        {% for item in academic_items %}
+          <li class="pub-archive-row" data-pub-type="{{ item.type }}">
+            <span class="pub-archive-row__idx">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+            <span class="pub-archive-row__year">{{ item.year }}</span>
+            <div class="pub-archive-row__main">
+              <p class="pub-archive-row__title">
+                {% if item.url and item.url != "" %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener">
+                    {% if archive_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}
+                  </a>
+                {% else %}
+                  {% if archive_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}
+                {% endif %}
+              </p>
+              <p class="pub-archive-row__meta">
+                <span>{% if archive_lang == 'zh' %}{{ item.authors }}{% else %}{{ item.authors_en | default: item.authors }}{% endif %}</span>
+                <span aria-hidden="true">&middot;</span>
+                <span>{% if archive_lang == 'zh' %}{{ item.venue_zh }}{% else %}{{ item.venue_en }}{% endif %}</span>
+              </p>
+            </div>
+            <div class="pub-archive-row__aside">
+              <span class="pill-tag">{{ item.badge }}</span>
+              {% if item.url and item.url != "" %}
+                <a class="pub-archive-row__ext" href="{{ item.url }}" target="_blank" rel="noopener">
+                  {% if archive_lang == 'zh' %}{{ item.url_label_zh | default: '链接' }}{% else %}{{ item.url_label_en | default: 'Link' }}{% endif %} &#8599;
+                </a>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+
+      {% if grants and grants.size > 0 %}
+        <div class="pub-archive-grants">
+          <h3 class="pub-archive-grants__title">
+            {% if archive_lang == 'zh' %}科研项目与基金{% else %}Research Grants &amp; Projects{% endif %}
+          </h3>
+          <ol class="pub-archive-list pub-archive-list--grants">
+            {% for grant in grants %}
+              <li class="pub-archive-row pub-archive-row--grant">
+                <span class="pub-archive-row__idx">G{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                <span class="pub-archive-row__year">{{ grant.period }}</span>
+                <div class="pub-archive-row__main">
+                  <p class="pub-archive-row__title">
+                    {% if archive_lang == 'zh' %}{{ grant.title_zh }}{% else %}{{ grant.title_en }}{% endif %}
+                  </p>
+                  <p class="pub-archive-row__meta">
+                    {% if archive_lang == 'zh' %}{{ grant.funder_zh }}{% else %}{{ grant.funder_en }}{% endif %}
+                  </p>
+                </div>
+                <div class="pub-archive-row__aside">
+                  <span class="pill-tag">{% if archive_lang == 'zh' %}{{ grant.role_zh }}{% else %}{{ grant.role_en }}{% endif %}</span>
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+
+  {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
+  <section class="homepage-section">
+    <div class="homepage-section__header">
+      <div>
+        <p class="homepage-eyebrow">{% if archive_lang == 'zh' %}03 / 学术服务{% else %}03 / Academic Service{% endif %}</p>
+        <h2>{% if archive_lang == 'zh' %}国际期刊审稿（{{ orcid_peer_reviews.review_count }} 次 &middot; {{ orcid_peer_reviews.journal_count | default: orcid_peer_reviews.journals.size }} 刊）{% else %}Journal Peer Review ({{ orcid_peer_reviews.review_count }} Reviews &middot; {{ orcid_peer_reviews.journal_count | default: orcid_peer_reviews.journals.size }} Journals){% endif %}</h2>
+      </div>
+    </div>
+    <ul class="about-review-pills">
+      {% for journal in orcid_peer_reviews.journals %}
+        <li>
+          <a class="service-pill" href="{{ journal.url }}" target="_blank" rel="noopener">
+            <span class="service-pill__label">{{ journal.title }}</span>
+            <span class="service-pill__count">{{ journal.review_count }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>

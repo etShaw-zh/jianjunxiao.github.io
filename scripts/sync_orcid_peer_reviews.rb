@@ -14,18 +14,39 @@ TOKEN_ENDPOINT = 'https://pub.orcid.org/oauth/token'
 OUTPUT_PATH = File.expand_path('../_data/orcid_peer_reviews.yml', __dir__)
 
 TITLE_OVERRIDES = {
-  'issn:1744-5191' => 'Interactive Learning Environments',
-  'issn:1468-4462' => 'Information, Communication & Society',
-  'issn:2475-9066' => 'the journal of Open Source Software',
   'issn:0360-1315' => 'Computers & Education',
   'issn:1873-782x' => 'Computers & Education',
-  'issn:2045-2322' => 'Scientific Reports',
-  'issn:1472-6920' => 'BMC Medical Education',
-  'issn:2731-5525' => 'Discover Education',
-  'issn:2050-7283' => 'BMC Psychology',
+  'issn:1929-7750' => 'Journal of Learning Analytics',
+  'issn:1744-5191' => 'Interactive Learning Environments',
   'issn:2662-9992' => 'Humanities & Social Sciences Communications',
-  'issn:2504-284X' => 'Frontiers in education'
+  'issn:2045-2322' => 'Scientific Reports',
+  'issn:1468-4462' => 'Information, Communication & Society',
+  'issn:2475-9066' => 'The Journal of Open Source Software',
+  'issn:1061-3773' => 'Computer Applications in Engineering Education',
+  'issn:2050-7283' => 'BMC Psychology',
+  'issn:1472-6920' => 'BMC Medical Education',
+  'issn:1664-1078' => 'Frontiers in Psychology',
+  'issn:2504-284x' => 'Frontiers in Education',
+  'issn:2731-5525' => 'Discover Education',
+  'issn:2662-9283' => 'SN Social Sciences'
 }.freeze
+
+JOURNAL_PRIORITY = [
+  'Computers & Education',
+  'Journal of Learning Analytics',
+  'Interactive Learning Environments',
+  'Humanities & Social Sciences Communications',
+  'Scientific Reports',
+  'Information, Communication & Society',
+  'The Journal of Open Source Software',
+  'Computer Applications in Engineering Education',
+  'BMC Psychology',
+  'BMC Medical Education',
+  'Frontiers in Psychology',
+  'Frontiers in Education',
+  'Discover Education',
+  'SN Social Sciences'
+].freeze
 
 URL_OVERRIDES = {
   'issn:1744-5191' => 'https://www.tandfonline.com/journals/nile20/about-this-journal#aims-and-scope',
@@ -36,22 +57,22 @@ URL_OVERRIDES = {
   'issn:2045-2322' => 'https://www.nature.com/srep/about',
   'issn:1472-6920' => 'https://link.springer.com/journal/12909/aims-and-scope',
   'issn:2731-5525' => 'https://link.springer.com/journal/44217/aims-and-scope',
-  'issn:2050-7283' => 'https://link.springer.com/journal/40359/aims-and-scope?utm_medium=affiliate&utm_source=baidu&utm_content=banner&utm_term=null&utm_campaign=MLSR_40359_AWA1_CN_CNPL_HPAUT_OAX',
+  'issn:2050-7283' => 'https://link.springer.com/journal/40359/aims-and-scope',
   'issn:2662-9992' => 'https://www.nature.com/palcomms/journal-information',
-  'issn:2504-284X' => 'https://www.frontiersin.org/journals/education/about#about-scope'
+  'issn:2504-284x' => 'https://www.frontiersin.org/journals/education/about#about-scope'
 }.freeze
 
 FALLBACK_JOURNAL_COUNTS = {
   'Interactive Learning Environments' => 2,
   'Information, Communication & Society' => 1,
-  'the journal of Open Source Software' => 1,
-  'Computers & Education' => 2,
-  'Scientific Reports' => 1,
-  'BMC Medical Education' => 1,
+  'The Journal of Open Source Software' => 1,
+  'Computers & Education' => 4,
+  'Scientific Reports' => 2,
+  'BMC Medical Education' => 2,
   'Discover Education' => 1,
   'BMC Psychology' => 4,
-  'Humanities & Social Sciences Communications' => 3,
-  'Frontiers in education' => 1
+  'Humanities & Social Sciences Communications' => 8,
+  'Frontiers in Education' => 1
 }.freeze
 
 ISSN_TITLE_CACHE = {}
@@ -197,23 +218,27 @@ def pick_journals(peer_review_items)
   peer_review_items.each do |item|
     title = normalize_title(extract_journal_title(item))
     next if title.empty?
-    next if seen[title]
 
     issn_key = normalize_title(item['review-group-id']).downcase
-    seen[title] = true
-    journals << {
-      'issn' => issn_key.sub(/\Aissn:/, ''),
+    issn_val = issn_key.sub(/\Aissn:/, '')
+    if seen[title]
+      seen[title]['_issns'] << issn_key unless seen[title]['_issns'].include?(issn_key)
+      next
+    end
+
+    entry = {
+      'issn' => issn_val,
       'title' => title,
-      'url' => url_map[issn_key] || "https://portal.issn.org/resource/ISSN/#{issn_key.sub(/\Aissn:/, '')}"
+      'url' => url_map[issn_key] || "https://portal.issn.org/resource/ISSN/#{issn_val}",
+      '_issns' => [issn_key]
     }
+    seen[title] = entry
+    journals << entry
   end
 
-  ordered = URL_OVERRIDES.keys.map do |issn|
-    normalize_title(TITLE_OVERRIDES[issn] || fetch_issn_title(issn) || issn.sub(/\Aissn:/, ''))
-  end
   journals.sort_by do |journal|
-    index = ordered.index(normalize_title(journal['title']))
-    [index || ordered.length, journal['title'].downcase]
+    index = JOURNAL_PRIORITY.index(normalize_title(journal['title']))
+    [index || JOURNAL_PRIORITY.length, journal['title'].downcase]
   end
 end
 
@@ -296,7 +321,8 @@ def main
   counts_by_issn = peer_review_counts(record)
 
   journals.each do |journal|
-    journal['review_count'] = counts_by_issn["issn:#{journal['issn']}"] || 0
+    issns = journal.delete('_issns') || ["issn:#{journal['issn']}"]
+    journal['review_count'] = issns.sum { |k| counts_by_issn[k] || 0 }
   end
 
   payload = {
@@ -312,14 +338,15 @@ def main
   write_output(payload)
   warn "Wrote #{journals.length} ORCID journals to #{OUTPUT_PATH}"
 rescue StandardError => e
+  fallback = fallback_journals.uniq { |j| j['title'] }
   payload = {
     'orcid_id' => ORCID_ID,
     'source' => 'fallback',
     'source_url' => "https://orcid.org/#{ORCID_ID}",
     'last_synced_at' => Time.now.utc.iso8601,
-    'review_count' => FALLBACK_JOURNALS.length,
-    'journal_count' => FALLBACK_JOURNALS.length,
-    'journals' => fallback_journals
+    'review_count' => fallback.sum { |j| j['review_count'].to_i },
+    'journal_count' => fallback.length,
+    'journals' => fallback
   }
 
   write_output(payload)

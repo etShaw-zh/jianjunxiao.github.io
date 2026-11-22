@@ -1,7 +1,8 @@
 ---
 layout: page
-title: AI Coding Officer
-subtitle: AI coding officer, make coding ease.
+language: en
+title: AICodingOfficer (AICO)
+subtitle: Cross-platform AI assistant for qualitative discourse and text coding.
 ---
 
 ----------
@@ -22,9 +23,9 @@ subtitle: AI coding officer, make coding ease.
 
 ----------
 #### **Introduction**
-AICO is an artificial intelligence text-coding officer with integrated classifiers, designed to enhance the efficiency of text encoding.
-- **A I** : Stands for "Artificial Intelligence", emphasizing the intelligent features of the tool.
-- **CO**: Stands for "Coding Officer", indicating that AICO is a professional coding assistant capable of executing and unsupervising encoding tasks.
+AICO is an artificial intelligence text-coding assistant with integrated classifiers, designed to streamline qualitative discourse analysis and content coding.
+- **AI**: Stands for *Artificial Intelligence*, highlighting the LLM and machine-learning classifiers embedded in the workflow.
+- **CO**: Stands for *Coding Officer*, reflecting AICO's role in executing, assisting, and scaling automated text-coding tasks.
 
 ----------
 #### **Screenshots**
@@ -159,8 +160,8 @@ AICO is an artificial intelligence text-coding officer with integrated classifie
 ----------
 #### **Learn More**
 
-- [Quick Start](https://xiaojianjun.cn/quickstart)
-- [Download](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases)
+- [Quick Start](/quickstart/)
+- [Download](https://github.com/etShaw-zh/AICodingAssistant-Pro/releases){:target="_blank" rel="noopener"}
 - [Example Data](/assets/example/example.zip)
 
 #### Citation
@@ -180,16 +181,8 @@ Xiao, J. (2024). AICO: An artificial intelligence text-coding officer with integ
 }
 ```
 
-#### **Contact Information**
+#### **Contact**
 
-- **WeChat:** etshaw8888
-
-- **Personal Homepage:** https://xiaojianjun.cn 
-
-- **WeChat Official Account:** EdTech肖建军
-
-- **Email:** et_shaw@126.com
-
-- **Address:** Room 1005A, Block C, Science and Technology Building, Beijing Normal University
-
-![my info](/assets/img/shaw.png){:height="200px" width="400px" style="display: block; margin: 0 auto" }
+- **Homepage:** [xiaojianjun.cn](https://xiaojianjun.cn)
+- **Email:** [et_shaw@126.com](mailto:et_shaw@126.com)
+- **Affiliation:** Research Centre of Distance Education (RCDE), Beijing Normal University

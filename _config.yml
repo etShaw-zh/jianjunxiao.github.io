@@ -73,7 +73,7 @@ social-network-links:
   email: "et_shaw@126.com"
   github: "etShaw-zh"
   ORCID: "0000-0003-0000-9630"
-  google-scholar: "citations?hl=zh-CN&user=FaqCcFoAAAAJ"
+  google-scholar: "citations?hl=en&user=FaqCcFoAAAAJ"
   # bilibili: "381243118"
 #   facebook: deanattali
 #   twitter: daattali
@@ -156,7 +156,6 @@ site-css:
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
   - "/assets/js/theme-toggle.js"
-  - "/assets/js/homepage-carousel.js"
 
 # --- Web Analytics Section --- #
 
@@ -177,13 +176,13 @@ site-js:
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-disqus: "jianjun_xiao"
+# disqus: "jianjun_xiao"
 
 # Hide the Beautiful Jekyll attribution block in the footer
 remove-ads: true
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-fb_comment_id: "100078264169082"
+# fb_comment_id: "100078264169082"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
@@ -220,7 +219,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -255,7 +254,10 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
+  - beautiful-jekyll-theme.gemspec
+  - staticman.yml
   - docs/
+  - scripts/
   - vendor/
 
 plugins:

@@ -1,8 +1,8 @@
 en:
-  - label: News
-    url: /#news
   - label: Publications
     url: /#publications
+  - label: News
+    url: /#news
   - label: Projects
     url: /#projects
   - label: Contact
@@ -10,10 +10,10 @@ en:
   - label: About
     url: /aboutme/
 zh:
-  - label: 动态
-    url: /zh/#news
   - label: 论文
     url: /zh/#publications
+  - label: 动态
+    url: /zh/#news
   - label: 项目
     url: /zh/#projects
   - label: 联系

@@ -35,17 +35,17 @@ sections:
         title_en: Applications
         title_zh: 应用程序
         items:
-          - title_en: AICodingOffier
-            title_zh: AICodingOffier
+          - title_en: AICodingOfficer
+            title_zh: AICodingOfficer
             subtitle_en: AICO
             subtitle_zh: AICO
             description_en: >-
-              AICO is an AI coding assistant designed to improve the efficiency of
-              text encoding. The app is built on PyQt6 and works on Windows, macOS,
-              and Linux.
+              AICO is an AI text-coding assistant designed to improve the efficiency of
+              qualitative discourse and text encoding. Built with PyQt6, it runs on
+              Windows, macOS, and Linux.
             description_zh: >-
-              AICO 是一个面向文本编码提效的人工智能编程助手。该应用基于 PyQt6
-              构建，可运行于 Windows、macOS 和 Linux。
+              AICO 是一个面向质性与话语文本编码提效的人工智能文本编码助手。该应用基于
+              PyQt6 构建，可运行于 Windows、macOS 和 Linux。
             media:
               type: image
               src: /assets/img/screenshot_2.jpg
@@ -54,7 +54,7 @@ sections:
             links:
               - label_en: Website
                 label_zh: 网站
-                url: https://xiaojianjun.cn/aicodingofficer
+                url: /aicodingofficer/
 
       - key: websites
         title_en: Websites
@@ -64,13 +64,12 @@ sections:
             title_zh: cMOOC Platform
             description_en: >-
               An online learning platform supporting connectivist MOOCs (cMOOCs).
-              It has served 16,712 users as of August 2023 and remains an active
-              community site. I joined the project in 2019 and led the design and
-              iterative development.
+              Since 2019, I have led its architecture design and iterative development
+              across nine course runs, serving 16,712+ learners and an active learning
+              community at Beijing Normal University.
             description_zh: >-
-              这是一个支持联通主义 MOOCs（cMOOCs）的在线学习平台，截至 2023 年 8
-              月已服务 16,712 名用户，并拥有较活跃的社区互动。我于 2019 年加入
-              该项目，负责平台设计与开发推进。
+              这是一个支持联通主义 MOOCs（cMOOCs）的在线学习平台。自 2019 年起，
+              我主导其架构设计与多轮功能迭代，支撑 9 轮课程运行，累计服务 16,712+ 名学习者。
             media:
               type: image
               src: /assets/img/photos/cmooc_platform.jpg
