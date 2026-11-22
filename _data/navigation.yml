@@ -5,6 +5,8 @@ en:
     url: /#publications
   - label: Projects
     url: /#projects
+  - label: Contact
+    url: /#contact
   - label: About
     url: /aboutme/
 zh:
@@ -14,5 +16,7 @@ zh:
     url: /zh/#publications
   - label: 项目
     url: /zh/#projects
+  - label: 联系
+    url: /zh/#contact
   - label: 关于
     url: /zh/aboutme/

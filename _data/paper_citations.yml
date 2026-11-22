@@ -1,0 +1,105 @@
+---
+source: google_scholar+openalex
+google_scholar_user: FaqCcFoAAAAJ
+last_synced_at: '2026-11-22T11:32:42Z'
+google_scholar_synced_at: '2026-11-22T11:32:42Z'
+paper_count: 19
+tracked_papers: 13
+total_citations: 171
+listed_papers_citations: 168
+google_scholar_total: 171
+h_index: 5
+i10_index: 3
+papers:
+  lak26-synergy-2026:
+    citations: 1
+    source: google_scholar
+    citations_gs: 1
+    citations_openalex: 2
+    doi: 10.1145/3785022.3785049
+  network-dynamics-cie-2026:
+    citations: 1
+    source: google_scholar
+    citations_gs: 1
+    citations_openalex: 1
+    doi: 10.1080/10494820.2026.2632766
+  human-genai-cmooc-2026:
+    citations: 2
+    source: google_scholar
+    citations_gs: 2
+    citations_openalex: 1
+    arxiv: '2603.29285'
+  structural-hole-2026:
+    citations: 0
+    source: google_scholar
+    citations_gs: 0
+  informal-learning-2026:
+    citations: 2
+    source: google_scholar
+    citations_gs: 2
+    citations_openalex: 2
+    arxiv: '2604.03643'
+  tna-human-ai-2026:
+    citations: 0
+    source: none
+  hybrid-intelligence-2025:
+    citations: 99
+    source: google_scholar
+    citations_gs: 99
+    citations_openalex: 93
+    doi: 10.1057/s41599-025-05097-z
+  path-analysis-cmooc-2025:
+    citations: 5
+    source: google_scholar
+    citations_gs: 5
+    citations_openalex: 6
+    doi: 10.1080/10494820.2025.2498534
+  role-recognition-2025:
+    citations: 11
+    source: google_scholar
+    citations_gs: 11
+    citations_openalex: 12
+    doi: 10.1080/10494820.2024.2442706
+  affordance-cmooc-2025:
+    citations: 0
+    source: none
+  resource-use-2024:
+    citations: 3
+    source: google_scholar
+    citations_gs: 3
+    citations_openalex: 1
+    doi: 10.1080/10494820.2024.2437542
+  assrt-2024:
+    citations: 0
+    source: none
+  saom-cps-2023:
+    citations: 6
+    source: google_scholar
+    citations_gs: 6
+    citations_openalex: 7
+    doi: 10.1080/10494820.2023.2266523
+  iflytek-gpt3-2023:
+    citations: 0
+    source: none
+  perceived-value-2022:
+    citations: 9
+    source: google_scholar
+    citations_gs: 9
+    citations_openalex: 10
+    doi: 10.1080/10494820.2022.2137531
+  cmooc-design-5rounds-2022:
+    citations: 4
+    source: google_scholar
+    citations_gs: 4
+  cmooc-path-2022:
+    citations: 0
+    source: none
+  assrt-2022:
+    citations: 0
+    source: none
+  content-production-2021:
+    citations: 25
+    source: google_scholar
+    citations_gs: 25
+    citations_openalex: 22
+    doi: 10.1080/10494820.2021.1969955

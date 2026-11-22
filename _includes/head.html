@@ -2,6 +2,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="img/ico" href="/assets/img/favicon.jpg" />
+  <script>
+    (function () {
+      try {
+        var mode = localStorage.getItem('site-theme-mode') || 'auto';
+        if (mode !== 'light' && mode !== 'dark' && mode !== 'auto') mode = 'auto';
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var resolved = mode === 'auto' ? (prefersDark ? 'dark' : 'light') : mode;
+        document.documentElement.setAttribute('data-theme-mode', mode);
+        document.documentElement.setAttribute('data-theme', resolved);
+      } catch (e) {}
+    })();
+  </script>
 
   {% capture title %}
     {%- if page.share-title -%}

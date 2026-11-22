@@ -3,42 +3,60 @@
 {% if active_language == "zh" %}
   {% assign default_alternate_url = "/" %}
   {% assign default_alternate_label = "EN" %}
+  {% assign brand_home_url = "/zh/" %}
+  {% assign brand_primary = "肖建军" %}
+  {% assign brand_secondary = "Jianjun Xiao" %}
+  {% assign theme_aria_label = "切换外观模式" %}
+  {% assign theme_initial_label = "自动" %}
 {% else %}
   {% assign default_alternate_url = "/zh/" %}
   {% assign default_alternate_label = "中文" %}
+  {% assign brand_home_url = "/" %}
+  {% assign brand_primary = "Jianjun Xiao" %}
+  {% assign brand_secondary = "肖建军" %}
+  {% assign theme_aria_label = "Switch color appearance" %}
+  {% assign theme_initial_label = "Auto" %}
 {% endif %}
 {% assign alternate_url = page.alternate-url | default: default_alternate_url %}
 {% assign alternate_label = page.alternate-label | default: default_alternate_label %}
 
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
-  {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
-  {%- elsif site.title -%}
-    <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
-  {%- endif -%}
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom site-navbar {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+  <div class="site-navbar__inner">
+    <a class="navbar-brand site-brand" href="{{ brand_home_url | relative_url }}">
+      <img class="site-brand__avatar" src="{{ '/assets/img/jianjunxiao-hero.jpg' | relative_url }}" alt="{{ site.title }}" width="28" height="28">
+      <span class="site-brand__name">{{ brand_primary }}</span>
+      <span class="site-brand__sub">/ {{ brand_secondary }}</span>
+    </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto">
-      {%- for link in navigation_links -%}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.label }}</a>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="navbar-nav ml-auto align-items-xl-center">
+        {%- for link in navigation_links -%}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.label }}</a>
+          </li>
+        {%- endfor -%}
+        <li class="nav-item site-navbar__control">
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            data-lang="{{ active_language }}"
+            aria-label="{{ theme_aria_label }}"
+            title="{{ theme_aria_label }}"
+          >
+            <i class="fas fa-circle-half-stroke theme-toggle__icon" data-theme-icon aria-hidden="true"></i>
+            <span class="theme-toggle__label" data-theme-label>{{ theme_initial_label }}</span>
+          </button>
         </li>
-      {%- endfor -%}
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="cv-dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
-        <div class="dropdown-menu" aria-labelledby="cv-dropdown-toggle">
-          <a class="dropdown-item" href="{{ '/assets/pdf/Xiao_Jianjun_Resume_EN.pdf' | relative_url }}">English</a>
-          <a class="dropdown-item" href="{{ '/assets/pdf/Xiao_Jianjun_Resume_CN.pdf' | relative_url }}">中文</a>
-        </div>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link language-switch" href="{{ alternate_url | relative_url }}">{{ alternate_label }}</a>
-      </li>
-    </ul>
+        <li class="nav-item site-navbar__control">
+          <a class="nav-link language-switch" href="{{ alternate_url | relative_url }}">{{ alternate_label }}</a>
+        </li>
+      </ul>
+    </div>
   </div>
 
   {% if site.navbar-extra %}
@@ -46,15 +64,4 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
-
-  {% if site.avatar and page.show-avatar != false %}
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="{{ '' | absolute_url }}">
-          <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" />
-        </a>
-      </div>
-    </div>
-  {% endif %}
-
 </nav>

@@ -1,41 +1,26 @@
-<footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
-
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
+{% assign citation_sync = site.data.paper_citations.last_synced_at | default: site.data.orcid_work_stats.last_synced_at %}
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__meta">
+      <span class="site-footer__brand">
+        {% if site.author %}{{ site.author }}{% endif %}
+        {% if site.url-pretty %}
+          <span aria-hidden="true">&middot;</span>
           <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
         {% endif %}
-      {% endif%}
-      </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Built with
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-      </p>{% endunless %}
-      </div>
+      </span>
+      <span class="site-footer__note">
+        &copy; {{ site.time | date: '%Y' }} &middot; Beijing Normal University
+      </span>
+    </div>
+
+    <div class="site-footer__meta">
+      {% if site.social-network-links.ORCID %}
+        <span>ORCID {{ site.social-network-links.ORCID }}</span>
+      {% endif %}
+      {% if citation_sync %}
+        <span>Synced {{ citation_sync | date: "%Y-%m-%d" }}</span>
+      {% endif %}
     </div>
   </div>
 </footer>

@@ -1,0 +1,128 @@
+{% assign drawer_lang = include.language | default: "en" %}
+{% assign all_items = site.data.publications.items %}
+{% assign grants = site.data.publications.grants %}
+{% assign citation_map = site.data.paper_citations.papers %}
+{% assign academic_items = "" | split: "" %}
+{% for item in all_items %}
+  {% unless item.type == "software" %}
+    {% assign academic_items = academic_items | push: item %}
+  {% endunless %}
+{% endfor %}
+{% assign pub_count = academic_items | size %}
+{% assign grant_count = grants | size %}
+
+<details class="pub-archive-drawer" id="all-publications">
+  <summary class="pub-archive-drawer__summary">
+    <div class="pub-archive-drawer__heading">
+      <span class="pub-archive-drawer__eyebrow">
+        {% if drawer_lang == 'zh' %}完整学术清单{% else %}Complete Academic Index{% endif %}
+      </span>
+      <h3 class="pub-archive-drawer__title">
+        {% if drawer_lang == 'zh' %}
+          全部 {{ pub_count }} 篇论文与 {{ grant_count }} 项科研基金
+        {% else %}
+          All {{ pub_count }} Publications &amp; {{ grant_count }} Research Grants
+        {% endif %}
+      </h3>
+      <p class="pub-archive-drawer__sub">
+        {% if drawer_lang == 'zh' %}
+          期刊、会议、预印本及科研基金完整清单（含 Google Scholar / OpenAlex 引用数）。
+        {% else %}
+          Full index of journals, conferences, preprints, and grants with Google Scholar / OpenAlex citations.
+        {% endif %}
+      </p>
+    </div>
+    <span class="pub-archive-drawer__toggle">
+      <span class="pub-archive-drawer__toggle-open">
+        {% if drawer_lang == 'zh' %}展开全部 {{ pub_count }} 篇 &darr;{% else %}Expand all {{ pub_count }} works &darr;{% endif %}
+      </span>
+      <span class="pub-archive-drawer__toggle-close">
+        {% if drawer_lang == 'zh' %}收起清单 &uarr;{% else %}Collapse list &uarr;{% endif %}
+      </span>
+    </span>
+  </summary>
+
+  <div class="pub-archive-drawer__content" data-pub-drawer>
+    <div class="pub-archive-drawer__tabs" role="group" aria-label="{% if drawer_lang == 'zh' %}按类型筛选论文{% else %}Filter publications by type{% endif %}">
+      <button type="button" class="pub-drawer-tab is-active" data-pub-filter="all">
+        {% if drawer_lang == 'zh' %}全部{% else %}All{% endif %} ({{ pub_count }})
+      </button>
+      <button type="button" class="pub-drawer-tab" data-pub-filter="journal">
+        {% if drawer_lang == 'zh' %}期刊论文{% else %}Journal{% endif %} ({{ academic_items | where: "type", "journal" | size }})
+      </button>
+      <button type="button" class="pub-drawer-tab" data-pub-filter="conference">
+        {% if drawer_lang == 'zh' %}会议论文{% else %}Conference{% endif %} ({{ academic_items | where: "type", "conference" | size }})
+      </button>
+      <button type="button" class="pub-drawer-tab" data-pub-filter="preprint">
+        {% if drawer_lang == 'zh' %}预印本{% else %}Preprint{% endif %} ({{ academic_items | where: "type", "preprint" | size }})
+      </button>
+    </div>
+
+    <ol class="pub-archive-list">
+      {% for item in academic_items %}
+        {% assign cite_entry = citation_map[item.id] %}
+        {% assign cite_num = cite_entry.citations | default: 0 %}
+        <li class="pub-archive-row" data-pub-type="{{ item.type }}">
+          <span class="pub-archive-row__idx">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+          <span class="pub-archive-row__year">{{ item.year }}</span>
+          <div class="pub-archive-row__main">
+            <p class="pub-archive-row__title">
+              {% if item.url and item.url != "" %}
+                <a href="{{ item.url }}" target="_blank" rel="noopener">
+                  {% if drawer_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}
+                </a>
+              {% else %}
+                {% if drawer_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}
+              {% endif %}
+            </p>
+            <p class="pub-archive-row__meta">
+              <span>{{ item.authors }}</span>
+              <span aria-hidden="true">&middot;</span>
+              <span>{% if drawer_lang == 'zh' %}{{ item.venue_zh }}{% else %}{{ item.venue_en }}{% endif %}</span>
+            </p>
+          </div>
+          <div class="pub-archive-row__aside">
+            {% if cite_num > 0 %}
+              <span class="pill-tag pill-tag--cite">
+                {% if drawer_lang == 'zh' %}被引 {{ cite_num }}{% else %}{{ cite_num }} cites{% endif %}
+              </span>
+            {% endif %}
+            <span class="pill-tag">{{ item.badge }}</span>
+            {% if item.url and item.url != "" %}
+              <a class="pub-archive-row__ext" href="{{ item.url }}" target="_blank" rel="noopener">
+                {% if drawer_lang == 'zh' %}{{ item.url_label_zh | default: '链接' }}{% else %}{{ item.url_label_en | default: 'Link' }}{% endif %} &#8599;
+              </a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+
+    {% if grants and grants.size > 0 %}
+      <div class="pub-archive-grants">
+        <h4 class="pub-archive-grants__title">
+          {% if drawer_lang == 'zh' %}科研项目与基金{% else %}Research Grants &amp; Projects{% endif %}
+        </h4>
+        <ol class="pub-archive-list pub-archive-list--grants">
+          {% for grant in grants %}
+            <li class="pub-archive-row pub-archive-row--grant">
+              <span class="pub-archive-row__idx">G{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+              <span class="pub-archive-row__year">{{ grant.period }}</span>
+              <div class="pub-archive-row__main">
+                <p class="pub-archive-row__title">
+                  {% if drawer_lang == 'zh' %}{{ grant.title_zh }}{% else %}{{ grant.title_en }}{% endif %}
+                </p>
+                <p class="pub-archive-row__meta">
+                  {% if drawer_lang == 'zh' %}{{ grant.funder_zh }}{% else %}{{ grant.funder_en }}{% endif %}
+                </p>
+              </div>
+              <div class="pub-archive-row__aside">
+                <span class="pill-tag">{% if drawer_lang == 'zh' %}{{ grant.role_zh }}{% else %}{{ grant.role_en }}{% endif %}</span>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+  </div>
+</details>

@@ -1,0 +1,82 @@
+{% assign map_lang = include.language | default: "en" %}
+{% assign all_items = site.data.publications.items %}
+{% assign paper_items = "" | split: "" %}
+{% for item in all_items %}
+  {% unless item.type == "software" %}
+    {% assign paper_items = paper_items | push: item %}
+  {% endunless %}
+{% endfor %}
+{% assign count_all = paper_items | size %}
+{% assign count_la = paper_items | where: "theme", "learning-analytics" | size %}
+{% assign count_ai = paper_items | where: "theme", "ai-education" | size %}
+{% assign count_cmooc = paper_items | where: "theme", "cmooc" | size %}
+{% assign citation_map = site.data.paper_citations.papers %}
+
+<div
+  class="research-map"
+  data-research-map
+  data-lang="{{ map_lang }}"
+  data-avatar="{{ '/assets/img/jianjunxiao-hero.jpg' | relative_url }}"
+  data-about-url="{% if map_lang == 'zh' %}{{ '/zh/aboutme/' | relative_url }}{% else %}{{ '/aboutme/' | relative_url }}{% endif %}"
+>
+  <div class="research-map__stage">
+    <canvas
+      class="research-map__canvas"
+      data-map-canvas
+      aria-label="{% if map_lang == 'zh' %}交互式论文引用星图：展示 2021 至 2026 年的学术论文与真实引用数{% else %}Interactive paper citation orbit map showing publications from 2021 to 2026 sized by citations{% endif %}"
+    ></canvas>
+
+    <div class="research-map__detail" data-map-detail hidden role="dialog" aria-live="polite">
+      <button type="button" class="research-map__detail-close" data-map-detail-close aria-label="{% if map_lang == 'zh' %}关闭详情{% else %}Close details{% endif %}">&times;</button>
+      <p class="research-map__detail-meta" data-map-detail-meta></p>
+      <h3 class="research-map__detail-title" data-map-detail-title></h3>
+      <p class="research-map__detail-authors" data-map-detail-authors></p>
+      <p class="research-map__detail-venue" data-map-detail-venue></p>
+      <div class="research-map__detail-actions" data-map-detail-actions></div>
+    </div>
+  </div>
+
+  <div class="research-map__controls">
+    <div class="research-map__mode-row">
+      <div class="research-map__segmented" role="radiogroup" aria-label="{% if map_lang == 'zh' %}星图排布方式{% else %}Orbit map layout mode{% endif %}">
+        <button type="button" role="radio" aria-checked="true" class="research-map__seg-btn is-active" data-map-mode="rings">
+          {% if map_lang == 'zh' %}年轮{% else %}Timeline{% endif %}
+        </button>
+        <button type="button" role="radio" aria-checked="false" class="research-map__seg-btn" data-map-mode="citations">
+          {% if map_lang == 'zh' %}星等{% else %}Citations{% endif %}
+        </button>
+      </div>
+      <p class="research-map__legend" data-map-legend>
+        {% if map_lang == 'zh' %}越新越靠外，引用越多星越大 · 悬停星点查看详情{% else %}Newer outward, larger by citations · Hover any star for details{% endif %}
+      </p>
+    </div>
+
+    <div class="research-map__filters" role="group" aria-label="{% if map_lang == 'zh' %}按研究主题连线筛选{% else %}Filter constellation by research theme{% endif %}">
+      <button type="button" class="research-map__filter is-active" aria-pressed="true" data-map-filter="all">
+        {% if map_lang == 'zh' %}全部论文{% else %}All Papers{% endif %} <span>{{ count_all }}</span>
+      </button>
+      <button type="button" class="research-map__filter" aria-pressed="false" data-map-filter="learning-analytics">
+        {% if map_lang == 'zh' %}学习分析{% else %}Learning Analytics{% endif %} <span>{{ count_la }}</span>
+      </button>
+      <button type="button" class="research-map__filter" aria-pressed="false" data-map-filter="ai-education">
+        {% if map_lang == 'zh' %}人工智能教育{% else %}AI in Education{% endif %} <span>{{ count_ai }}</span>
+      </button>
+      <button type="button" class="research-map__filter" aria-pressed="false" data-map-filter="cmooc">
+        {% if map_lang == 'zh' %}联通主义 MOOC{% else %}cMOOC{% endif %} <span>{{ count_cmooc }}</span>
+      </button>
+    </div>
+  </div>
+
+  <script type="application/json" data-research-map-data>{{ paper_items | jsonify }}</script>
+  <script type="application/json" data-research-map-citations>{{ citation_map | jsonify }}</script>
+
+  <ul class="sr-only">
+    {% for item in paper_items %}
+      {% assign cite_entry = citation_map[item.id] %}
+      {% assign cite_num = cite_entry.citations | default: 0 %}
+      <li>
+        {% if map_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %} ({{ item.year }}, {{ cite_num }} citations)
+      </li>
+    {% endfor %}
+  </ul>
+</div>

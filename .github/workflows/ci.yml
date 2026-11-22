@@ -1,48 +1,83 @@
-name: Beautiful Jekyll CI
+name: Site Sync & Deploy CI
+
 on:
   push:
+    branches:
+      - gh-pages
   pull_request:
+    branches:
+      - gh-pages
   schedule:
-    - cron: "0 3 * * *"
+    # Weekly on Monday at 03:00 UTC (11:00 Beijing Time)
+    - cron: "0 3 * * 1"
   workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: site-sync-deploy-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  build:
-    name: Build Jekyll
+  sync-build-deploy:
+    name: Sync Data, Build & Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
+
       - name: Sync ORCID work stats
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: ruby scripts/sync_orcid_work_stats.rb
         env:
           ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
           ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
+
       - name: Sync ORCID peer review data
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: ruby scripts/sync_orcid_peer_reviews.rb
         env:
           ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
           ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
-      - name: Commit ORCID data updates
-        if: github.event_name != 'pull_request'
+
+      - name: Sync paper citation counts
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: ruby scripts/sync_paper_citations.rb
+
+      - name: Build and verify Jekyll site
+        run: |
+          export JEKYLL_VERSION=3.8
+          docker run \
+            -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+            -e PAGES_REPO_NWO=${{ github.repository }} \
+            jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+      - name: Commit synced data updates
+        id: commit_data
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
-          if git diff --quiet -- _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml; then
-            echo "No ORCID data changes to commit."
+          if git diff --quiet -- _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml _data/paper_citations.yml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No synced data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml
-          git commit -m "chore: sync ORCID data [skip ci]"
+          git add _data/orcid_work_stats.yml _data/orcid_peer_reviews.yml _data/paper_citations.yml
+          git commit -m "chore: weekly sync ORCID and citation data [skip ci]"
           git push origin HEAD:${TARGET_BRANCH}
-      - name: Build the site in the jekyll/builder container
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger GitHub Pages deployment
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          export JEKYLL_VERSION=3.8
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          -e PAGES_REPO_NWO=${{ github.repository }} \
-          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          gh api -X POST "repos/${{ github.repository }}/pages/builds"

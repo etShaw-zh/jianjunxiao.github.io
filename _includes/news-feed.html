@@ -64,7 +64,7 @@
       {% endif %}
     </div>
     {% if item.image %}
-      <img class="news-item__thumb" src="{{ item.image }}" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}"{% if item.image_width %} style="width: {{ item.image_width }};"{% endif %}{% if item.image_height %} height="{{ item.image_height }}" {% endif %}>
+      <img class="news-item__thumb" src="{{ item.image }}" loading="lazy" decoding="async" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}">
     {% endif %}
   </li>
   {% endfor %}

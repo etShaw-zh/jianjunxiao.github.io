@@ -1,0 +1,418 @@
+items:
+  - id: cmooc-platform-2019
+    year: 2019
+    type: software
+    theme: cmooc
+    weight: 5
+    is_center: true
+    short_label: cMOOC Platform
+    title_en: "cMOOC Platform — Connectivist Online Learning Community"
+    title_zh: "cMOOC 平台 — 联通主义在线学习社区"
+    authors: "Xiao, J. (Lead Designer & Developer, RCDE @ BNU)"
+    venue_en: "WordPress & WeChat Ecosystem · 16,712+ learners · First Prize (2025)"
+    venue_zh: "WordPress 与微信生态 · 服务 16,712+ 学习者 · 2025 教学创新大赛一等奖"
+    badge: "Platform · 16.7k+"
+    url: "https://cmooc.bnu.edu.cn"
+    url_label_en: "Visit platform"
+    url_label_zh: "在线访问"
+
+  - id: lak26-synergy-2026
+    year: 2026
+    type: conference
+    theme: learning-analytics
+    weight: 5
+    short_label: "LAK26 · CPS Synergy"
+    title_en: "Modeling Collaborative Problem Solving Dynamics from Group Discourse: A Text-Mining Approach with Synergy Degree Model"
+    title_zh: "基于群体话语的协作问题解决动态过程建模：一种融合协同度模型的文本挖掘方法"
+    authors: "Xiao, J., Wang, C., & Zhang, W."
+    venue_en: "16th International Conference on Learning Analytics and Knowledge (LAK26), Bergen, Norway"
+    venue_zh: "第 16 届学习分析与知识国际会议（LAK26），挪威卑尔根"
+    badge: "LAK26 · Full Paper"
+    url: "https://doi.org/10.1145/3785022.3785049"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: network-dynamics-cie-2026
+    year: 2026
+    type: journal
+    theme: learning-analytics
+    weight: 5
+    short_label: "ILE '26 · Network & CIE"
+    title_en: "Exploring Interaction Patterns in Open Learning Environments: Integrating Network Dynamics and Cognitive Engagement"
+    title_zh: "开放学习环境中的交互模式探索：融合网络动态与认知投入"
+    authors: "Xiao, J.†"
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–20, Online First"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–20，在线首发"
+    badge: "SSCI Q1 · Solo"
+    url: "https://doi.org/10.1080/10494820.2026.2632766"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: human-genai-cmooc-2026
+    year: 2026
+    type: preprint
+    theme: ai-education
+    weight: 4
+    short_label: "Human-GenAI cMOOC"
+    title_en: "Designing human-GenAI interaction for cMOOC discussion facilitation: Effects of a collaborative AI-in-the-loop workflow on social and cognitive presence"
+    title_zh: "面向 cMOOC 讨论促进的人机交互设计：协同 AI-in-the-loop 工作流对社会与认知临场感的影响"
+    authors: "Xiao, J., & Wang, C."
+    venue_en: "arXiv Preprint · cMOOC discussion facilitation"
+    venue_zh: "arXiv 预印本 · cMOOC 讨论促进"
+    badge: "arXiv · AI-in-the-loop"
+    url: "https://arxiv.org/abs/2603.29285v2"
+    url_label_en: "arXiv"
+    url_label_zh: "arXiv"
+
+  - id: structural-hole-2026
+    year: 2026
+    type: journal
+    theme: learning-analytics
+    weight: 4
+    short_label: "ET&S '26 · Structural Hole"
+    title_en: "Who Will be the Group Leader in Open Collaborative Problem Solving? Analysis Based on the Structural Hole Theory"
+    title_zh: "开放协作问题解决中谁会成为小组领导者？基于结构洞理论的分析"
+    authors: "Wang, C., Xu, Y., & Xiao, J."
+    venue_en: "Educational Technology & Society (SSCI Q1), Accepted"
+    venue_zh: "Educational Technology & Society（SSCI Q1），已录用"
+    badge: "SSCI Q1"
+    url: ""
+    url_label_en: ""
+    url_label_zh: ""
+
+  - id: informal-learning-2026
+    year: 2026
+    type: preprint
+    theme: learning-analytics
+    weight: 3
+    short_label: "STEM Informal Portfolios"
+    title_en: "Internet-Mediated Digital Informal Learning Portfolios in STEM Higher Education: A Computational Grounded Theory Study of Online Peer Advice Communities"
+    title_zh: "STEM 高等教育中的网络媒介非正式学习档案：在线同伴建议社区的计算扎根理论研究"
+    authors: "Xiao, J., & Long, Y."
+    venue_en: "arXiv Preprint · Computational Grounded Theory"
+    venue_zh: "arXiv 预印本 · 计算扎根理论"
+    badge: "arXiv"
+    url: "https://arxiv.org/abs/2604.03643"
+    url_label_en: "arXiv"
+    url_label_zh: "arXiv"
+
+  - id: tna-human-ai-2026
+    year: 2026
+    type: conference
+    theme: ai-education
+    weight: 3
+    short_label: "TNA · Human-AI Agency"
+    title_en: "Behavioral Transition Patterns of Student Agency and Agent Dominance in Human-AI Dialogue Learning: A Transition Network Analysis"
+    title_zh: "人机对话学习中学生主体性与智能体主导性的行为转移模式研究——基于转移网络分析方法"
+    authors: "肖建军, 高灯, 欧阳中石"
+    venue_en: "2026 China Educational Technology Academic Conference, Zhejiang, China"
+    venue_zh: "2026 年中国教育技术学术大会，浙江"
+    badge: "Conference"
+    url: ""
+    url_label_en: ""
+    url_label_zh: ""
+
+  - id: hybrid-intelligence-2025
+    year: 2025
+    type: journal
+    theme: ai-education
+    weight: 4
+    short_label: "HSSC '25 · Hybrid AI"
+    title_en: "Examing Human-AI Collaboration in Hybrid Intelligence Learning Environments: Insight from the Synergy Degree Model"
+    title_zh: "混合智能学习环境中的人机协作研究：来自协同度模型的洞察"
+    authors: "Kong, X., Fang, H., Chen, W., Xiao, J., & Zhang, M."
+    venue_en: "Humanities and Social Sciences Communications (SSCI Q1; A&HCI)"
+    venue_zh: "Humanities and Social Sciences Communications（SSCI Q1；A&HCI）"
+    badge: "SSCI Q1 · Nature"
+    url: "https://doi.org/10.1057/s41599-025-05097-z"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: path-analysis-cmooc-2025
+    year: 2025
+    type: journal
+    theme: cmooc
+    weight: 4
+    short_label: "ILE '25 · Interaction Path"
+    title_en: "The Measurement and Characteristic Analysis of Learner Interaction Levels in cMOOCs Based on Path Analysis"
+    title_zh: "基于路径分析的 cMOOC 学习者交互水平测度与特征分析"
+    authors: "Tian, Y., & Xiao, J.†"
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–20"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–20"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2025.2498534"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: role-recognition-2025
+    year: 2025
+    type: journal
+    theme: learning-analytics
+    weight: 4
+    short_label: "ILE '25 · Role Recognition"
+    title_en: "A Role Recognition Model Based on Students’ Social-Behavioral-Cognitive-Emotional attributes during Collaborative Learning"
+    title_zh: "协作学习中基于社会-行为-认知-情感特征的学生角色识别模型"
+    authors: "Wang, C., & Xiao, J.†"
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–20"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–20"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2024.2442706"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: affordance-cmooc-2025
+    year: 2025
+    type: conference
+    theme: cmooc
+    weight: 3
+    short_label: "LS '25 · Affordance"
+    title_en: "Impact of Technological Affordances on cMOOC Learners' Knowledge Creation: Integrating Heterogeneous Network & Group Discourse Analysis"
+    title_zh: "技术可供性对 cMOOC 学习者知识创造的影响研究——整合异质交互网络分析与群体交流分析方法"
+    authors: "肖建军, 王辞晓"
+    venue_en: "CAHE Learning Sciences Annual Conference 2025, Beijing (Best Paper)"
+    venue_zh: "中国高等教育学会学习科学研究分会 2025 年学术年会（优秀论文）"
+    badge: "Best Paper"
+    url: ""
+    url_label_en: ""
+    url_label_zh: ""
+
+  - id: dwzh-2025
+    year: 2025
+    type: software
+    theme: ai-education
+    weight: 3
+    short_label: "DWZH · AI Co-Learn"
+    title_en: "DWZH: An AI-Based Co-Construction and Sharing Platform for University Major Learning Experiences"
+    title_zh: "多维智汇（DWZH）：基于 AI 的专业学习经验共建共享平台"
+    authors: "Xiao, J. & Team"
+    venue_en: "2nd Global Digital Intelligence Education Innovation Competition (Bronze & Feishu Award)"
+    venue_zh: "第二届全球数字智能教育创新大赛（铜奖 & 飞书专项奖）"
+    badge: "AI Platform"
+    url: "https://diidea.pku.edu.cn/competition2025/learning.html#:~:text=%E8%82%96%E5%BB%BA%E5%86%9B"
+    url_label_en: "Coverage"
+    url_label_zh: "赛事报道"
+
+  - id: aico-2024
+    year: 2024
+    type: software
+    theme: software
+    weight: 5
+    short_label: "AICodingOfficer"
+    title_en: "AICodingOfficer (AICO): Cross-Platform AI Text-Coding Assistant with Integrated Classifiers"
+    title_zh: "AICodingOfficer (AICO)：集成多分类器的跨平台人工智能文本编码助手"
+    authors: "Xiao, J."
+    venue_en: "PyQt6 Open-Source Software · Windows / macOS / Linux · Zenodo DOI"
+    venue_zh: "PyQt6 开源桌面工具 · Windows / macOS / Linux · Zenodo DOI"
+    badge: "Open Source"
+    url: "/aicodingofficer/"
+    url_label_en: "Project page"
+    url_label_zh: "项目主页"
+
+  - id: resource-use-2024
+    year: 2024
+    type: journal
+    theme: cmooc
+    weight: 3
+    short_label: "ILE '24 · Resource Use"
+    title_en: "The Evolution of cMOOC Learners' Resource Use Behaviour"
+    title_zh: "cMOOC 学习者资源使用行为的演化研究"
+    authors: "Bai, Y., Chen, L., Zhou, X., Xiao, J., & He, X."
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–24"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–24"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2024.2437542"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: assrt-2024
+    year: 2024
+    type: conference
+    theme: cmooc
+    weight: 3
+    short_label: "ASSRT '24 · Osaka"
+    title_en: "A connectivist perspective on learning and the design and implementation of cMOOC platforms"
+    title_zh: "联通主义学习视角下的 cMOOC 平台设计与实践"
+    authors: "Xiao, J."
+    venue_en: "The Asian Students’ Seminar & Round Table 2024, Kansai University, Osaka (Young Scholar Award)"
+    venue_zh: "2024 亚洲学生研讨会，日本关西大学（青年学者奖）"
+    badge: "Young Scholar"
+    url: ""
+    url_label_en: ""
+    url_label_zh: ""
+
+  - id: saom-cps-2023
+    year: 2023
+    type: journal
+    theme: learning-analytics
+    weight: 4
+    short_label: "ILE '23 · SAOM CPS"
+    title_en: "Who will participate in online collaborative problem solving? A longitudinal network analysis"
+    title_zh: "谁会参与在线协作问题解决？一项纵向网络分析研究"
+    authors: "Wang, C., & Xiao, J.†"
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–18"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–18"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2023.2266523"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: spark-shopping-2023
+    year: 2023
+    type: software
+    theme: ai-education
+    weight: 3
+    short_label: "Spark Shopping"
+    title_en: "Spark Shopping: Large Language Model Shopping Assistant"
+    title_zh: "Spark Shopping：面向购物场景的大语言模型助手"
+    authors: "Xiao, J."
+    venue_en: "iFLYTEK Spark Training Camp & General AI Innovation Competition (Bronze), Hefei"
+    venue_zh: "讯飞星火训练营 & 通用人工智能创新与应用竞赛（铜奖），合肥"
+    badge: "LLM App"
+    url: "https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ"
+    url_label_en: "Award report"
+    url_label_zh: "获奖报道"
+
+  - id: iflytek-gpt3-2023
+    year: 2023
+    type: conference
+    theme: ai-education
+    weight: 3
+    short_label: "GPT-3 Interaction"
+    title_en: "Automatically Assessing Meaningful Interactions Between cMOOC Learners and GPT-3"
+    title_zh: "自动评估 cMOOC 学习者与 AI 模型 GPT-3 的有意义交互"
+    authors: "肖建军☨"
+    venue_en: "5th iFLYTEK Smart Education Forum · Doctoral Forum, Hefei"
+    venue_zh: "第五届讯飞智能教育论坛 · 博士生分论坛，合肥"
+    badge: "Oral Talk"
+    url: "https://mp.weixin.qq.com/s/7-_0mHfx5NYpbzTdo-aESg#:~:text=%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E8%82%96%E5%BB%BA%E5%86%9B"
+    url_label_en: "Report"
+    url_label_zh: "相关报道"
+
+  - id: perceived-value-2022
+    year: 2022
+    type: journal
+    theme: cmooc
+    weight: 3
+    short_label: "ILE '22 · Perceived Value"
+    title_en: "The influencing factors of interaction and perceived value of cMOOC learners"
+    title_zh: "cMOOC 学习者交互与感知价值的影响因素研究"
+    authors: "Bai, Y.-Q., Xu, Y.-Q., & Xiao, J."
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–16"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–16"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2022.2137531"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: cmooc-design-5rounds-2022
+    year: 2022
+    type: journal
+    theme: cmooc
+    weight: 3
+    short_label: "cMOOC 5-Round Design"
+    title_en: "Design Strategies for Connectivist Online Courses: Insights from Five Iterative Rounds of cMOOC"
+    title_zh: "联通主义在线课程设计策略研究——基于五轮 cMOOC 设计迭代"
+    authors: "徐亚倩, 陈丽, & 肖建军"
+    venue_en: "Distance Education in China (CSSCI), 06, 67–75"
+    venue_zh: "中国远程教育（CSSCI），06，67–75"
+    badge: "CSSCI"
+    url: "https://doi.org/10.13541/j.cnki.chinade.2022.06.007"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: cmooc-path-2022
+    year: 2022
+    type: journal
+    theme: cmooc
+    weight: 2
+    short_label: "Connectivist Paths"
+    title_en: "Connectivist Learning Paths and Learner Development"
+    title_zh: "联通主义学习路径与学习者发展"
+    authors: "王东华, 张翼然, 肖建军, 王小凯, & 徐亚倩"
+    venue_en: "Journal of Open Learning, 27(05), 27–33+42"
+    venue_zh: "开放学习研究，27(05)，27–33+42"
+    badge: "Journal"
+    url: "https://doi.org/10.19605/j.cnki.kfxxyj.2022.05.004"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: assrt-2022
+    year: 2022
+    type: conference
+    theme: learning-analytics
+    weight: 2
+    short_label: "ASSRT '22 · Social Capital"
+    title_en: "Leveraging the development of social capital in a cMOOC through learner-learner interaction: A longitudinal network analysis"
+    title_zh: "通过生生交互促进 cMOOC 社会资本发展：纵向网络分析研究"
+    authors: "Xiao, J."
+    venue_en: "The Asian Students’ Seminar & Round Table 2022, South China Normal University, Guangzhou"
+    venue_zh: "2022 亚洲学生研讨会，华南师范大学，广州"
+    badge: "Conference"
+    url: ""
+    url_label_en: ""
+    url_label_zh: ""
+
+  - id: content-production-2021
+    year: 2021
+    type: journal
+    theme: cmooc
+    weight: 3
+    short_label: "ILE '21 · Content Prod."
+    title_en: "The impact of cMOOC learners’ interaction on content production"
+    title_zh: "cMOOC 学习者交互对内容生产的影响研究"
+    authors: "Bai, Y.-Q., & Xiao, J."
+    venue_en: "Interactive Learning Environments (SSCI Q1), 1–12"
+    venue_zh: "Interactive Learning Environments（SSCI Q1），1–12"
+    badge: "SSCI Q1"
+    url: "https://doi.org/10.1080/10494820.2021.1969955"
+    url_label_en: "DOI"
+    url_label_zh: "DOI"
+
+  - id: bnu-consumption-2021
+    year: 2021
+    type: software
+    theme: software
+    weight: 2
+    short_label: "BNU Pattern Ext."
+    title_en: "Bnu-consumption-pattern: Browser Extension for Student Consumption Pattern Mining"
+    title_zh: "Bnu-consumption-pattern：面向北师大学生消费模式挖掘的浏览器扩展"
+    authors: "Xiao, J."
+    venue_en: "Chrome Extension · Open Source"
+    venue_zh: "Chrome 扩展 · 开源项目"
+    badge: "Extension"
+    url: "https://github.com/etShaw-zh/bnu-consumption-pattern"
+    url_label_en: "GitHub"
+    url_label_zh: "GitHub"
+
+grants:
+  - period: "2023 – 2024"
+    role_en: "Principal Investigator"
+    role_zh: "项目主持"
+    title_en: "Research on Automatic Assessment and Improvement Path of cMOOC Learners' Interaction Level Based on Dual Networks"
+    title_zh: "基于双重网络的 cMOOC 学习者交互水平自动评估及提升路径研究"
+    funder_en: "Interdisciplinary Research Foundation for Doctoral Candidates of BNU (Grant No. BNUXKJC2305)"
+    funder_zh: "北京师范大学博士生交叉研究基金项目（项目编号：BNUXKJC2305）"
+
+  - period: "2023 – 2025"
+    role_en: "Participant"
+    role_zh: "项目参与"
+    title_en: "Social-Behavioural-Cognitive-Emotional Based Analysis and Intervention Study of Online Collaborative Role Interaction"
+    title_zh: "基于社会-行为-认知-情感的在线协作角色交互分析与干预研究"
+    funder_en: "NSFC Young Scientists Fund (Grant No. 62207003)"
+    funder_zh: "国家自然科学基金青年科学基金项目（项目编号：62207003）"
+
+  - period: "2019 – 2023"
+    role_en: "Participant"
+    role_zh: "项目参与"
+    title_en: "Research on Educational Reform and Innovative Management in the Era of \"Internet Plus\""
+    title_zh: "“互联网+”时代的教育改革与创新管理研究"
+    funder_en: "NSFC Key Project of Management Science Department (Grant No. 71834002)"
+    funder_zh: "国家自然科学基金管理学部重点项目（项目编号：71834002）"
+
+  - period: "2022.03 – 2022.04"
+    role_en: "Participant"
+    role_zh: "项目参与"
+    title_en: "China's Model and Promotion Path of Education Modernisation Driven by Education Informatisation"
+    title_zh: "教育信息化驱动教育现代化的中国模式与推进路径"
+    funder_en: "Commissioned by the Secretariat Bureau of the Central Education Work Leading Group"
+    funder_zh: "受中央教育工作领导小组秘书组委托项目"
