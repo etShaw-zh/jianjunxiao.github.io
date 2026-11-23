@@ -76,23 +76,6 @@ js:
     </div>
   </section>
 
-  <section class="homepage-section" id="publications">
-    <div class="homepage-section__header">
-      <div>
-        <p class="homepage-eyebrow">02 / 学术论文</p>
-        <h2>精选论文</h2>
-      </div>
-      <div class="homepage-section__actions">
-        <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">ORCID &#8599;</a>
-        <a class="homepage-section__link" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar &#8599;</a>
-      </div>
-    </div>
-
-    {% include selected-publications.html language=page.language %}
-
-    {% include publications-drawer.html language=page.language %}
-  </section>
-
   {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
     <aside class="service-ribbon" id="service" aria-label="期刊审稿列表">
       <div class="service-ribbon__label">
@@ -125,7 +108,7 @@ js:
   <section class="homepage-section" id="news">
     <div class="homepage-section__header">
       <div>
-        <p class="homepage-eyebrow">03 / 学术动态</p>
+        <p class="homepage-eyebrow">02 / 学术动态</p>
         <h2>最新动态</h2>
       </div>
       <a class="homepage-section__link" href="/zh/life/">查看全部 &rarr;</a>
@@ -133,6 +116,23 @@ js:
     <ul class="news-list">
       {% include news-feed.html language=page.language limit=3 %}
     </ul>
+  </section>
+
+  <section class="homepage-section" id="publications">
+    <div class="homepage-section__header">
+      <div>
+        <p class="homepage-eyebrow">03 / 学术论文</p>
+        <h2>精选论文</h2>
+      </div>
+      <div class="homepage-section__actions">
+        <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">ORCID &#8599;</a>
+        <a class="homepage-section__link" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      </div>
+    </div>
+
+    {% include selected-publications.html language=page.language %}
+
+    {% include publications-drawer.html language=page.language %}
   </section>
 
   <section class="homepage-section" id="projects">

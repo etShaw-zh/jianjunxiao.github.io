@@ -76,23 +76,6 @@ js:
     </div>
   </section>
 
-  <section class="homepage-section" id="publications">
-    <div class="homepage-section__header">
-      <div>
-        <p class="homepage-eyebrow">02 / Publications</p>
-        <h2>Selected Publications</h2>
-      </div>
-      <div class="homepage-section__actions">
-        <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">ORCID &#8599;</a>
-        <a class="homepage-section__link" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar &#8599;</a>
-      </div>
-    </div>
-
-    {% include selected-publications.html language=page.language %}
-
-    {% include publications-drawer.html language=page.language %}
-  </section>
-
   {% if orcid_peer_reviews and orcid_peer_reviews.journals and orcid_peer_reviews.journals.size > 0 %}
     <aside class="service-ribbon" id="service" aria-label="Journal peer reviewer list">
       <div class="service-ribbon__label">
@@ -125,7 +108,7 @@ js:
   <section class="homepage-section" id="news">
     <div class="homepage-section__header">
       <div>
-        <p class="homepage-eyebrow">03 / Updates</p>
+        <p class="homepage-eyebrow">02 / Updates</p>
         <h2>Latest News</h2>
       </div>
       <a class="homepage-section__link" href="/life/">View all &rarr;</a>
@@ -133,6 +116,23 @@ js:
     <ul class="news-list">
       {% include news-feed.html language=page.language limit=3 %}
     </ul>
+  </section>
+
+  <section class="homepage-section" id="publications">
+    <div class="homepage-section__header">
+      <div>
+        <p class="homepage-eyebrow">03 / Publications</p>
+        <h2>Selected Publications</h2>
+      </div>
+      <div class="homepage-section__actions">
+        <a class="homepage-section__link" href="https://orcid.org/0000-0003-0000-9630#cy-works" target="_blank" rel="noopener">ORCID &#8599;</a>
+        <a class="homepage-section__link" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      </div>
+    </div>
+
+    {% include selected-publications.html language=page.language %}
+
+    {% include publications-drawer.html language=page.language %}
   </section>
 
   <section class="homepage-section" id="projects">
