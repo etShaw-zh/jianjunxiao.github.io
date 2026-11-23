@@ -27,9 +27,22 @@
       aria-label="{% if map_lang == 'zh' %}交互式论文引用星图：展示 2021 至 2026 年的学术论文与真实引用数{% else %}Interactive paper citation orbit map showing publications from 2021 to 2026 sized by citations{% endif %}"
     ></canvas>
 
-    <div class="research-map__detail" data-map-detail hidden role="dialog" aria-live="polite">
+    <div class="research-map__detail" data-map-detail hidden role="dialog" aria-live="polite" tabindex="-1">
       <button type="button" class="research-map__detail-close" data-map-detail-close aria-label="{% if map_lang == 'zh' %}关闭详情{% else %}Close details{% endif %}">&times;</button>
+      <div class="research-map__detail-nav" data-map-detail-nav hidden>
+        <button type="button" class="research-map__detail-navbtn" data-map-detail-prev aria-label="{% if map_lang == 'zh' %}上一篇{% else %}Previous paper{% endif %}">&#8249;</button>
+        <span class="research-map__detail-rank" data-map-detail-rank></span>
+        <button type="button" class="research-map__detail-navbtn" data-map-detail-next aria-label="{% if map_lang == 'zh' %}下一篇{% else %}Next paper{% endif %}">&#8250;</button>
+      </div>
       <p class="research-map__detail-meta" data-map-detail-meta></p>
+      <div class="research-map__detail-stat" data-map-detail-stat hidden>
+        <div class="research-map__detail-stat-row">
+          <span class="research-map__detail-stat-value" data-map-detail-stat-value></span>
+          <span class="research-map__detail-stat-label" data-map-detail-stat-label></span>
+        </div>
+        <div class="research-map__detail-bar" aria-hidden="true"><span data-map-detail-bar-fill></span></div>
+        <p class="research-map__detail-stat-sub" data-map-detail-stat-sub></p>
+      </div>
       <h3 class="research-map__detail-title" data-map-detail-title></h3>
       <p class="research-map__detail-authors" data-map-detail-authors></p>
       <p class="research-map__detail-venue" data-map-detail-venue></p>
@@ -71,12 +84,14 @@
   <script type="application/json" data-research-map-data>{{ paper_items | jsonify }}</script>
   <script type="application/json" data-research-map-citations>{{ citation_map | jsonify }}</script>
 
-  <ul class="sr-only">
+  <ul class="sr-only" aria-label="{% if map_lang == 'zh' %}全部论文（键盘可达）{% else %}All papers (keyboard accessible){% endif %}">
     {% for item in paper_items %}
       {% assign cite_entry = citation_map[item.id] %}
       {% assign cite_num = cite_entry.citations | default: 0 %}
       <li>
-        {% if map_lang == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %} ({{ item.year }}, {{ cite_num }} citations)
+        <button type="button" data-map-item-id="{{ item.id }}">
+          {% if map_lang == 'zh' %}{{ item.title_zh }}（{{ item.year }} 年，被引 {{ cite_num }} 次）{% else %}{{ item.title_en }} ({{ item.year }}, {{ cite_num }} citations){% endif %}
+        </button>
       </li>
     {% endfor %}
   </ul>

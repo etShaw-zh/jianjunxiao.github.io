@@ -29,7 +29,7 @@ js:
       <p class="homepage-eyebrow">博士研究生 &middot; 北京师范大学教育学部</p>
       <h1>肖建军<span>Jianjun Xiao</span></h1>
       <p class="homepage-hero__question">在线讨论如何转化为协作知识？</p>
-      <p class="homepage-hero__lead">结合<strong>学习分析</strong>与<strong>复杂网络</strong>刻画群体如何共同建构知识，并设计<strong>人机协同工作流</strong>，支持在线学习中的协作。</p>
+      <p class="homepage-hero__lead">结合<strong>学习分析</strong>与<strong>复杂网络</strong>刻画群体如何共同建构知识，并设计支持在线协作学习的<strong>人机协同系统</strong>。</p>
 
       <div class="homepage-social-bar" aria-label="学术主页与联系方式">
         <a class="homepage-icon-btn" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">

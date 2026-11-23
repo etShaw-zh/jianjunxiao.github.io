@@ -52,7 +52,11 @@
           {% endif %}
         </div>
         {% if item.image %}
-          <img class="news-archive-entry__thumb" src="{{ item.image }}" loading="lazy" decoding="async" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}">
+          {% assign item_image_alt = item.image_alt_en | default: item.title_en %}
+          {% if include.language == 'zh' %}{% assign item_image_alt = item.image_alt_zh | default: item.title_zh %}{% endif %}
+          <button type="button" class="news-thumb-btn" data-zoom-img="{{ item.image }}" data-zoom-caption="{{ item_image_alt | escape }}" aria-label="{% if include.language == 'zh' %}查看大图：{% else %}View larger image: {% endif %}{{ item_image_alt | escape }}">
+            <img class="news-archive-entry__thumb" src="{{ item.image }}" loading="lazy" decoding="async" alt="{{ item_image_alt | escape }}">
+          </button>
         {% endif %}
       </article>
       {% if forloop.last %}</section>{% endif %}
@@ -108,7 +112,11 @@
       {% endif %}
     </div>
     {% if item.image %}
-      <img class="news-item__thumb" src="{{ item.image }}" loading="lazy" decoding="async" alt="{% if include.language == 'zh' %}{{ item.image_alt_zh | default: item.title_zh }}{% else %}{{ item.image_alt_en | default: item.title_en }}{% endif %}">
+      {% assign item_image_alt = item.image_alt_en | default: item.title_en %}
+      {% if include.language == 'zh' %}{% assign item_image_alt = item.image_alt_zh | default: item.title_zh %}{% endif %}
+      <button type="button" class="news-thumb-btn" data-zoom-img="{{ item.image }}" data-zoom-caption="{{ item_image_alt | escape }}" aria-label="{% if include.language == 'zh' %}查看大图：{% else %}View larger image: {% endif %}{{ item_image_alt | escape }}">
+        <img class="news-item__thumb" src="{{ item.image }}" loading="lazy" decoding="async" alt="{{ item_image_alt | escape }}">
+      </button>
     {% endif %}
   </li>
   {% endfor %}

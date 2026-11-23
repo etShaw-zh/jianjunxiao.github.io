@@ -29,7 +29,7 @@ js:
       <p class="homepage-eyebrow">PhD Candidate &middot; Faculty of Education, BNU</p>
       <h1>Jianjun Xiao<span>肖建军</span></h1>
       <p class="homepage-hero__question">How does online discussion become collaborative knowledge?</p>
-      <p class="homepage-hero__lead">Combining <strong>learning analytics</strong> and <strong>complex networks</strong> to model how groups build knowledge together, and designing <strong>human–AI workflows</strong> that support collaboration in online learning.</p>
+      <p class="homepage-hero__lead">Combining <strong>learning analytics</strong> and <strong>complex networks</strong> to model how groups build knowledge together, and designing <strong>human–AI collaborative systems</strong> that support online collaborative learning.</p>
 
       <div class="homepage-social-bar" aria-label="Academic profiles and contact">
         <a class="homepage-icon-btn" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">

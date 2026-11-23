@@ -323,19 +323,20 @@ table td {
 .research-map {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.95rem;
   width: 100%;
 }
 
 .research-map__stage {
-  min-height: 440px;
+  max-width: 760px;
+  min-height: 460px;
   position: relative;
   width: 100%;
 }
 
 .research-map__canvas {
   display: block;
-  height: 445px;
+  height: 460px;
   width: 100%;
 }
 
@@ -356,9 +357,9 @@ table td {
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid var(--border-strong);
   border-radius: 0.9rem;
-  bottom: 0.75rem;
+  top: 0.75rem;
   box-shadow: var(--shadow-md);
-  max-width: 370px;
+  max-width: 390px;
   padding: 1rem 1.15rem;
   position: absolute;
   right: 0.5rem;
@@ -383,6 +384,44 @@ table td {
   color: var(--text-strong);
 }
 
+.research-map__detail-nav {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin: 0 1.6rem 0.55rem 0;
+}
+
+.research-map__detail-rank {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.research-map__detail-navbtn {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  flex: none;
+  font-size: 0.95rem;
+  height: 1.6rem;
+  justify-content: center;
+  line-height: 1;
+  width: 1.6rem;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.research-map__detail-navbtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .research-map__detail-meta {
   color: var(--accent-warm);
   font-family: var(--font-mono);
@@ -391,6 +430,55 @@ table td {
   letter-spacing: 0.05em;
   margin: 0 1.5rem 0.35rem 0;
   text-transform: uppercase;
+}
+
+.research-map__detail-stat {
+  margin: 0.1rem 0 0.8rem;
+}
+
+.research-map__detail-stat-row {
+  align-items: baseline;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.research-map__detail-stat-value {
+  color: var(--text-strong);
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.research-map__detail-stat-label {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.research-map__detail-bar {
+  background: var(--border-strong);
+  border-radius: 999px;
+  height: 4px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.research-map__detail-bar span {
+  background: var(--accent-warm);
+  border-radius: 999px;
+  display: block;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.research-map__detail-stat-sub {
+  color: var(--muted);
+  font-size: 0.7rem;
+  margin: 0.35rem 0 0;
 }
 
 .research-map__detail-title {
@@ -419,13 +507,27 @@ table td {
   margin-top: 0.65rem;
 }
 
-.research-map__detail-link {
-  color: var(--accent);
+.research-map__detail-actions .research-map__detail-link {
+  align-items: center;
+  background: var(--text-strong);
+  border: 1px solid var(--text-strong);
+  border-radius: 999px;
+  color: var(--page-bg);
+  display: inline-flex;
   font-family: var(--font-mono);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  padding: 0.5rem 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.research-map__detail-actions .research-map__detail-link:hover {
+  background: var(--accent-warm);
+  border-color: var(--accent-warm);
+  color: var(--page-bg);
 }
 
 .research-map__controls {
@@ -1905,6 +2007,27 @@ table td {
   width: 100%;
 }
 
+.news-thumb-btn {
+  background: none;
+  border: 0;
+  cursor: zoom-in;
+  display: block;
+  padding: 0;
+  transition: transform 0.16s ease;
+  width: 100%;
+}
+
+.news-thumb-btn:hover,
+.news-thumb-btn:focus-visible {
+  transform: translateY(-1px);
+}
+
+.news-thumb-btn:focus-visible {
+  border-radius: 0.65rem;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 /* 05 / Compact Connect & Visitor Map Section */
 .homepage-contact {
   padding: 2.6rem 0 1.25rem;
@@ -2816,11 +2939,12 @@ footer.site-footer {
   }
 
   .research-map__stage {
-    min-height: 400px;
+    max-width: none;
+    min-height: 420px;
   }
 
   .research-map__canvas {
-    height: 400px;
+    height: 420px;
   }
 
   .focus-grid,
@@ -2871,11 +2995,11 @@ footer.site-footer {
   }
 
   .research-map__stage {
-    min-height: 330px;
+    min-height: 350px;
   }
 
   .research-map__canvas {
-    height: 330px;
+    height: 350px;
   }
 
   .research-map__detail {
@@ -2963,7 +3087,7 @@ footer.site-footer {
     padding: 0.8rem 0;
   }
 
-  #news .news-item__thumb {
+  #news .news-thumb-btn {
     display: none;
   }
 

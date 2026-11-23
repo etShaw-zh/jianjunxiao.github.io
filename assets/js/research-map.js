@@ -121,12 +121,27 @@
 
     var detailEl = root.querySelector('[data-map-detail]');
     var detailClose = root.querySelector('[data-map-detail-close]');
+    var detailNav = root.querySelector('[data-map-detail-nav]');
+    var detailRank = root.querySelector('[data-map-detail-rank]');
+    var detailPrev = root.querySelector('[data-map-detail-prev]');
+    var detailNext = root.querySelector('[data-map-detail-next]');
     var detailMeta = root.querySelector('[data-map-detail-meta]');
+    var detailStat = root.querySelector('[data-map-detail-stat]');
+    var detailStatValue = root.querySelector('[data-map-detail-stat-value]');
+    var detailStatLabel = root.querySelector('[data-map-detail-stat-label]');
+    var detailBarFill = root.querySelector('[data-map-detail-bar-fill]');
+    var detailStatSub = root.querySelector('[data-map-detail-stat-sub]');
     var detailTitle = root.querySelector('[data-map-detail-title]');
     var detailAuthors = root.querySelector('[data-map-detail-authors]');
     var detailVenue = root.querySelector('[data-map-detail-venue]');
     var detailActions = root.querySelector('[data-map-detail-actions]');
     var legendEl = root.querySelector('[data-map-legend]');
+
+    var navOrder = items.slice().sort(function (a, b) {
+      return (b.year - a.year) || (b.citations - a.citations) || String(a.id).localeCompare(String(b.id));
+    });
+    var navIndexById = {};
+    navOrder.forEach(function (it, idx) { navIndexById[it.id] = idx; });
 
     var listedCitations = items.reduce(function (sum, item) { return sum + item.citations; }, 0);
     var attrTotal = parseInt(root.getAttribute('data-total-citations') || '', 10);
@@ -176,9 +191,7 @@
     var selectedId = null;
     var pinnedDetail = false;
     var hoverHideTimer = null;
-    var pointerInside = false;
     var detailHovered = false;
-    var speedScale = 1;
     var orbitPhase = 0; // accumulated animated orbit time (seconds)
     var lastFrameTime = null;
     var dashOffset = 0;
@@ -510,8 +523,8 @@
       nodeStates.forEach(function (n) {
         if (n.alpha < 0.25) return;
         var cites = n.item.citations || 0;
-        var tailSpan = cites >= 10 ? 0.34 : 0.24;
-        var segs = 12;
+        var tailSpan = cites >= 10 ? 0.42 : 0.32;
+        var segs = 14;
         var rgb = cites >= 20 ? palette.accentRgb : (activeFilter !== 'all' && matchesFilter(n.item, activeFilter) ? palette.tealRgb : palette.inkRgb);
 
         for (var s = 0; s < segs; s++) {
@@ -521,9 +534,9 @@
           var a1 = n.angle - tailSpan * (1 - t1);
           var p0 = ellipsePoint(g.cx, g.cy, n.rx, n.ry, a0);
           var p1 = ellipsePoint(g.cx, g.cy, n.rx, n.ry, a1);
-          var segAlpha = n.alpha * t1 * t1 * (cites >= 20 ? 0.38 : 0.24);
+          var segAlpha = n.alpha * t1 * t1 * (cites >= 20 ? 0.55 : 0.4);
           ctx.strokeStyle = 'rgba(' + rgb + ', ' + segAlpha.toFixed(3) + ')';
-          ctx.lineWidth = cites >= 20 ? 1.5 : 1.05;
+          ctx.lineWidth = cites >= 20 ? 1.7 : 1.3;
           ctx.beginPath();
           ctx.moveTo(p0.x, p0.y);
           ctx.lineTo(p1.x, p1.y);
@@ -726,10 +739,8 @@
       lastFrameTime = time;
 
       if (!reducedMotion) {
-        // Smoothly pause orbital drift when user hovers canvas/card or pins a node
-        var targetSpeed = (pointerInside || detailHovered || pinnedDetail) ? 0 : 1;
-        speedScale += (targetSpeed - speedScale) * 0.08;
-        orbitPhase += dt * speedScale;
+        // Orbit drifts continuously like ambient background motion; hover/selection never pause it
+        orbitPhase += dt;
         dashOffset += dt * 16;
         updateTargets(false);
       }
@@ -813,6 +824,17 @@
         return;
       }
 
+      if (detailNav) {
+        var isProfile = item.type === 'profile';
+        detailNav.hidden = isProfile || !navOrder.length;
+        if (!isProfile && detailRank) {
+          var rankIdx = navIndexById.hasOwnProperty(item.id) ? navIndexById[item.id] : -1;
+          detailRank.textContent = rankIdx >= 0
+            ? (lang === 'zh' ? ('第 ' + (rankIdx + 1) + ' / ' + navOrder.length + ' 篇') : ('No. ' + (rankIdx + 1) + ' / ' + navOrder.length))
+            : '';
+        }
+      }
+
       var typeMap = {
         en: { journal: 'Journal Article', conference: 'Conference Paper', preprint: 'Preprint', profile: 'Researcher' },
         zh: { journal: '期刊论文', conference: '会议论文', preprint: '预印本', profile: '个人简介' }
@@ -820,14 +842,14 @@
       var typeText = (typeMap[lang] && typeMap[lang][item.type]) || item.type;
 
       var metaParts = [item.year, typeText];
+      var hasCitationStat = false;
       if (item.type !== 'profile') {
         if (item.citation_source && item.citation_source !== 'none') {
           var srcLabel = item.citation_source === 'google_scholar'
             ? 'Google Scholar'
             : (item.citation_source === 'cnki' ? (lang === 'zh' ? '知网' : 'CNKI') : 'OpenAlex');
-          metaParts.push(lang === 'zh'
-            ? ('被引 ' + item.citations + ' 次 · ' + srcLabel)
-            : (item.citations + ' citations · ' + srcLabel));
+          metaParts.push(srcLabel);
+          hasCitationStat = totalCitations > 0;
         } else {
           metaParts.push(lang === 'zh' ? '暂未收录引用' : 'Not yet indexed');
         }
@@ -835,6 +857,21 @@
       if (item.badge) metaParts.push(item.badge);
 
       detailMeta.textContent = metaParts.join(' · ');
+
+      if (detailStat) {
+        if (hasCitationStat) {
+          var share = Math.round((item.citations / totalCitations) * 1000) / 10;
+          detailStatValue.textContent = String(item.citations);
+          detailStatLabel.textContent = lang === 'zh' ? '次引用' : (item.citations === 1 ? 'citation' : 'citations');
+          if (detailBarFill) detailBarFill.style.width = Math.min(100, Math.max(share, item.citations > 0 ? 1.5 : 0)) + '%';
+          detailStatSub.textContent = lang === 'zh'
+            ? ('占总引用的 ' + share + '%')
+            : ('= ' + share + '% of total citations');
+          detailStat.hidden = false;
+        } else {
+          detailStat.hidden = true;
+        }
+      }
       detailTitle.textContent = lang === 'zh' ? item.title_zh : item.title_en;
       detailAuthors.textContent = (lang === 'en' && item.authors_en) ? item.authors_en : (item.authors || '');
       detailVenue.textContent = lang === 'zh' ? item.venue_zh : item.venue_en;
@@ -864,12 +901,7 @@
       ensureAnimating();
     }
 
-    canvas.addEventListener('mouseenter', function () {
-      pointerInside = true;
-    });
-
     canvas.addEventListener('mousemove', function (e) {
-      pointerInside = true;
       var hit = hitTest(e.clientX, e.clientY);
       hoveredId = hit ? hit.item.id : null;
       canvas.style.cursor = hit ? 'pointer' : 'default';
@@ -882,7 +914,6 @@
     });
 
     canvas.addEventListener('mouseleave', function () {
-      pointerInside = false;
       hoveredId = null;
       canvas.style.cursor = 'default';
       if (!pinnedDetail) {
@@ -916,6 +947,31 @@
     if (detailClose) {
       detailClose.addEventListener('click', closeDetail);
     }
+
+    function stepDetail(delta) {
+      if (!navOrder.length) return;
+      var currentIdx = (selectedId && navIndexById.hasOwnProperty(selectedId)) ? navIndexById[selectedId] : 0;
+      var nextIdx = (currentIdx + delta + navOrder.length) % navOrder.length;
+      showDetail(navOrder[nextIdx], true);
+    }
+
+    if (detailPrev) detailPrev.addEventListener('click', function () { stepDetail(-1); });
+    if (detailNext) detailNext.addEventListener('click', function () { stepDetail(1); });
+
+    root.querySelectorAll('[data-map-item-id]').forEach(function (btn) {
+      var id = btn.getAttribute('data-map-item-id');
+      btn.addEventListener('click', function () {
+        for (var i = 0; i < items.length; i++) {
+          if (items[i].id === id) {
+            showDetail(items[i], true);
+            if (detailEl) {
+              try { detailEl.focus(); } catch (e) {}
+            }
+            break;
+          }
+        }
+      });
+    });
 
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && selectedId) {
