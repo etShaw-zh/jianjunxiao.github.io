@@ -1,19 +1,19 @@
 ---
 source: google_scholar+openalex
 google_scholar_user: FaqCcFoAAAAJ
-last_synced_at: '2026-11-22T11:32:42Z'
+last_synced_at: '2026-11-23T08:56:51Z'
 google_scholar_synced_at: '2026-11-22T11:32:42Z'
 paper_count: 19
 tracked_papers: 13
-total_citations: 171
-listed_papers_citations: 168
+total_citations: 173
+listed_papers_citations: 173
 google_scholar_total: 171
 h_index: 5
 i10_index: 3
 papers:
   lak26-synergy-2026:
-    citations: 1
-    source: google_scholar
+    citations: 2
+    source: openalex
     citations_gs: 1
     citations_openalex: 2
     doi: 10.1145/3785022.3785049
@@ -49,14 +49,14 @@ papers:
     citations_openalex: 93
     doi: 10.1057/s41599-025-05097-z
   path-analysis-cmooc-2025:
-    citations: 5
-    source: google_scholar
+    citations: 6
+    source: openalex
     citations_gs: 5
     citations_openalex: 6
     doi: 10.1080/10494820.2025.2498534
   role-recognition-2025:
-    citations: 11
-    source: google_scholar
+    citations: 12
+    source: openalex
     citations_gs: 11
     citations_openalex: 12
     doi: 10.1080/10494820.2024.2442706
@@ -73,8 +73,8 @@ papers:
     citations: 0
     source: none
   saom-cps-2023:
-    citations: 6
-    source: google_scholar
+    citations: 7
+    source: openalex
     citations_gs: 6
     citations_openalex: 7
     doi: 10.1080/10494820.2023.2266523
@@ -82,8 +82,8 @@ papers:
     citations: 0
     source: none
   perceived-value-2022:
-    citations: 9
-    source: google_scholar
+    citations: 10
+    source: openalex
     citations_gs: 9
     citations_openalex: 10
     doi: 10.1080/10494820.2022.2137531

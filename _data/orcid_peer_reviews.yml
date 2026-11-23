@@ -2,14 +2,14 @@
 orcid_id: 0000-0003-0000-9630
 source: orcid
 source_url: https://orcid.org/0000-0003-0000-9630
-last_synced_at: '2026-11-21T14:22:16Z'
-review_count: 32
+last_synced_at: '2026-11-23T08:56:47Z'
+review_count: 30
 journal_count: 14
 journals:
 - issn: 1873-782x
   title: Computers & Education
   url: https://www.sciencedirect.com/journal/computers-and-education/about/insights
-  review_count: 4
+  review_count: 2
 - issn: 1929-7750
   title: Journal of Learning Analytics
   url: https://portal.issn.org/resource/ISSN/1929-7750
