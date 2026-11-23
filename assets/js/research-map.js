@@ -616,29 +616,93 @@
         }
       });
 
-      // Pass 2: draw labels cleanly on top
+      // Pass 2: draw labels on top with greedy collision avoidance.
+      // Priority: hovered/selected first, then by citation count.
+      labelsToDraw.sort(function (a, b) {
+        var pa = (a.isHovered || a.isSelected) ? 1e6 : a.cites;
+        var pb = (b.isHovered || b.isSelected) ? 1e6 : b.cites;
+        return pb - pa;
+      });
+
+      var placedRects = [];
+      // Treat every star body as an obstacle so labels never cover other stars.
+      nodeStates.forEach(function (s) {
+        if (s.alpha > 0.4) {
+          placedRects.push({ x: s.x - s.r - 2, y: s.y - s.r - 2, w: (s.r + 2) * 2, h: (s.r + 2) * 2, owner: s });
+        }
+      });
+
+      function overlaps(rect, ownerNode) {
+        for (var i = 0; i < placedRects.length; i++) {
+          var p = placedRects[i];
+          if (p.owner === ownerNode) continue;
+          if (rect.x < p.x + p.w && rect.x + rect.w > p.x && rect.y < p.y + p.h && rect.y + rect.h > p.y) {
+            return true;
+          }
+        }
+        return false;
+      }
+
       labelsToDraw.forEach(function (entry) {
         var n = entry.n;
         var cites = entry.cites;
-        ctx.save();
-        ctx.globalAlpha = n.alpha;
+        var pinned = entry.isHovered || entry.isSelected;
         var baseLabel = n.item.short_label || n.item.title_en;
         var label = cites > 0 ? (baseLabel + ' (' + cites + ')') : baseLabel;
-        ctx.font = (entry.isHovered || entry.isSelected || entry.isTopCited ? '600 ' : '500 ') + '11px "JetBrains Mono", "PingFang SC", monospace';
+        ctx.save();
+        ctx.font = (pinned || entry.isTopCited ? '600 ' : '500 ') + '11px "JetBrains Mono", "PingFang SC", monospace';
         var textW = ctx.measureText(label).width;
-        var placeLeft = n.x > width * 0.64;
-        var lx = placeLeft ? (n.x - n.r - 10) : (n.x + n.r + 10);
-        var ly = n.y;
-        ctx.textAlign = placeLeft ? 'right' : 'left';
-        ctx.textBaseline = 'middle';
-
         var padX = 5;
-        var boxX = placeLeft ? (lx - textW - padX) : (lx - padX);
-        ctx.fillStyle = palette.labelBg;
-        ctx.fillRect(boxX, ly - 8, textW + padX * 2, 16);
+        var boxW = textW + padX * 2;
+        var boxH = 16;
+        var preferLeft = n.x > width * 0.64;
+        var gap = n.r + 10;
 
-        ctx.fillStyle = entry.isHovered || entry.isSelected ? palette.teal : (entry.isTopCited ? palette.accent : palette.ink);
-        ctx.fillText(label, lx, ly);
+        // Candidate slots: preferred side, opposite side, then above / below.
+        var slots = [
+          { left: preferLeft, dy: 0 },
+          { left: !preferLeft, dy: 0 },
+          { left: preferLeft, dy: -(n.r + 14) },
+          { left: !preferLeft, dy: -(n.r + 14) },
+          { left: preferLeft, dy: n.r + 14 },
+          { left: !preferLeft, dy: n.r + 14 }
+        ];
+
+        var chosen = null;
+        for (var s = 0; s < slots.length; s++) {
+          var slot = slots[s];
+          var x = slot.left ? (n.x - gap) : (n.x + gap);
+          var y = n.y + slot.dy;
+          var bx = slot.left ? (x - textW - padX) : (x - padX);
+          var rect = { x: bx, y: y - boxH / 2, w: boxW, h: boxH };
+          var inBounds = rect.x >= 2 && rect.x + rect.w <= width - 2 && rect.y >= 2 && rect.y + rect.h <= height - 2;
+          if (inBounds && !overlaps(rect, n)) {
+            chosen = { slot: slot, x: x, y: y, rect: rect };
+            break;
+          }
+        }
+
+        // Hovered / selected labels are always shown, even if crowded.
+        if (!chosen && pinned) {
+          var fx = preferLeft ? (n.x - gap) : (n.x + gap);
+          chosen = {
+            slot: { left: preferLeft, dy: 0 },
+            x: fx,
+            y: n.y,
+            rect: { x: preferLeft ? (fx - textW - padX) : (fx - padX), y: n.y - boxH / 2, w: boxW, h: boxH }
+          };
+        }
+
+        if (chosen) {
+          placedRects.push({ x: chosen.rect.x, y: chosen.rect.y, w: chosen.rect.w, h: chosen.rect.h, owner: null });
+          ctx.globalAlpha = n.alpha;
+          ctx.textAlign = chosen.slot.left ? 'right' : 'left';
+          ctx.textBaseline = 'middle';
+          ctx.fillStyle = palette.labelBg;
+          ctx.fillRect(chosen.rect.x, chosen.rect.y, chosen.rect.w, chosen.rect.h);
+          ctx.fillStyle = pinned ? palette.teal : (entry.isTopCited ? palette.accent : palette.ink);
+          ctx.fillText(label, chosen.x, chosen.y);
+        }
         ctx.restore();
       });
     }

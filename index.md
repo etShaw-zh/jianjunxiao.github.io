@@ -21,8 +21,6 @@ js:
 {% assign journal_total = orcid_peer_reviews.journal_count | default: 14 %}
 {% assign paper_citations = site.data.paper_citations %}
 {% assign total_citations = paper_citations.total_citations | default: 171 %}
-{% assign h_index = paper_citations.h_index | default: 5 %}
-{% assign i10_index = paper_citations.i10_index | default: 3 %}
 {% assign paper_count = paper_citations.paper_count | default: 19 %}
 
 <div class="homepage-shell">
@@ -31,7 +29,7 @@ js:
       <p class="homepage-eyebrow">PhD Candidate &middot; Faculty of Education, BNU</p>
       <h1>Jianjun Xiao<span>肖建军</span></h1>
       <p class="homepage-hero__question">How does online discussion become collaborative knowledge?</p>
-      <p class="homepage-hero__lead">I study how online discussions develop into collaborative knowledge, using <strong>learning analytics</strong> and <strong>complex networks</strong> to understand collaboration, and designing <strong>human–AI workflows</strong> to support it in online learning environments.</p>
+      <p class="homepage-hero__lead">Combining <strong>learning analytics</strong> and <strong>complex networks</strong> to model how groups build knowledge together, and designing <strong>human–AI workflows</strong> that support collaboration in online learning.</p>
 
       <div class="homepage-social-bar" aria-label="Academic profiles and contact">
         <a class="homepage-icon-btn" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
@@ -46,7 +44,7 @@ js:
         <a class="homepage-icon-btn" href="https://linkedin.com/in/建军-肖-2947a6380" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
           <i class="fab fa-linkedin-in" aria-hidden="true"></i>
         </a>
-        <a class="homepage-icon-btn" href="mailto:et_shaw@126.com" title="Email" aria-label="Email">
+        <a class="homepage-icon-btn" href="mailto:jianjun.xiao@mail.bnu.edu.cn" title="Email" aria-label="Email">
           <i class="fas fa-envelope" aria-hidden="true"></i>
         </a>
         <a class="homepage-button" href="/assets/pdf/Xiao_Jianjun_Resume_EN.pdf">Download CV</a>
@@ -55,7 +53,7 @@ js:
       <div class="homepage-metrics">
         <div class="homepage-metrics__primary">
           <p class="homepage-metrics__label">Total Citations &middot; Google Scholar</p> <p class="homepage-metrics__value">{{ total_citations }}</p>
-          <p class="homepage-metrics__breakdown">h-index {{ h_index }} &middot; i10-index {{ i10_index }} &middot; {{ paper_count }} papers mapped</p>
+          <p class="homepage-metrics__breakdown">{{ paper_count }} papers mapped</p>
         </div>
         <dl class="homepage-metrics__secondary">
           <div>
@@ -103,10 +101,25 @@ js:
       </div>
       <ul class="service-ribbon__list">
         {% for journal in orcid_peer_reviews.journals %}
-          <li><a class="service-pill" href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-pill__label">{{ journal.title }}</span><span class="service-pill__count">{{ journal.review_count }}</span></a></li>
+          <li{% if forloop.index > 5 %} class="service-pill--extra"{% endif %}><a class="service-pill" href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-pill__label">{{ journal.title }}</span><span class="service-pill__count">{{ journal.review_count }}</span></a></li>
         {% endfor %}
+          {% if orcid_peer_reviews.journals.size > 5 %}
+            <li class="service-more"><button type="button" class="service-more__btn" data-service-more aria-expanded="false">+{{ orcid_peer_reviews.journals.size | minus: 5 }} more</button></li>
+          {% endif %}
       </ul>
     </aside>
+    <script>
+      (function () {
+        var ribbon = document.getElementById('service');
+        var btn = ribbon && ribbon.querySelector('[data-service-more]');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var open = ribbon.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          btn.textContent = open ? 'Show less' : '+' + (document.querySelectorAll('.service-pill--extra').length) + ' more';
+        });
+      })();
+    </script>
   {% endif %}
 
   <section class="homepage-section" id="news">
@@ -158,13 +171,14 @@ js:
       </article>
 
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.jpg" loading="lazy" decoding="async" alt="Spark Shopping project cover">
+        <img class="project-card__media" src="/assets/img/photos/2026/figures/pca26-fig2-interface.jpg" loading="lazy" decoding="async" alt="FaciHub interface screenshot">
         <div class="project-card__body">
-          <div class="project-card__meta">03 &middot; LLM Agent &middot; Bronze Award &middot; 2023</div>
-          <h3>Spark Shopping</h3>
-          <p>LLM shopping assistant developed in the iFLYTEK Spark Training Camp and awarded in the General AI Innovation Competition.</p>
+          <div class="project-card__meta">03 &middot; Human&ndash;AI Workflow &middot; DBR &middot; 2026</div>
+          <h3>FaciHub</h3>
+          <p>AI-in-the-loop discussion facilitation workflow for cMOOCs: AI drafts replies, humans review them; tested with 178 participants across two design iterations.</p>
           <div class="project-card__links">
-            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">Award report &#8599;</a>
+            <a href="https://arxiv.org/abs/2603.29285v2" target="_blank" rel="noopener">Paper (arXiv) &#8599;</a>
+            <a href="https://arxiv.org/pdf/2603.29285v2.pdf" target="_blank" rel="noopener">PDF &#8599;</a>
           </div>
         </div>
       </article>
@@ -179,8 +193,8 @@ js:
         <p class="contact-intro__desc">Open to research collaborations, invited talks, and peer review inquiries &middot; RCDE, Beijing Normal University.</p>
 
         <div class="contact-links">
-          <a class="contact-chip" href="mailto:et_shaw@126.com"><span class="contact-chip__k">Email</span><span class="contact-chip__v">et_shaw@126.com</span></a>
-          <a class="contact-chip" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener"><span class="contact-chip__k">Scholar</span><span class="contact-chip__v">{{ total_citations }} cites</span></a>
+          <a class="contact-chip" href="mailto:jianjun.xiao@mail.bnu.edu.cn"><span class="contact-chip__k">Email</span><span class="contact-chip__v">jianjun.xiao@mail.bnu.edu.cn</span></a>
+          <a class="contact-chip" href="https://scholar.google.com/citations?hl=en&user=FaqCcFoAAAAJ" target="_blank" rel="noopener"><span class="contact-chip__k">Scholar</span><span class="contact-chip__v">Profile &#8599;</span></a>
           <a class="contact-chip" href="https://orcid.org/0000-0003-0000-9630" target="_blank" rel="noopener"><span class="contact-chip__k">ORCID</span><span class="contact-chip__v">0000-0003-0000-9630</span></a>
           <a class="contact-chip" href="https://github.com/etShaw-zh" target="_blank" rel="noopener"><span class="contact-chip__k">GitHub</span><span class="contact-chip__v">@etShaw-zh</span></a>
           <a class="contact-chip" href="https://linkedin.com/in/建军-肖-2947a6380" target="_blank" rel="noopener"><span class="contact-chip__k">LinkedIn</span><span class="contact-chip__v">Profile &#8599;</span></a>

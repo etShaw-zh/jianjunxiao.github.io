@@ -64,7 +64,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-strong);
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 a {
@@ -115,8 +115,8 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(2.1rem, 4.5vw, 3.2rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 .intro-header .page-heading .page-subheading {
@@ -397,7 +397,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.08rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.32;
   margin: 0 0 0.35rem;
 }
@@ -550,7 +550,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(1.45rem, 2.5vw, 1.9rem);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.15;
   margin: 0;
 }
@@ -735,7 +735,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(2.75rem, 5.2vw, 4.15rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.025em;
   line-height: 1.08;
   margin: 0 0 1.2rem;
@@ -1113,8 +1113,8 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(1.95rem, 3.4vw, 2.65rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   line-height: 1.1;
   margin: 0;
 }
@@ -1169,7 +1169,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.35rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   margin: 0 0 0.6rem;
 }
@@ -1721,7 +1721,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.28rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.35;
   margin: 0.1rem 0 0;
 }
@@ -1803,7 +1803,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.32rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.25;
   margin: 0 0 0.55rem;
 }
@@ -1921,8 +1921,8 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(1.5rem, 2.3vw, 1.9rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   line-height: 1.15;
   margin: 0 0 0.45rem;
 }
@@ -2082,7 +2082,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 2.8vw, 2.1rem);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.15;
   margin: 0;
 }
@@ -2175,7 +2175,7 @@ table td {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.28;
   margin: 0;
 }
@@ -2384,7 +2384,7 @@ footer.site-footer {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: clamp(2.35rem, 4.4vw, 3.35rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.025em;
   line-height: 1.08;
   margin: 0 0 1.15rem;
@@ -2733,7 +2733,7 @@ footer.site-footer {
   color: var(--text-strong);
   font-family: var(--font-display);
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2;
   margin: 0;
 }
@@ -2979,4 +2979,78 @@ footer.site-footer {
   .news-archive-entry__thumb {
     max-width: 320px;
   }
+}
+
+/* ==========================================================================
+   Revision overrides (2026-11)
+   ========================================================================== */
+
+/* Instrument Serif ships only one weight (400); disable faux bold on Latin glyphs while keeping Chinese serif headings bold. */
+html[lang^="zh"] h1,
+html[lang^="zh"] h2,
+html[lang^="zh"] h3,
+html[lang^="zh"] h4 {
+  font-synthesis-weight: none;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* Monospace is for metadata only; interactive text uses the sans stack. */
+.navbar-custom.site-navbar .navbar-nav .nav-link,
+.homepage-section__link,
+.project-card__links a,
+.rg-pub-entry__link,
+.selected-paper-row__links a,
+.news-item__content .publication-item__meta a,
+.homepage-button,
+.contact-chip__v,
+.homepage-metrics__footer a {
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+}
+
+.navbar-custom.site-navbar .navbar-nav .nav-item {
+  font-size: 0.84rem;
+}
+
+/* News: title line above body for scannability */
+.news-item__title {
+  color: var(--text-strong);
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.2rem;
+}
+
+/* Peer-reviewer ribbon: collapsed by default */
+.service-ribbon .service-ribbon__list li.service-pill--extra {
+  display: none;
+}
+
+.service-ribbon.is-open .service-ribbon__list li.service-pill--extra {
+  display: list-item;
+}
+
+li.service-more {
+  list-style: none;
+}
+
+.service-more__btn {
+  background: transparent;
+  border: 1px dashed var(--border-strong);
+  border-radius: 999px;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.2;
+  padding: 0.42rem 0.8rem;
+}
+
+.service-more__btn:hover,
+.service-more__btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
 }

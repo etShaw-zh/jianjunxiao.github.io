@@ -184,5 +184,5 @@ Xiao, J. (2024). AICO: An artificial intelligence text-coding officer with integ
 #### **Contact**
 
 - **Homepage:** [xiaojianjun.cn](https://xiaojianjun.cn)
-- **Email:** [et_shaw@126.com](mailto:et_shaw@126.com)
+- **Email:** [jianjun.xiao@mail.bnu.edu.cn](mailto:jianjun.xiao@mail.bnu.edu.cn)
 - **Affiliation:** Research Centre of Distance Education (RCDE), Beijing Normal University

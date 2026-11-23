@@ -36,6 +36,7 @@
       <article class="news-archive-entry{% if item.pinned %} news-archive-entry--pinned{% endif %}" data-news-category="{{ item_cat }}" data-news-month-item="{{ item_month }}">
         <div class="news-archive-entry__body">
           <div class="news-archive-entry__text">
+            <strong class="news-item__title news-item__title--archive">{% if include.language == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}</strong>
             {% if include.language == 'zh' %}
               {{ item.body_zh | markdownify }}
             {% else %}
@@ -90,6 +91,7 @@
   <li class="news-item{% if item.pinned %} news-item--pinned{% endif %}">
     <div class="news-item__date">{{ item.date }}</div>
     <div class="news-item__content">
+      <strong class="news-item__title">{% if include.language == 'zh' %}{{ item.title_zh }}{% else %}{{ item.title_en }}{% endif %}</strong>
       <div>
         {% if include.language == 'zh' %}
           {{ item.body_zh }}

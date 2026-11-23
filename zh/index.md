@@ -21,8 +21,6 @@ js:
 {% assign journal_total = orcid_peer_reviews.journal_count | default: 14 %}
 {% assign paper_citations = site.data.paper_citations %}
 {% assign total_citations = paper_citations.total_citations | default: 171 %}
-{% assign h_index = paper_citations.h_index | default: 5 %}
-{% assign i10_index = paper_citations.i10_index | default: 3 %}
 {% assign paper_count = paper_citations.paper_count | default: 19 %}
 
 <div class="homepage-shell">
@@ -31,7 +29,7 @@ js:
       <p class="homepage-eyebrow">博士研究生 &middot; 北京师范大学教育学部</p>
       <h1>肖建军<span>Jianjun Xiao</span></h1>
       <p class="homepage-hero__question">在线讨论如何转化为协作知识？</p>
-      <p class="homepage-hero__lead">我研究在线讨论如何发展为协作知识，运用<strong>学习分析</strong>与<strong>复杂网络</strong>理解协作过程，并设计<strong>人机协同工作流</strong>，为在线学习环境中的协作提供支持。</p>
+      <p class="homepage-hero__lead">结合<strong>学习分析</strong>与<strong>复杂网络</strong>刻画群体如何共同建构知识，并设计<strong>人机协同工作流</strong>，支持在线学习中的协作。</p>
 
       <div class="homepage-social-bar" aria-label="学术主页与联系方式">
         <a class="homepage-icon-btn" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
@@ -46,7 +44,7 @@ js:
         <a class="homepage-icon-btn" href="https://linkedin.com/in/建军-肖-2947a6380" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
           <i class="fab fa-linkedin-in" aria-hidden="true"></i>
         </a>
-        <a class="homepage-icon-btn" href="mailto:et_shaw@126.com" title="电子邮箱" aria-label="电子邮箱">
+        <a class="homepage-icon-btn" href="mailto:jianjun.xiao@mail.bnu.edu.cn" title="电子邮箱" aria-label="电子邮箱">
           <i class="fas fa-envelope" aria-hidden="true"></i>
         </a>
         <a class="homepage-button" href="/assets/pdf/Xiao_Jianjun_Resume_CN.pdf">下载简历</a>
@@ -55,7 +53,7 @@ js:
       <div class="homepage-metrics">
         <div class="homepage-metrics__primary">
           <p class="homepage-metrics__label">论文总引用 &middot; Google Scholar</p> <p class="homepage-metrics__value">{{ total_citations }}</p>
-          <p class="homepage-metrics__breakdown">h-index {{ h_index }} &middot; i10-index {{ i10_index }} &middot; 星图收录 {{ paper_count }} 篇论文</p>
+          <p class="homepage-metrics__breakdown">星图收录 {{ paper_count }} 篇论文</p>
         </div>
         <dl class="homepage-metrics__secondary">
           <div>
@@ -103,10 +101,25 @@ js:
       </div>
       <ul class="service-ribbon__list">
         {% for journal in orcid_peer_reviews.journals %}
-          <li><a class="service-pill" href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-pill__label">{{ journal.title }}</span><span class="service-pill__count">{{ journal.review_count }}</span></a></li>
+          <li{% if forloop.index > 5 %} class="service-pill--extra"{% endif %}><a class="service-pill" href="{{ journal.url }}" target="_blank" rel="noopener"><span class="service-pill__label">{{ journal.title }}</span><span class="service-pill__count">{{ journal.review_count }}</span></a></li>
         {% endfor %}
+          {% if orcid_peer_reviews.journals.size > 5 %}
+            <li class="service-more"><button type="button" class="service-more__btn" data-service-more aria-expanded="false">另外 {{ orcid_peer_reviews.journals.size | minus: 5 }} 刊</button></li>
+          {% endif %}
       </ul>
     </aside>
+    <script>
+      (function () {
+        var ribbon = document.getElementById('service');
+        var btn = ribbon && ribbon.querySelector('[data-service-more]');
+        if (!btn) return;
+        btn.addEventListener('click', function () {
+          var open = ribbon.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          btn.textContent = open ? '收起' : '另外 ' + (document.querySelectorAll('.service-pill--extra').length) + ' 刊';
+        });
+      })();
+    </script>
   {% endif %}
 
   <section class="homepage-section" id="news">
@@ -158,13 +171,14 @@ js:
       </article>
 
       <article class="project-card">
-        <img class="project-card__media" src="/assets/img/photos/2024/08/sparkshopping-cover.jpg" loading="lazy" decoding="async" alt="Spark Shopping 项目封面">
+        <img class="project-card__media" src="/assets/img/photos/2026/figures/pca26-fig2-interface.jpg" loading="lazy" decoding="async" alt="FaciHub 交互界面截图">
         <div class="project-card__body">
-          <div class="project-card__meta">03 &middot; 大模型助手 &middot; 铜奖 &middot; 2023</div>
-          <h3>Spark Shopping</h3>
-          <p>在讯飞星火训练营完成的大模型购物助手项目，并在通用人工智能创新与应用竞赛获奖。</p>
+          <div class="project-card__meta">03 &middot; 人机协同工作流 &middot; 基于设计的研究 &middot; 2026</div>
+          <h3>FaciHub</h3>
+          <p>面向 cMOOC 的 AI-in-the-loop 讨论促进工作流：AI 生成回复、人工审核后发布，经两轮设计迭代，在 178 名参与者中验证。</p>
           <div class="project-card__links">
-            <a href="https://mp.weixin.qq.com/s/IGBmPkI9BBRgLGWiW0jFCQ" target="_blank" rel="noopener">获奖报道 &#8599;</a>
+            <a href="https://arxiv.org/abs/2603.29285v2" target="_blank" rel="noopener">论文 (arXiv) &#8599;</a>
+            <a href="https://arxiv.org/pdf/2603.29285v2.pdf" target="_blank" rel="noopener">PDF &#8599;</a>
           </div>
         </div>
       </article>
@@ -179,8 +193,8 @@ js:
         <p class="contact-intro__desc">欢迎就科研合作、学术报告与期刊审稿随时联系 &middot; 北京师范大学远程教育研究中心。</p>
 
         <div class="contact-links">
-          <a class="contact-chip" href="mailto:et_shaw@126.com"><span class="contact-chip__k">邮箱</span><span class="contact-chip__v">et_shaw@126.com</span></a>
-          <a class="contact-chip" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener"><span class="contact-chip__k">Scholar</span><span class="contact-chip__v">被引 {{ total_citations }}</span></a>
+          <a class="contact-chip" href="mailto:jianjun.xiao@mail.bnu.edu.cn"><span class="contact-chip__k">邮箱</span><span class="contact-chip__v">jianjun.xiao@mail.bnu.edu.cn</span></a>
+          <a class="contact-chip" href="https://scholar.google.com/citations?hl=zh-CN&user=FaqCcFoAAAAJ" target="_blank" rel="noopener"><span class="contact-chip__k">Scholar</span><span class="contact-chip__v">主页 &#8599;</span></a>
           <a class="contact-chip" href="https://orcid.org/0000-0003-0000-9630" target="_blank" rel="noopener"><span class="contact-chip__k">ORCID</span><span class="contact-chip__v">0000-0003-0000-9630</span></a>
           <a class="contact-chip" href="https://github.com/etShaw-zh" target="_blank" rel="noopener"><span class="contact-chip__k">GitHub</span><span class="contact-chip__v">@etShaw-zh</span></a>
           <a class="contact-chip" href="https://linkedin.com/in/建军-肖-2947a6380" target="_blank" rel="noopener"><span class="contact-chip__k">LinkedIn</span><span class="contact-chip__v">主页 &#8599;</span></a>

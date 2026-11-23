@@ -12,7 +12,7 @@ require 'yaml'
 
 PUBLICATIONS_PATH = File.expand_path('../_data/publications.yml', __dir__)
 OUTPUT_PATH = File.expand_path('../_data/paper_citations.yml', __dir__)
-CONTACT_EMAIL = 'et_shaw@126.com'
+CONTACT_EMAIL = 'jianjun.xiao@mail.bnu.edu.cn'
 GOOGLE_SCHOLAR_USER = 'FaqCcFoAAAAJ'
 
 def http_get_json(url, limit = 5)
