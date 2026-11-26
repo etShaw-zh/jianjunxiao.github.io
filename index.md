@@ -17,8 +17,6 @@ js:
 {% assign journal_articles = orcid_work_stats.journal_articles | default: 14 %}
 {% assign conference_outputs = orcid_work_stats.conference_outputs | default: 6 %}
 {% assign orcid_peer_reviews = site.data.orcid_peer_reviews %}
-{% assign review_total = orcid_peer_reviews.review_count | default: 32 %}
-{% assign journal_total = orcid_peer_reviews.journal_count | default: 14 %}
 {% assign paper_citations = site.data.paper_citations %}
 {% assign total_citations = paper_citations.total_citations | default: 171 %}
 {% assign paper_count = paper_citations.paper_count | default: 19 %}
@@ -51,18 +49,16 @@ js:
       </div>
 
       <div class="homepage-metrics">
-        <div class="homepage-metrics__primary">
-          <p class="homepage-metrics__label">Total Citations &middot; Google Scholar</p> <p class="homepage-metrics__value">{{ total_citations }}</p>
-          <p class="homepage-metrics__breakdown">{{ paper_count }} papers mapped</p>
-        </div>
-        <dl class="homepage-metrics__secondary">
-          <div>
-            <dt>ORCID Works</dt>
-            <dd>{{ work_total }} <span>{{ journal_articles }} journal &middot; {{ conference_outputs }} conf</span></dd>
+        <dl class="homepage-metrics__grid">
+          <div class="homepage-metrics__item">
+            <dt class="homepage-metrics__label">Citations &middot; Google Scholar</dt>
+            <dd class="homepage-metrics__value">{{ total_citations }}</dd>
+            <dd class="homepage-metrics__breakdown">{{ paper_count }} papers mapped</dd>
           </div>
-          <div>
-            <dt>Peer Reviews</dt>
-            <dd>{{ review_total }} <span>/ {{ journal_total }} journals</span></dd>
+          <div class="homepage-metrics__item">
+            <dt class="homepage-metrics__label">ORCID Works</dt>
+            <dd class="homepage-metrics__value">{{ work_total }}</dd>
+            <dd class="homepage-metrics__breakdown">{{ journal_articles }} journal &middot; {{ conference_outputs }} conf</dd>
           </div>
         </dl>
         <div class="homepage-metrics__footer">

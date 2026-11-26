@@ -955,74 +955,50 @@ table td {
   padding-top: 1rem;
 }
 
-.homepage-metrics__primary {
-  align-items: baseline;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 0.65rem;
+.homepage-metrics__grid {
+  display: grid;
+  gap: 0.75rem 1.15rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-metrics__item {
+  min-width: 0;
+}
+
+.homepage-metrics__item + .homepage-metrics__item {
+  border-left: 1px solid var(--border);
+  padding-left: 1.15rem;
 }
 
 .homepage-metrics__label {
   color: var(--muted);
   font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  margin: 0 0 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.3rem;
   text-transform: uppercase;
 }
 
 .homepage-metrics__value {
   color: var(--text-strong);
   font-family: var(--font-mono);
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-variant-numeric: tabular-nums;
   font-weight: 600;
   letter-spacing: -0.04em;
-  line-height: 1.05;
+  line-height: 1.1;
   margin: 0;
 }
 
 .homepage-metrics__breakdown {
   color: var(--muted);
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  line-height: 1.5;
-  flex-basis: 100%;
-  margin: 0;
-}
-
-.homepage-metrics__secondary {
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 0.8rem 0 0;
-  padding: 0;
-}
-
-.homepage-metrics__secondary dt {
-  color: var(--muted);
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  margin: 0 0 0.2rem;
-  text-transform: uppercase;
-}
-
-.homepage-metrics__secondary dd {
-  color: var(--text-strong);
-  font-family: var(--font-mono);
-  font-size: 1.1rem;
-  font-variant-numeric: tabular-nums;
-  font-weight: 600;
-  margin: 0;
-}
-
-.homepage-metrics__secondary dd span {
-  color: var(--muted);
   font-family: var(--font-sans);
-  font-size: 0.76rem;
-  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  margin: 0.25rem 0 0;
 }
 
 .homepage-metrics__footer {
@@ -3044,8 +3020,12 @@ footer.site-footer {
     margin-top: 0.2rem;
   }
 
-  .homepage-metrics__secondary {
-    gap: 0.65rem;
+  .homepage-metrics__grid {
+    gap: 0.65rem 0.85rem;
+  }
+
+  .homepage-metrics__item + .homepage-metrics__item {
+    padding-left: 0.85rem;
   }
 
   .rg-pub-entry__overview {

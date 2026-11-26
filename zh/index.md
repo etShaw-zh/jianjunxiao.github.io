@@ -17,8 +17,6 @@ js:
 {% assign journal_articles = orcid_work_stats.journal_articles | default: 14 %}
 {% assign conference_outputs = orcid_work_stats.conference_outputs | default: 6 %}
 {% assign orcid_peer_reviews = site.data.orcid_peer_reviews %}
-{% assign review_total = orcid_peer_reviews.review_count | default: 32 %}
-{% assign journal_total = orcid_peer_reviews.journal_count | default: 14 %}
 {% assign paper_citations = site.data.paper_citations %}
 {% assign total_citations = paper_citations.total_citations | default: 171 %}
 {% assign paper_count = paper_citations.paper_count | default: 19 %}
@@ -51,18 +49,16 @@ js:
       </div>
 
       <div class="homepage-metrics">
-        <div class="homepage-metrics__primary">
-          <p class="homepage-metrics__label">论文总引用 &middot; Google Scholar</p> <p class="homepage-metrics__value">{{ total_citations }}</p>
-          <p class="homepage-metrics__breakdown">星图收录 {{ paper_count }} 篇论文</p>
-        </div>
-        <dl class="homepage-metrics__secondary">
-          <div>
-            <dt>ORCID 成果</dt>
-            <dd>{{ work_total }} <span>{{ journal_articles }} 期刊 &middot; {{ conference_outputs }} 会议</span></dd>
+        <dl class="homepage-metrics__grid">
+          <div class="homepage-metrics__item">
+            <dt class="homepage-metrics__label">论文总引用 &middot; Google Scholar</dt>
+            <dd class="homepage-metrics__value">{{ total_citations }}</dd>
+            <dd class="homepage-metrics__breakdown">星图收录 {{ paper_count }} 篇论文</dd>
           </div>
-          <div>
-            <dt>国际期刊审稿</dt>
-            <dd>{{ review_total }} <span>次 / {{ journal_total }} 刊</span></dd>
+          <div class="homepage-metrics__item">
+            <dt class="homepage-metrics__label">ORCID 成果</dt>
+            <dd class="homepage-metrics__value">{{ work_total }}</dd>
+            <dd class="homepage-metrics__breakdown">{{ journal_articles }} 期刊 &middot; {{ conference_outputs }} 会议</dd>
           </div>
         </dl>
         <div class="homepage-metrics__footer">

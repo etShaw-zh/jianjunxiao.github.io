@@ -259,6 +259,9 @@ exclude:
   - docs/
   - scripts/
   - vendor/
+  - "*.docx"
+  - assets/pdf/Xiao_Jianjun_Resume_CN.docx
+  - assets/pdf/Xiao_Jianjun_Resume_EN.docx
 
 plugins:
   - jekyll-paginate
